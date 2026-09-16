@@ -15,3 +15,7 @@ permalink: /:year/:month/:day/:title.html
 # Minima theme options — feel free to tweak later
 minima:
   skin: dark
+
+# Keep the setup README out of the built site (it's for you, not readers)
+exclude:
+  - README.md
