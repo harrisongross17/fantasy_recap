@@ -1,0 +1,17 @@
+title: League of Perpetual Awesomeness
+description: Weekly fantasy football recaps
+theme: minima
+
+# IMPORTANT: set this to match how you name your GitHub repo.
+#   - If your repo is named exactly "<your-username>.github.io", set: baseurl: ""
+#   - If your repo has any other name (e.g. "fantasy-recap"), set: baseurl: "/fantasy-recap"
+#     (must start with a slash, no trailing slash)
+baseurl: "/fantasy-recap"
+
+# Shows newest posts first (default), and lets Jekyll build post URLs
+# like /2026/09/15/week-1-recap.html
+permalink: /:year/:month/:day/:title.html
+
+# Minima theme options — feel free to tweak later
+minima:
+  skin: dark
