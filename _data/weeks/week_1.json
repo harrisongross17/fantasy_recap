@@ -250,7 +250,7 @@
   ],
   "awards": [
     {
-      "icon": "\ud83d\udd25",
+      "icon": "🔥",
       "label": "Top Score",
       "manager": "Andrew Hobby",
       "stat": "167.56",
@@ -258,7 +258,7 @@
       "detail": "vs Harrison Gross"
     },
     {
-      "icon": "\ud83e\ude91",
+      "icon": "🪑",
       "label": "Bench Blunder",
       "manager": "noah laing",
       "stat": "43.98",
@@ -266,15 +266,15 @@
       "detail": "Optimal lineup: 177.80"
     },
     {
-      "icon": "\ud83d\udc94",
+      "icon": "💔",
       "label": "Toughest Loss",
       "manager": "Ben Fuller",
       "stat": "120.26",
       "unit": "pts",
-      "detail": "Highest losing score \u2014 fell to luke sullivan"
+      "detail": "Highest losing score — fell to luke sullivan"
     },
     {
-      "icon": "\u2b50",
+      "icon": "⭐",
       "label": "Player of the Week",
       "manager": "luke sullivan",
       "stat": "37.26",
@@ -282,7 +282,7 @@
       "detail": "Caleb Williams (QB), projected 16.39"
     },
     {
-      "icon": "\ud83d\uddd1\ufe0f",
+      "icon": "🗑️",
       "label": "Drop Regret",
       "manager": "Michael Luisi",
       "stat": "14.00",

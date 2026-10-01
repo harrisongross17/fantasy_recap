@@ -260,7 +260,7 @@
   ],
   "awards": [
     {
-      "icon": "\ud83d\udd25",
+      "icon": "🔥",
       "label": "Top Score",
       "manager": "noah laing",
       "stat": "160.58",
@@ -268,23 +268,23 @@
       "detail": "vs Kevin Mangus"
     },
     {
-      "icon": "\ud83e\ude91",
+      "icon": "🪑",
       "label": "Bench Blunder",
       "manager": "Ben Fuller",
       "stat": "44.40",
       "unit": "pts left on bench",
-      "detail": "Optimal lineup: 140.68 \u2014 would have beaten Jonathan Cooper"
+      "detail": "Optimal lineup: 140.68 — would have beaten Jonathan Cooper"
     },
     {
-      "icon": "\ud83d\udc94",
+      "icon": "💔",
       "label": "Toughest Loss",
       "manager": "Jimmy Miller",
       "stat": "112.86",
       "unit": "pts",
-      "detail": "Highest losing score \u2014 fell to luke sullivan"
+      "detail": "Highest losing score — fell to luke sullivan"
     },
     {
-      "icon": "\u2b50",
+      "icon": "⭐",
       "label": "Player of the Week",
       "manager": "luke sullivan",
       "stat": "42.50",
@@ -292,7 +292,7 @@
       "detail": "Jaxon Smith-Njigba (WR), projected 18.49"
     },
     {
-      "icon": "\ud83d\uddd1\ufe0f",
+      "icon": "🗑️",
       "label": "Drop Regret",
       "manager": "Michael Luisi",
       "stat": "20.00",

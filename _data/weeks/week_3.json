@@ -270,7 +270,7 @@
   ],
   "awards": [
     {
-      "icon": "\ud83d\udd25",
+      "icon": "🔥",
       "label": "Top Score",
       "manager": "noah laing",
       "stat": "160.68",
@@ -278,7 +278,7 @@
       "detail": "vs Andrew Hobby"
     },
     {
-      "icon": "\ud83e\ude91",
+      "icon": "🪑",
       "label": "Bench Blunder",
       "manager": "Ben Fuller",
       "stat": "36.30",
@@ -286,7 +286,7 @@
       "detail": "Optimal lineup: 125.38"
     },
     {
-      "icon": "\ud83c\udf40",
+      "icon": "🍀",
       "label": "Luckiest Win",
       "manager": "Hayden McMurrey",
       "stat": "102.76",
@@ -294,15 +294,15 @@
       "detail": "Below the league median (122.82) and still beat Michael Luisi"
     },
     {
-      "icon": "\ud83d\udc94",
+      "icon": "💔",
       "label": "Toughest Loss",
       "manager": "Kevin Mangus",
       "stat": "124.60",
       "unit": "pts",
-      "detail": "Highest losing score \u2014 fell to luke sullivan"
+      "detail": "Highest losing score — fell to luke sullivan"
     },
     {
-      "icon": "\u2b50",
+      "icon": "⭐",
       "label": "Player of the Week",
       "manager": "noah laing",
       "stat": "41.40",
@@ -310,7 +310,7 @@
       "detail": "Jahmyr Gibbs (RB), projected 25.35"
     },
     {
-      "icon": "\ud83d\uddd1\ufe0f",
+      "icon": "🗑️",
       "label": "Drop Regret",
       "manager": "Michael Luisi",
       "stat": "19.00",
