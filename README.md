@@ -53,8 +53,11 @@ The date in the filename controls sort order and the date shown on the post.
    (recap content here)
    ```
 
-3. Push it:
+3. Pull first, then push it. The pull picks up any edits you made on
+   GitHub's website (e.g. fixing a post there) — skip it and the push gets
+   rejected:
    ```bash
+   git pull
    git add _posts/2026-09-22-week-2-recap.md
    git commit -m "Week 2 recap"
    git push
@@ -64,5 +67,5 @@ The date in the filename controls sort order and the date shown on the post.
    and the new post is live, newest post first.
 
 That's the whole loop each week: run the script → upload JSON to Claude → save
-the post it gives you into `_posts/` → three git commands → send the link to
-your league.
+the post it gives you into `_posts/` → pull, commit, push → send the link to
+your league: https://harrisongross17.github.io/fantasy_recap/
