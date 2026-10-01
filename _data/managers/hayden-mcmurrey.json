@@ -1,0 +1,607 @@
+{
+  "name": "Hayden McMurrey",
+  "slug": "hayden-mcmurrey",
+  "current": true,
+  "first_season": 2014,
+  "last_season": 2026,
+  "seasons_played": 13,
+  "titles": [
+    2023
+  ],
+  "runner_ups": [
+    2021
+  ],
+  "playoff_appearances": 3,
+  "career": {
+    "record": "84-92",
+    "win_pct": 47.7,
+    "playoff_record": "3-2",
+    "ppg": "110.29"
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "record": "3-0",
+      "pf": "376.94",
+      "ppg": "125.65",
+      "finish": "In progress"
+    },
+    {
+      "year": 2025,
+      "record": "10-5",
+      "pf": "1889.92",
+      "ppg": "125.99",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2024,
+      "record": "7-8",
+      "pf": "1809.88",
+      "ppg": "120.66",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2023,
+      "record": "9-6",
+      "pf": "1864.30",
+      "ppg": "124.29",
+      "finish": "Champion"
+    },
+    {
+      "year": 2022,
+      "record": "6-9",
+      "pf": "1606.38",
+      "ppg": "107.09",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2021,
+      "record": "9-6",
+      "pf": "1887.10",
+      "ppg": "125.81",
+      "finish": "Runner-up"
+    },
+    {
+      "year": 2020,
+      "record": "8-6",
+      "pf": "1710.86",
+      "ppg": "122.20",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2019,
+      "record": "6-8",
+      "pf": "1601.80",
+      "ppg": "114.41",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2018,
+      "record": "5-9",
+      "pf": "1712.74",
+      "ppg": "122.34",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2017,
+      "record": "4-10",
+      "pf": "1128.00",
+      "ppg": "80.57",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2016,
+      "record": "6-8",
+      "pf": "1227.00",
+      "ppg": "87.64",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2015,
+      "record": "4-10",
+      "pf": "1214.00",
+      "ppg": "86.71",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2014,
+      "record": "7-7",
+      "pf": "1383.00",
+      "ppg": "98.79",
+      "finish": "Missed playoffs"
+    }
+  ],
+  "head_to_head": [
+    {
+      "opponent": "Michael Luisi",
+      "record": "12-16",
+      "win_pct": 42.9,
+      "meetings": 28,
+      "playoff_meetings": 1,
+      "last": "2026 wk 3: 102.76–97.16 W",
+      "current": true
+    },
+    {
+      "opponent": "Andrew Hobby",
+      "record": "14-12",
+      "win_pct": 53.8,
+      "meetings": 26,
+      "playoff_meetings": 0,
+      "last": "2025 wk 17: 131.64–110.46 W",
+      "current": true
+    },
+    {
+      "opponent": "Jonathan Cooper",
+      "record": "16-10",
+      "win_pct": 61.5,
+      "meetings": 26,
+      "playoff_meetings": 0,
+      "last": "2026 wk 1: 150.66–94.66 W",
+      "current": true
+    },
+    {
+      "opponent": "Harrison Gross",
+      "record": "9-11",
+      "win_pct": 45.0,
+      "meetings": 20,
+      "playoff_meetings": 1,
+      "last": "2026 wk 2: 123.52–99.60 W",
+      "current": true
+    },
+    {
+      "opponent": "Noah Laing",
+      "record": "11-9",
+      "win_pct": 55.0,
+      "meetings": 20,
+      "playoff_meetings": 0,
+      "last": "2025 wk 13: 122.78–115.10 W",
+      "current": true
+    },
+    {
+      "opponent": "Luke Sullivan",
+      "record": "12-8",
+      "win_pct": 60.0,
+      "meetings": 20,
+      "playoff_meetings": 0,
+      "last": "2025 wk 7: 136.58–104.02 W",
+      "current": true
+    },
+    {
+      "opponent": "Ben Fuller",
+      "record": "5-9",
+      "win_pct": 35.7,
+      "meetings": 14,
+      "playoff_meetings": 1,
+      "last": "2025 wk 8: 127.48–104.42 W",
+      "current": true
+    },
+    {
+      "opponent": "Jimmy Miller",
+      "record": "5-7",
+      "win_pct": 41.7,
+      "meetings": 12,
+      "playoff_meetings": 2,
+      "last": "2025 wk 16: 129.20–142.06 L",
+      "current": true
+    },
+    {
+      "opponent": "Kevin Mangus",
+      "record": "3-4",
+      "win_pct": 42.9,
+      "meetings": 7,
+      "playoff_meetings": 0,
+      "last": "2025 wk 10: 116.70–111.90 W",
+      "current": true
+    },
+    {
+      "opponent": "Kaden Beavers",
+      "record": "4-5",
+      "win_pct": 44.4,
+      "meetings": 9,
+      "playoff_meetings": 0,
+      "last": "2020 wk 12: 117.98–116.88 W",
+      "current": false
+    },
+    {
+      "opponent": "Drew Rooney",
+      "record": "5-2",
+      "win_pct": 71.4,
+      "meetings": 7,
+      "playoff_meetings": 0,
+      "last": "2016 wk 12: 98.00–93.00 W",
+      "current": false
+    },
+    {
+      "opponent": "Jake Birdsong",
+      "record": "2-2",
+      "win_pct": 50.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2015 wk 16: 57.00–117.00 L",
+      "current": false
+    },
+    {
+      "opponent": "Judd Oefinger",
+      "record": "0-4",
+      "win_pct": 0.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2018 wk 13: 79.58–106.94 L",
+      "current": false
+    },
+    {
+      "opponent": "Trip Smith",
+      "record": "1-1",
+      "win_pct": 50.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2014 wk 14: 113.00–52.00 W",
+      "current": false
+    },
+    {
+      "opponent": "Jeff Rosinbaum",
+      "record": "1-0",
+      "win_pct": 100.0,
+      "meetings": 1,
+      "playoff_meetings": 0,
+      "last": "2014 wk 7: 85.00–37.00 W",
+      "current": false
+    }
+  ],
+  "records": {
+    "best_score": {
+      "year": 2021,
+      "week": 5,
+      "score": "185.48",
+      "opp_score": "97.30",
+      "opp": "Andrew Hobby",
+      "result": "W"
+    },
+    "worst_score": {
+      "year": 2015,
+      "week": 11,
+      "score": "41.00",
+      "opp_score": "92.00",
+      "opp": "Jonathan Cooper",
+      "result": "L"
+    },
+    "biggest_win": {
+      "year": 2021,
+      "week": 5,
+      "score": "185.48",
+      "opp_score": "97.30",
+      "opp": "Andrew Hobby",
+      "result": "W",
+      "margin": "88.18"
+    },
+    "worst_loss": {
+      "year": 2020,
+      "week": 7,
+      "score": "86.78",
+      "opp_score": "180.82",
+      "opp": "Ben Fuller",
+      "result": "L",
+      "margin": "94.04"
+    },
+    "win_streak": {
+      "manager_name": "Hayden McMurrey",
+      "team_name": "",
+      "type": "win",
+      "length": 6,
+      "from": "2025 wk 13",
+      "to": "2026 wk 3"
+    },
+    "losing_streak": {
+      "manager_name": "Hayden McMurrey",
+      "team_name": "",
+      "type": "loss",
+      "length": 6,
+      "from": "2015 wk 6",
+      "to": "2015 wk 11"
+    }
+  },
+  "season": {
+    "year": 2026,
+    "through_week": 3,
+    "division": "Whites",
+    "record": "3-0",
+    "rank": 3,
+    "power_rank": 2,
+    "power_change": 1,
+    "playoff_pct": 65.0,
+    "pf": "376.94",
+    "weeks": [
+      {
+        "week": 1,
+        "result": "W",
+        "score": "150.66",
+        "opp": "Jonathan Cooper",
+        "opp_score": "94.66",
+        "projected": "113.44",
+        "bench": "7.40",
+        "bar": 75
+      },
+      {
+        "week": 2,
+        "result": "W",
+        "score": "123.52",
+        "opp": "Harrison Gross",
+        "opp_score": "99.60",
+        "projected": "127.68",
+        "bench": "15.30",
+        "bar": 62
+      },
+      {
+        "week": 3,
+        "result": "W",
+        "score": "102.76",
+        "opp": "Michael Luisi",
+        "opp_score": "97.16",
+        "projected": "126.95",
+        "bench": "19.70",
+        "bar": 51
+      }
+    ],
+    "luck": {
+      "all_play_record": "17-10",
+      "expected_wins": 1.89,
+      "luck": 1.11,
+      "points_against_vs_league_avg": -72.38,
+      "wins_below_median": 1,
+      "losses_above_median": 0
+    },
+    "moves": [
+      {
+        "week": 2,
+        "date": "9/16",
+        "added": [
+          {
+            "name": "Chiefs D/ST",
+            "pos": "D/ST",
+            "since": "8.00",
+            "started": "8.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Cowboys D/ST",
+            "pos": "D/ST",
+            "since": "-1.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "9.00"
+      },
+      {
+        "week": 1,
+        "date": "9/8",
+        "added": [
+          {
+            "name": "Kaelon Black",
+            "pos": "RB",
+            "since": "12.20",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Roschon Johnson",
+            "pos": "RB",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "12.20"
+      },
+      {
+        "week": 1,
+        "date": "9/3",
+        "added": [
+          {
+            "name": "Roschon Johnson",
+            "pos": "RB",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Tank Dell",
+            "pos": "WR",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      }
+    ],
+    "trades": [],
+    "draft": [
+      {
+        "round": 1,
+        "overall": 10,
+        "player": "Justin Jefferson",
+        "pos": "WR",
+        "points": "44.90",
+        "rank": "WR6 → WR13",
+        "value": -7,
+        "kept": true
+      },
+      {
+        "round": 2,
+        "overall": 11,
+        "player": "James Cook III",
+        "pos": "RB",
+        "points": "50.20",
+        "rank": "RB5 → RB12",
+        "value": -7,
+        "kept": true
+      },
+      {
+        "round": 3,
+        "overall": 30,
+        "player": "Malik Nabers",
+        "pos": "WR",
+        "points": "21.60",
+        "rank": "WR13 → WR40",
+        "value": -27,
+        "kept": true
+      },
+      {
+        "round": 4,
+        "overall": 31,
+        "player": "Josh Allen",
+        "pos": "QB",
+        "points": "93.94",
+        "rank": "QB1 → QB1",
+        "value": 0,
+        "kept": true
+      },
+      {
+        "round": 5,
+        "overall": 50,
+        "player": "D'Andre Swift",
+        "pos": "RB",
+        "points": "56.10",
+        "rank": "RB21 → RB7",
+        "value": 14,
+        "kept": true
+      },
+      {
+        "round": 6,
+        "overall": 51,
+        "player": "Luther Burden III",
+        "pos": "WR",
+        "points": "35.50",
+        "rank": "WR25 → WR23",
+        "value": 2,
+        "kept": true
+      },
+      {
+        "round": 7,
+        "overall": 70,
+        "player": "Brian Thomas Jr.",
+        "pos": "WR",
+        "points": "15.80",
+        "rank": "WR31 → WR46",
+        "value": -15,
+        "kept": true
+      },
+      {
+        "round": 8,
+        "overall": 71,
+        "player": "Rico Dowdle",
+        "pos": "RB",
+        "points": "10.50",
+        "rank": "RB28 → RB42",
+        "value": -14,
+        "kept": true
+      },
+      {
+        "round": 9,
+        "overall": 90,
+        "player": "Mike Evans",
+        "pos": "WR",
+        "points": "37.70",
+        "rank": "WR38 → WR21",
+        "value": 17,
+        "kept": true
+      },
+      {
+        "round": 10,
+        "overall": 91,
+        "player": "Travis Kelce",
+        "pos": "TE",
+        "points": "49.10",
+        "rank": "TE11 → TE2",
+        "value": 9,
+        "kept": true
+      },
+      {
+        "round": 11,
+        "overall": 110,
+        "player": "J.K. Dobbins",
+        "pos": "RB",
+        "points": "13.50",
+        "rank": "RB37 → RB39",
+        "value": -2,
+        "kept": true
+      },
+      {
+        "round": 12,
+        "overall": 111,
+        "player": "Tank Dell",
+        "pos": "WR",
+        "points": "0.00",
+        "rank": "WR47 → WR59",
+        "value": -12,
+        "kept": false
+      },
+      {
+        "round": 13,
+        "overall": 130,
+        "player": "Josh Downs",
+        "pos": "WR",
+        "points": "32.60",
+        "rank": "WR54 → WR27",
+        "value": 27,
+        "kept": true
+      },
+      {
+        "round": 14,
+        "overall": 131,
+        "player": "Jason Myers",
+        "pos": "K",
+        "points": "23.00",
+        "rank": "K3 → K4",
+        "value": -1,
+        "kept": true
+      },
+      {
+        "round": 15,
+        "overall": 150,
+        "player": "Cowboys D/ST",
+        "pos": "D/ST",
+        "points": "1.00",
+        "rank": "D/ST8 → D/ST11",
+        "value": -3,
+        "kept": false
+      },
+      {
+        "round": 16,
+        "overall": 151,
+        "player": "Kyler Murray",
+        "pos": "QB",
+        "points": "10.04",
+        "rank": "QB17 → QB17",
+        "value": 0,
+        "kept": true
+      }
+    ],
+    "injuries": [
+      {
+        "name": "Rico Dowdle",
+        "pos": "RB",
+        "status": "Out",
+        "missed": 1,
+        "storylines": [
+          "still_out"
+        ]
+      },
+      {
+        "name": "Justin Jefferson",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": []
+      },
+      {
+        "name": "Mike Evans",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": []
+      }
+    ]
+  }
+}

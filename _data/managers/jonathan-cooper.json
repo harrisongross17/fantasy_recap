@@ -1,0 +1,542 @@
+{
+  "name": "Jonathan Cooper",
+  "slug": "jonathan-cooper",
+  "current": true,
+  "first_season": 2014,
+  "last_season": 2026,
+  "seasons_played": 13,
+  "titles": [
+    2015,
+    2016
+  ],
+  "runner_ups": [],
+  "playoff_appearances": 4,
+  "career": {
+    "record": "80-96",
+    "win_pct": 45.5,
+    "playoff_record": "4-2",
+    "ppg": "108.05"
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "record": "2-1",
+      "pf": "356.34",
+      "ppg": "118.78",
+      "finish": "In progress"
+    },
+    {
+      "year": 2025,
+      "record": "5-10",
+      "pf": "1531.08",
+      "ppg": "102.07",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2024,
+      "record": "6-9",
+      "pf": "1859.52",
+      "ppg": "123.97",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2023,
+      "record": "8-7",
+      "pf": "1713.18",
+      "ppg": "114.21",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2022,
+      "record": "6-9",
+      "pf": "1796.16",
+      "ppg": "119.74",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2021,
+      "record": "4-11",
+      "pf": "1479.98",
+      "ppg": "98.67",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2020,
+      "record": "4-10",
+      "pf": "1521.54",
+      "ppg": "108.68",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2019,
+      "record": "4-10",
+      "pf": "1615.20",
+      "ppg": "115.37",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2018,
+      "record": "8-6",
+      "pf": "1982.34",
+      "ppg": "141.60",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2017,
+      "record": "7-7",
+      "pf": "1231.00",
+      "ppg": "87.93",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2016,
+      "record": "10-4",
+      "pf": "1404.00",
+      "ppg": "100.29",
+      "finish": "Champion"
+    },
+    {
+      "year": 2015,
+      "record": "10-4",
+      "pf": "1389.00",
+      "ppg": "99.21",
+      "finish": "Champion"
+    },
+    {
+      "year": 2014,
+      "record": "6-8",
+      "pf": "1137.00",
+      "ppg": "81.21",
+      "finish": "Missed playoffs"
+    }
+  ],
+  "head_to_head": [
+    {
+      "opponent": "Hayden McMurrey",
+      "record": "10-16",
+      "win_pct": 38.5,
+      "meetings": 26,
+      "playoff_meetings": 0,
+      "last": "2026 wk 1: 94.66–150.66 L",
+      "current": true
+    },
+    {
+      "opponent": "Ben Fuller",
+      "record": "17-6",
+      "win_pct": 73.9,
+      "meetings": 23,
+      "playoff_meetings": 1,
+      "last": "2026 wk 2: 126.74–96.28 W",
+      "current": true
+    },
+    {
+      "opponent": "Harrison Gross",
+      "record": "13-9",
+      "win_pct": 59.1,
+      "meetings": 22,
+      "playoff_meetings": 2,
+      "last": "2025 wk 7: 119.78–118.96 W",
+      "current": true
+    },
+    {
+      "opponent": "Andrew Hobby",
+      "record": "8-14",
+      "win_pct": 36.4,
+      "meetings": 22,
+      "playoff_meetings": 1,
+      "last": "2025 wk 8: 82.80–120.62 L",
+      "current": true
+    },
+    {
+      "opponent": "Michael Luisi",
+      "record": "10-10",
+      "win_pct": 50.0,
+      "meetings": 20,
+      "playoff_meetings": 0,
+      "last": "2025 wk 9: 65.50–120.84 L",
+      "current": true
+    },
+    {
+      "opponent": "Luke Sullivan",
+      "record": "12-8",
+      "win_pct": 60.0,
+      "meetings": 20,
+      "playoff_meetings": 1,
+      "last": "2025 wk 16: 93.14–101.80 L",
+      "current": true
+    },
+    {
+      "opponent": "Noah Laing",
+      "record": "8-10",
+      "win_pct": 44.4,
+      "meetings": 18,
+      "playoff_meetings": 0,
+      "last": "2025 wk 15: 97.80–106.56 L",
+      "current": true
+    },
+    {
+      "opponent": "Kevin Mangus",
+      "record": "4-11",
+      "win_pct": 26.7,
+      "meetings": 15,
+      "playoff_meetings": 0,
+      "last": "2025 wk 17: 92.50–61.68 W",
+      "current": true
+    },
+    {
+      "opponent": "Jimmy Miller",
+      "record": "2-9",
+      "win_pct": 18.2,
+      "meetings": 11,
+      "playoff_meetings": 0,
+      "last": "2026 wk 3: 134.94–101.72 W",
+      "current": true
+    },
+    {
+      "opponent": "Kaden Beavers",
+      "record": "2-7",
+      "win_pct": 22.2,
+      "meetings": 9,
+      "playoff_meetings": 1,
+      "last": "2020 wk 10: 34.62–97.72 L",
+      "current": false
+    },
+    {
+      "opponent": "Drew Rooney",
+      "record": "4-2",
+      "win_pct": 66.7,
+      "meetings": 6,
+      "playoff_meetings": 0,
+      "last": "2016 wk 10: 108.00–70.00 W",
+      "current": false
+    },
+    {
+      "opponent": "Judd Oefinger",
+      "record": "1-2",
+      "win_pct": 33.3,
+      "meetings": 3,
+      "playoff_meetings": 0,
+      "last": "2018 wk 8: 106.74–132.96 L",
+      "current": false
+    },
+    {
+      "opponent": "Jeff Rosinbaum",
+      "record": "1-1",
+      "win_pct": 50.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2014 wk 16: 112.00–30.00 W",
+      "current": false
+    },
+    {
+      "opponent": "Jake Birdsong",
+      "record": "2-0",
+      "win_pct": 100.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2015 wk 8: 83.00–69.00 W",
+      "current": false
+    },
+    {
+      "opponent": "Trip Smith",
+      "record": "0-1",
+      "win_pct": 0.0,
+      "meetings": 1,
+      "playoff_meetings": 0,
+      "last": "2014 wk 9: 77.00–85.00 L",
+      "current": false
+    }
+  ],
+  "records": {
+    "best_score": {
+      "year": 2024,
+      "week": 10,
+      "score": "180.38",
+      "opp_score": "76.64",
+      "opp": "Ben Fuller",
+      "result": "W"
+    },
+    "worst_score": {
+      "year": 2020,
+      "week": 10,
+      "score": "34.62",
+      "opp_score": "97.72",
+      "opp": "Kaden Beavers",
+      "result": "L"
+    },
+    "biggest_win": {
+      "year": 2024,
+      "week": 10,
+      "score": "180.38",
+      "opp_score": "76.64",
+      "opp": "Ben Fuller",
+      "result": "W",
+      "margin": "103.74"
+    },
+    "worst_loss": {
+      "year": 2022,
+      "week": 2,
+      "score": "114.46",
+      "opp_score": "205.12",
+      "opp": "Ben Fuller",
+      "result": "L",
+      "margin": "90.66"
+    },
+    "win_streak": {
+      "manager_name": "Jonathan Cooper",
+      "team_name": "",
+      "type": "win",
+      "length": 7,
+      "from": "2015 wk 10",
+      "to": "2016 wk 2"
+    },
+    "losing_streak": {
+      "manager_name": "Jonathan Cooper",
+      "team_name": "",
+      "type": "loss",
+      "length": 10,
+      "from": "2021 wk 3",
+      "to": "2021 wk 12"
+    }
+  },
+  "season": {
+    "year": 2026,
+    "through_week": 3,
+    "division": "Blacks",
+    "record": "2-1",
+    "rank": 5,
+    "power_rank": 5,
+    "power_change": 1,
+    "playoff_pct": 53.3,
+    "pf": "356.34",
+    "weeks": [
+      {
+        "week": 1,
+        "result": "L",
+        "score": "94.66",
+        "opp": "Hayden McMurrey",
+        "opp_score": "150.66",
+        "projected": "119.82",
+        "bench": "24.40",
+        "bar": 47
+      },
+      {
+        "week": 2,
+        "result": "W",
+        "score": "126.74",
+        "opp": "Ben Fuller",
+        "opp_score": "96.28",
+        "projected": "124.86",
+        "bench": "28.94",
+        "bar": 63
+      },
+      {
+        "week": 3,
+        "result": "W",
+        "score": "134.94",
+        "opp": "Jimmy Miller",
+        "opp_score": "101.72",
+        "projected": "127.23",
+        "bench": "35.10",
+        "bar": 67
+      }
+    ],
+    "luck": {
+      "all_play_record": "13-14",
+      "expected_wins": 1.44,
+      "luck": 0.56,
+      "points_against_vs_league_avg": -15.14,
+      "wins_below_median": 0,
+      "losses_above_median": 0
+    },
+    "moves": [],
+    "trades": [],
+    "draft": [
+      {
+        "round": 1,
+        "overall": 3,
+        "player": "Ja'Marr Chase",
+        "pos": "WR",
+        "points": "54.50",
+        "rank": "WR1 → WR8",
+        "value": -7,
+        "kept": true
+      },
+      {
+        "round": 2,
+        "overall": 18,
+        "player": "Jeremiyah Love",
+        "pos": "RB",
+        "points": "42.40",
+        "rank": "RB11 → RB14",
+        "value": -3,
+        "kept": true
+      },
+      {
+        "round": 3,
+        "overall": 23,
+        "player": "Kenneth Walker III",
+        "pos": "RB",
+        "points": "79.20",
+        "rank": "RB13 → RB2",
+        "value": 11,
+        "kept": true
+      },
+      {
+        "round": 4,
+        "overall": 38,
+        "player": "Breece Hall",
+        "pos": "RB",
+        "points": "42.50",
+        "rank": "RB18 → RB13",
+        "value": 5,
+        "kept": true
+      },
+      {
+        "round": 5,
+        "overall": 43,
+        "player": "Tee Higgins",
+        "pos": "WR",
+        "points": "44.40",
+        "rank": "WR21 → WR15",
+        "value": 6,
+        "kept": true
+      },
+      {
+        "round": 6,
+        "overall": 58,
+        "player": "Jayden Daniels",
+        "pos": "QB",
+        "points": "32.40",
+        "rank": "QB3 → QB13",
+        "value": -10,
+        "kept": true
+      },
+      {
+        "round": 7,
+        "overall": 63,
+        "player": "Kyle Pitts Sr.",
+        "pos": "TE",
+        "points": "4.00",
+        "rank": "TE5 → TE17",
+        "value": -12,
+        "kept": true
+      },
+      {
+        "round": 8,
+        "overall": 78,
+        "player": "Harold Fannin Jr.",
+        "pos": "TE",
+        "points": "38.60",
+        "rank": "TE9 → TE7",
+        "value": 2,
+        "kept": true
+      },
+      {
+        "round": 9,
+        "overall": 83,
+        "player": "Matthew Golden",
+        "pos": "WR",
+        "points": "46.30",
+        "rank": "WR36 → WR12",
+        "value": 24,
+        "kept": true
+      },
+      {
+        "round": 10,
+        "overall": 98,
+        "player": "Texans D/ST",
+        "pos": "D/ST",
+        "points": "13.00",
+        "rank": "D/ST1 → D/ST7",
+        "value": -6,
+        "kept": true
+      },
+      {
+        "round": 11,
+        "overall": 103,
+        "player": "Brandon Aubrey",
+        "pos": "K",
+        "points": "28.00",
+        "rank": "K1 → K2",
+        "value": -1,
+        "kept": true
+      },
+      {
+        "round": 12,
+        "overall": 118,
+        "player": "Rachaad White",
+        "pos": "RB",
+        "points": "30.10",
+        "rank": "RB40 → RB25",
+        "value": 15,
+        "kept": true
+      },
+      {
+        "round": 13,
+        "overall": 123,
+        "player": "Wan'Dale Robinson",
+        "pos": "WR",
+        "points": "29.40",
+        "rank": "WR51 → WR31",
+        "value": 20,
+        "kept": true
+      },
+      {
+        "round": 14,
+        "overall": 138,
+        "player": "Patrick Mahomes",
+        "pos": "QB",
+        "points": "66.58",
+        "rank": "QB14 → QB3",
+        "value": 11,
+        "kept": true
+      },
+      {
+        "round": 15,
+        "overall": 143,
+        "player": "Jerry Jeudy",
+        "pos": "WR",
+        "points": "4.60",
+        "rank": "WR57 → WR57",
+        "value": 0,
+        "kept": true
+      },
+      {
+        "round": 16,
+        "overall": 158,
+        "player": "Jahdae Walker",
+        "pos": "WR",
+        "points": "7.10",
+        "rank": "WR59 → WR54",
+        "value": 5,
+        "kept": true
+      }
+    ],
+    "injuries": [
+      {
+        "name": "Jayden Daniels",
+        "pos": "QB",
+        "status": "Questionable",
+        "missed": 1,
+        "storylines": [
+          "returning"
+        ]
+      },
+      {
+        "name": "Breece Hall",
+        "pos": "RB",
+        "status": "Doubtful",
+        "missed": 0,
+        "storylines": []
+      },
+      {
+        "name": "Rachaad White",
+        "pos": "RB",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": []
+      }
+    ]
+  }
+}

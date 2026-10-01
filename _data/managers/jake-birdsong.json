@@ -1,0 +1,186 @@
+{
+  "name": "Jake Birdsong",
+  "slug": "jake-birdsong",
+  "current": false,
+  "first_season": 2014,
+  "last_season": 2015,
+  "seasons_played": 2,
+  "titles": [],
+  "runner_ups": [],
+  "playoff_appearances": 0,
+  "career": {
+    "record": "8-20",
+    "win_pct": 28.6,
+    "playoff_record": "0-0",
+    "ppg": "78.39"
+  },
+  "seasons": [
+    {
+      "year": 2015,
+      "record": "5-9",
+      "pf": "1151.00",
+      "ppg": "82.21",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2014,
+      "record": "3-11",
+      "pf": "1044.00",
+      "ppg": "74.57",
+      "finish": "Missed playoffs"
+    }
+  ],
+  "head_to_head": [
+    {
+      "opponent": "Noah Laing",
+      "record": "1-3",
+      "win_pct": 25.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2015 wk 10: 54.00–91.00 L",
+      "current": true
+    },
+    {
+      "opponent": "Michael Luisi",
+      "record": "1-3",
+      "win_pct": 25.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2015 wk 14: 73.00–138.00 L",
+      "current": true
+    },
+    {
+      "opponent": "Harrison Gross",
+      "record": "0-4",
+      "win_pct": 0.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2015 wk 9: 102.00–106.00 L",
+      "current": true
+    },
+    {
+      "opponent": "Hayden McMurrey",
+      "record": "2-2",
+      "win_pct": 50.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2015 wk 16: 117.00–57.00 W",
+      "current": true
+    },
+    {
+      "opponent": "Luke Sullivan",
+      "record": "1-2",
+      "win_pct": 33.3,
+      "meetings": 3,
+      "playoff_meetings": 0,
+      "last": "2015 wk 15: 83.00–131.00 L",
+      "current": true
+    },
+    {
+      "opponent": "Andrew Hobby",
+      "record": "1-1",
+      "win_pct": 50.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2015 wk 7: 74.00–70.00 W",
+      "current": true
+    },
+    {
+      "opponent": "Jonathan Cooper",
+      "record": "0-2",
+      "win_pct": 0.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2015 wk 8: 69.00–83.00 L",
+      "current": true
+    },
+    {
+      "opponent": "Ben Fuller",
+      "record": "1-1",
+      "win_pct": 50.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2015 wk 12: 113.00–98.00 W",
+      "current": true
+    },
+    {
+      "opponent": "Jeff Rosinbaum",
+      "record": "3-0",
+      "win_pct": 100.0,
+      "meetings": 3,
+      "playoff_meetings": 0,
+      "last": "2014 wk 15: 80.00–38.00 W",
+      "current": false
+    },
+    {
+      "opponent": "Trip Smith",
+      "record": "0-2",
+      "win_pct": 0.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2014 wk 11: 69.00–80.00 L",
+      "current": false
+    },
+    {
+      "opponent": "Drew Rooney",
+      "record": "0-2",
+      "win_pct": 0.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2015 wk 6: 77.00–91.00 L",
+      "current": false
+    }
+  ],
+  "records": {
+    "best_score": {
+      "year": 2015,
+      "week": 12,
+      "score": "113.00",
+      "opp_score": "98.00",
+      "opp": "Ben Fuller",
+      "result": "W"
+    },
+    "worst_score": {
+      "year": 2014,
+      "week": 7,
+      "score": "44.00",
+      "opp_score": "81.00",
+      "opp": "Andrew Hobby",
+      "result": "L"
+    },
+    "biggest_win": {
+      "year": 2014,
+      "week": 3,
+      "score": "83.00",
+      "opp_score": "37.00",
+      "opp": "Jeff Rosinbaum",
+      "result": "W",
+      "margin": "46.00"
+    },
+    "worst_loss": {
+      "year": 2014,
+      "week": 14,
+      "score": "50.00",
+      "opp_score": "169.00",
+      "opp": "Michael Luisi",
+      "result": "L",
+      "margin": "119.00"
+    },
+    "win_streak": {
+      "manager_name": "Jake Birdsong",
+      "team_name": "",
+      "type": "win",
+      "length": 3,
+      "from": "2015 wk 11",
+      "to": "2015 wk 13"
+    },
+    "losing_streak": {
+      "manager_name": "Jake Birdsong",
+      "team_name": "",
+      "type": "loss",
+      "length": 8,
+      "from": "2014 wk 4",
+      "to": "2014 wk 11"
+    }
+  }
+}

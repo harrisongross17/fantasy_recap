@@ -28,6 +28,21 @@ layout: default
 </section>
 {%- endif %}
 
+{%- assign L = site.data.league -%}
+{%- if L %}
+<section class="section" id="managers">
+  <div class="section-head"><h2>Managers</h2><a class="head-link" href="{{ '/managers/' | relative_url }}">All managers &amp; champions →</a></div>
+  <div class="mgr-grid">
+  {%- for p in L.managers %}{% if p.current %}
+    <a class="mgr-card" href="{{ '/managers/' | append: p.slug | append: '.html' | relative_url }}">
+      <span class="mc-name">{{ p.name }}</span>
+      <span class="mc-meta">{{ p.record }} all-time{% if p.titles > 0 %} · {% for y in p.title_years %}🏆{% endfor %}{% endif %}</span>
+    </a>
+  {%- endif %}{% endfor %}
+  </div>
+</section>
+{%- endif %}
+
 <section class="section" id="recaps">
   <div class="section-head"><h2>Recaps</h2></div>
   <div class="post-grid">

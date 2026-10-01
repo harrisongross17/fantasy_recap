@@ -1,0 +1,161 @@
+{
+  "name": "Jeff Rosinbaum",
+  "slug": "jeff-rosinbaum",
+  "current": false,
+  "first_season": 2014,
+  "last_season": 2014,
+  "seasons_played": 1,
+  "titles": [],
+  "runner_ups": [],
+  "playoff_appearances": 0,
+  "career": {
+    "record": "2-12",
+    "win_pct": 14.3,
+    "playoff_record": "0-0",
+    "ppg": "48.43"
+  },
+  "seasons": [
+    {
+      "year": 2014,
+      "record": "2-12",
+      "pf": "678.00",
+      "ppg": "48.43",
+      "finish": "Missed playoffs"
+    }
+  ],
+  "head_to_head": [
+    {
+      "opponent": "Andrew Hobby",
+      "record": "0-2",
+      "win_pct": 0.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2014 wk 14: 48.00–53.00 L",
+      "current": true
+    },
+    {
+      "opponent": "Harrison Gross",
+      "record": "0-2",
+      "win_pct": 0.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2014 wk 13: 62.00–103.00 L",
+      "current": true
+    },
+    {
+      "opponent": "Noah Laing",
+      "record": "0-2",
+      "win_pct": 0.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2014 wk 9: 21.00–88.00 L",
+      "current": true
+    },
+    {
+      "opponent": "Jonathan Cooper",
+      "record": "1-1",
+      "win_pct": 50.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2014 wk 16: 30.00–112.00 L",
+      "current": true
+    },
+    {
+      "opponent": "Hayden McMurrey",
+      "record": "0-1",
+      "win_pct": 0.0,
+      "meetings": 1,
+      "playoff_meetings": 0,
+      "last": "2014 wk 7: 37.00–85.00 L",
+      "current": true
+    },
+    {
+      "opponent": "Michael Luisi",
+      "record": "0-1",
+      "win_pct": 0.0,
+      "meetings": 1,
+      "playoff_meetings": 0,
+      "last": "2014 wk 8: 51.00–82.00 L",
+      "current": true
+    },
+    {
+      "opponent": "Jake Birdsong",
+      "record": "0-3",
+      "win_pct": 0.0,
+      "meetings": 3,
+      "playoff_meetings": 0,
+      "last": "2014 wk 15: 38.00–80.00 L",
+      "current": false
+    },
+    {
+      "opponent": "Trip Smith",
+      "record": "1-1",
+      "win_pct": 50.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2014 wk 10: 24.00–77.00 L",
+      "current": false
+    },
+    {
+      "opponent": "Drew Rooney",
+      "record": "0-1",
+      "win_pct": 0.0,
+      "meetings": 1,
+      "playoff_meetings": 0,
+      "last": "2014 wk 11: 29.00–82.00 L",
+      "current": false
+    }
+  ],
+  "records": {
+    "best_score": {
+      "year": 2014,
+      "week": 1,
+      "score": "112.00",
+      "opp_score": "87.00",
+      "opp": "Trip Smith",
+      "result": "W"
+    },
+    "worst_score": {
+      "year": 2014,
+      "week": 9,
+      "score": "21.00",
+      "opp_score": "88.00",
+      "opp": "Noah Laing",
+      "result": "L"
+    },
+    "biggest_win": {
+      "year": 2014,
+      "week": 1,
+      "score": "112.00",
+      "opp_score": "87.00",
+      "opp": "Trip Smith",
+      "result": "W",
+      "margin": "25.00"
+    },
+    "worst_loss": {
+      "year": 2014,
+      "week": 5,
+      "score": "37.00",
+      "opp_score": "110.00",
+      "opp": "Noah Laing",
+      "result": "L",
+      "margin": "73.00"
+    },
+    "win_streak": {
+      "manager_name": "Jeff Rosinbaum",
+      "team_name": "",
+      "type": "win",
+      "length": 1,
+      "from": "2014 wk 1",
+      "to": "2014 wk 1"
+    },
+    "losing_streak": {
+      "manager_name": "Jeff Rosinbaum",
+      "team_name": "",
+      "type": "loss",
+      "length": 8,
+      "from": "2014 wk 7",
+      "to": "2014 wk 14"
+    }
+  }
+}

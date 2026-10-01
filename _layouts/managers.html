@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{%- assign L = site.data.league -%}
+<header class="post-hero">
+  <span class="kicker">Since 2014</span>
+  <h1>Managers</h1>
+  <p class="dek">Everyone who has ever managed in the league, current and former, with all-time records and titles.</p>
+</header>
+
+<section class="section">
+  <div class="section-head"><h2>Champions</h2></div>
+  <div class="champions">
+  {%- for c in L.champions %}
+    {%- assign cs = c.champion | slugify %}
+    <a class="champ" href="{{ '/managers/' | append: cs | append: '.html' | relative_url }}"><span class="champ-year">{{ c.year }}</span><span class="champ-name">🏆 {{ c.champion }}</span>{% if c.runner_up %}<span class="champ-ru">def. {{ c.runner_up }}</span>{% endif %}</a>
+  {%- endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><h2>All-Time</h2><span class="muted">regular season</span></div>
+  <div class="table-wrap"><table class="standings">
+    <thead><tr><th>Manager</th><th class="hide-sm">Years</th><th>Record</th><th class="num">Win %</th><th class="num">Titles</th></tr></thead>
+    <tbody>
+    {%- for p in L.managers %}
+      <tr{% unless p.current %} class="former"{% endunless %}>
+        <td><a class="mgr" href="{{ '/managers/' | append: p.slug | append: '.html' | relative_url }}">{{ p.name }}</a>{% unless p.current %}<span class="team">former</span>{% endunless %}</td>
+        <td class="hide-sm muted">{{ p.years }}</td>
+        <td class="record">{{ p.record }}</td>
+        <td class="num">{{ p.win_pct }}%</td>
+        <td class="num">{% if p.titles > 0 %}{% for y in p.title_years %}🏆{% endfor %}{% else %}<span class="muted">—</span>{% endif %}</td>
+      </tr>
+    {%- endfor %}
+    </tbody>
+  </table></div>
+</section>

@@ -1,0 +1,262 @@
+{
+  "managers": [
+    {
+      "name": "Michael Luisi",
+      "slug": "michael-luisi",
+      "current": true,
+      "years": "2014–now",
+      "seasons": 13,
+      "record": "105-71",
+      "win_pct": 59.7,
+      "titles": 2,
+      "title_years": [
+        2014,
+        2025
+      ]
+    },
+    {
+      "name": "Jimmy Miller",
+      "slug": "jimmy-miller",
+      "current": true,
+      "years": "2021–now",
+      "seasons": 6,
+      "record": "45-33",
+      "win_pct": 57.7,
+      "titles": 1,
+      "title_years": [
+        2022
+      ]
+    },
+    {
+      "name": "Harrison Gross",
+      "slug": "harrison-gross",
+      "current": true,
+      "years": "2014–now",
+      "seasons": 13,
+      "record": "94-82",
+      "win_pct": 53.4,
+      "titles": 2,
+      "title_years": [
+        2018,
+        2019
+      ]
+    },
+    {
+      "name": "Ben Fuller",
+      "slug": "ben-fuller",
+      "current": true,
+      "years": "2015–now",
+      "seasons": 12,
+      "record": "85-77",
+      "win_pct": 52.5,
+      "titles": 1,
+      "title_years": [
+        2021
+      ]
+    },
+    {
+      "name": "Andrew Hobby",
+      "slug": "andrew-hobby",
+      "current": true,
+      "years": "2014–now",
+      "seasons": 13,
+      "record": "91-85",
+      "win_pct": 51.7,
+      "titles": 1,
+      "title_years": [
+        2024
+      ]
+    },
+    {
+      "name": "Kevin Mangus",
+      "slug": "kevin-mangus",
+      "current": true,
+      "years": "2019–now",
+      "seasons": 8,
+      "record": "51-55",
+      "win_pct": 48.1,
+      "titles": 0,
+      "title_years": []
+    },
+    {
+      "name": "Hayden McMurrey",
+      "slug": "hayden-mcmurrey",
+      "current": true,
+      "years": "2014–now",
+      "seasons": 13,
+      "record": "84-92",
+      "win_pct": 47.7,
+      "titles": 1,
+      "title_years": [
+        2023
+      ]
+    },
+    {
+      "name": "Noah Laing",
+      "slug": "noah-laing",
+      "current": true,
+      "years": "2014–now",
+      "seasons": 13,
+      "record": "83-93",
+      "win_pct": 47.2,
+      "titles": 2,
+      "title_years": [
+        2017,
+        2020
+      ]
+    },
+    {
+      "name": "Jonathan Cooper",
+      "slug": "jonathan-cooper",
+      "current": true,
+      "years": "2014–now",
+      "seasons": 13,
+      "record": "80-96",
+      "win_pct": 45.5,
+      "titles": 2,
+      "title_years": [
+        2015,
+        2016
+      ]
+    },
+    {
+      "name": "Luke Sullivan",
+      "slug": "luke-sullivan",
+      "current": true,
+      "years": "2015–now",
+      "seasons": 12,
+      "record": "70-92",
+      "win_pct": 43.2,
+      "titles": 0,
+      "title_years": []
+    },
+    {
+      "name": "Kaden Beavers",
+      "slug": "kaden-beavers",
+      "current": false,
+      "years": "2017–2020",
+      "seasons": 4,
+      "record": "34-22",
+      "win_pct": 60.7,
+      "titles": 0,
+      "title_years": []
+    },
+    {
+      "name": "Trip Smith",
+      "slug": "trip-smith",
+      "current": false,
+      "years": "2014–2014",
+      "seasons": 1,
+      "record": "8-6",
+      "win_pct": 57.1,
+      "titles": 0,
+      "title_years": []
+    },
+    {
+      "name": "Drew Rooney",
+      "slug": "drew-rooney",
+      "current": false,
+      "years": "2014–2016",
+      "seasons": 3,
+      "record": "21-21",
+      "win_pct": 50.0,
+      "titles": 0,
+      "title_years": []
+    },
+    {
+      "name": "Judd Oefinger",
+      "slug": "judd-oefinger",
+      "current": false,
+      "years": "2016–2018",
+      "seasons": 3,
+      "record": "19-23",
+      "win_pct": 45.2,
+      "titles": 0,
+      "title_years": []
+    },
+    {
+      "name": "Jake Birdsong",
+      "slug": "jake-birdsong",
+      "current": false,
+      "years": "2014–2015",
+      "seasons": 2,
+      "record": "8-20",
+      "win_pct": 28.6,
+      "titles": 0,
+      "title_years": []
+    },
+    {
+      "name": "Jeff Rosinbaum",
+      "slug": "jeff-rosinbaum",
+      "current": false,
+      "years": "2014–2014",
+      "seasons": 1,
+      "record": "2-12",
+      "win_pct": 14.3,
+      "titles": 0,
+      "title_years": []
+    }
+  ],
+  "champions": [
+    {
+      "year": 2025,
+      "champion": "Michael Luisi",
+      "runner_up": "Jimmy Miller"
+    },
+    {
+      "year": 2024,
+      "champion": "Andrew Hobby",
+      "runner_up": "Michael Luisi"
+    },
+    {
+      "year": 2023,
+      "champion": "Hayden McMurrey",
+      "runner_up": "Jimmy Miller"
+    },
+    {
+      "year": 2022,
+      "champion": "Jimmy Miller",
+      "runner_up": "Harrison Gross"
+    },
+    {
+      "year": 2021,
+      "champion": "Ben Fuller",
+      "runner_up": "Hayden McMurrey"
+    },
+    {
+      "year": 2020,
+      "champion": "Noah Laing",
+      "runner_up": "Ben Fuller"
+    },
+    {
+      "year": 2019,
+      "champion": "Harrison Gross",
+      "runner_up": "Andrew Hobby"
+    },
+    {
+      "year": 2018,
+      "champion": "Harrison Gross",
+      "runner_up": "Michael Luisi"
+    },
+    {
+      "year": 2017,
+      "champion": "Noah Laing",
+      "runner_up": "Kaden Beavers"
+    },
+    {
+      "year": 2016,
+      "champion": "Jonathan Cooper",
+      "runner_up": "Luke Sullivan"
+    },
+    {
+      "year": 2015,
+      "champion": "Jonathan Cooper",
+      "runner_up": "Harrison Gross"
+    },
+    {
+      "year": 2014,
+      "champion": "Michael Luisi",
+      "runner_up": "Noah Laing"
+    }
+  ]
+}

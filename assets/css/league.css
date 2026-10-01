@@ -359,6 +359,111 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: .01e
 .pl-meta { color: var(--muted); font-size: 13px; }
 .move-date { color: var(--muted); font-size: 12px; border-top: 1px solid var(--border); padding-top: 6px; }
 
+/* ── Manager links ────────────────────────────────────────────────────── */
+
+a.mgr { color: var(--text); font-weight: 600; }
+a.mgr:hover { color: var(--accent); text-decoration: none; }
+.site-nav { display: flex; gap: 20px; }
+
+.head-link { margin-left: auto; font-size: 13px; font-weight: 600; }
+
+.mgr-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+.mgr-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+}
+.mgr-card:hover { border-color: var(--accent); text-decoration: none; }
+.mc-name { font-weight: 600; }
+.mc-meta { color: var(--muted); font-size: 13px; }
+
+/* ── Manager pages ───────────────────────────────────────────────────── */
+
+.banners { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.banner {
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font: 600 13px/1.4 var(--display);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.banner-title { border-color: var(--accent); color: var(--accent); background: rgba(242, 182, 50, .1); }
+.manager .hero-stats { margin-top: 22px; }
+
+.week-strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.wk {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.wk-track { height: 70px; display: flex; align-items: flex-end; margin-bottom: 8px; }
+.wk-bar { width: 100%; border-radius: 6px 6px 2px 2px; background: var(--surface-2); }
+.wk-W .wk-bar { background: linear-gradient(180deg, var(--win), rgba(52, 211, 153, .35)); }
+.wk-L .wk-bar { background: linear-gradient(180deg, var(--loss), rgba(248, 113, 113, .3)); }
+.wk-score { font: 700 24px/1.1 var(--display); }
+.wk-label { font-size: 13px; }
+.wk-label a { color: var(--text); }
+.wk-meta { font-size: 12px; color: var(--muted); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.chip {
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 13px;
+}
+.chip b { color: var(--text); }
+
+.ledger td { white-space: normal; vertical-align: top; }
+.move-add-name { color: var(--win); }
+.move-drop-name { color: var(--loss); }
+
+.trade {
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.finish { font-size: 14px; color: var(--muted); }
+.finish-champion { color: var(--accent); font-weight: 600; }
+.finish-runner-up, .finish-lost-in-semifinal { color: var(--text); }
+.finish-in-progress { color: var(--win); }
+
+tr.former td { color: var(--muted); }
+tr.former a.mgr { color: #c4cbd3; font-weight: 500; }
+
+.champions { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.champ {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+}
+.champ:hover { border-color: var(--accent); text-decoration: none; }
+.champ-year { font: 700 22px/1.1 var(--display); color: var(--accent); }
+.champ-name { font-weight: 600; margin-top: 4px; }
+.champ-ru { color: var(--muted); font-size: 13px; }
+
 /* ── Small screens ───────────────────────────────────────────────────── */
 
 @media (max-width: 640px) {
@@ -367,6 +472,8 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: .01e
   .wm-main { font-size: 16px; }
   .logo { width: 34px; height: 38px; }
   .scoreboard, .next-week, .post-grid, .moves { grid-template-columns: 1fr; }
+  .week-strip, .mgr-grid { grid-template-columns: 1fr 1fr; }
+  .site-nav { gap: 14px; }
   .awards { grid-template-columns: 1fr 1fr; }
   .award-stat { font-size: 26px; }
 }

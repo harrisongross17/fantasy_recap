@@ -7,7 +7,7 @@
   {%- for s in wd.standings %}
     <tr>
       <td class="num rank">{{ s.rank }}</td>
-      <td><span class="mgr">{{ s.manager }}</span>{% if site.show_team_names %}{% unless compact %}<span class="team">{{ s.team }}</span>{% endunless %}{% endif %}</td>
+      <td>{%- assign ms = s.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{{ s.manager }}</a>{% if site.show_team_names %}{% unless compact %}<span class="team">{{ s.team }}</span>{% endunless %}{% endif %}</td>
       <td class="hide-sm"><span class="div div-{{ s.division | slugify }}">{{ s.division }}</span>{% if s.division_leader %}<span class="leader" title="Division leader">★</span>{% endif %}</td>
       <td class="record">{{ s.record }}</td>
       <td class="num">{{ s.pf }}</td>

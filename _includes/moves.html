@@ -1,7 +1,7 @@
 <div class="moves">
 {%- for m in wd.moves %}
   <div class="move">
-    <div class="move-head"><span class="mgr">{{ m.manager }}</span><span class="move-kind">{{ m.kind }}</span></div>
+    <div class="move-head">{% if m.kind == "Trade" %}<span class="mgr">{{ m.manager }}</span>{% else %}{%- assign ms = m.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{{ m.manager }}</a>{% endif %}<span class="move-kind">{{ m.kind }}</span></div>
     <ul class="move-lines">
     {%- for l in m.lines %}
       <li class="move-{{ l.dir }}"><span class="sign">{% if l.dir == "add" %}+{% else %}−{% endif %}</span><span class="pl">{{ l.name }}</span><span class="pl-meta">{{ l.pos }}{% if l.nfl != "" %} · {{ l.nfl }}{% endif %}{% if l.note %} · {{ l.note }}{% endif %}</span></li>

@@ -5,7 +5,7 @@
   "standings": [
     {
       "rank": 1,
-      "manager": "noah laing",
+      "manager": "Noah Laing",
       "division": "Whites",
       "division_leader": true,
       "record": "3-0",
@@ -22,7 +22,7 @@
     },
     {
       "rank": 2,
-      "manager": "luke sullivan",
+      "manager": "Luke Sullivan",
       "division": "Blacks",
       "division_leader": true,
       "record": "3-0",
@@ -197,7 +197,7 @@
     },
     {
       "home": {
-        "manager": "noah laing",
+        "manager": "Noah Laing",
         "score": "160.68",
         "projected": "135.75",
         "record": "3-0"
@@ -222,7 +222,7 @@
         "record": "0-3"
       },
       "away": {
-        "manager": "luke sullivan",
+        "manager": "Luke Sullivan",
         "score": "155.50",
         "projected": "114.29",
         "record": "3-0"
@@ -272,7 +272,7 @@
     {
       "icon": "🔥",
       "label": "Top Score",
-      "manager": "noah laing",
+      "manager": "Noah Laing",
       "stat": "160.68",
       "unit": "pts",
       "detail": "vs Andrew Hobby"
@@ -299,12 +299,12 @@
       "manager": "Kevin Mangus",
       "stat": "124.60",
       "unit": "pts",
-      "detail": "Highest losing score — fell to luke sullivan"
+      "detail": "Highest losing score — fell to Luke Sullivan"
     },
     {
       "icon": "⭐",
       "label": "Player of the Week",
-      "manager": "noah laing",
+      "manager": "Noah Laing",
       "stat": "41.40",
       "unit": "pts",
       "detail": "Jahmyr Gibbs (RB), projected 25.35"
@@ -372,7 +372,7 @@
     },
     {
       "kind": "Waiver",
-      "manager": "noah laing",
+      "manager": "Noah Laing",
       "lines": [
         {
           "dir": "add",
@@ -410,7 +410,7 @@
     },
     {
       "kind": "Waiver",
-      "manager": "noah laing",
+      "manager": "Noah Laing",
       "lines": [
         {
           "dir": "add",
@@ -429,7 +429,7 @@
     },
     {
       "kind": "Waiver",
-      "manager": "luke sullivan",
+      "manager": "Luke Sullivan",
       "lines": [
         {
           "dir": "add",
@@ -492,11 +492,11 @@
         "record": "2-1"
       },
       "away": {
-        "manager": "luke sullivan",
+        "manager": "Luke Sullivan",
         "record": "3-0"
       },
-      "series": "Andrew Hobby leads 12-6",
-      "meetings": 18
+      "series": "Andrew Hobby leads 12-7",
+      "meetings": 19
     },
     {
       "home": {
@@ -507,8 +507,8 @@
         "manager": "Harrison Gross",
         "record": "1-2"
       },
-      "series": "Harrison Gross leads 9-1",
-      "meetings": 10
+      "series": "Harrison Gross leads 12-6",
+      "meetings": 18
     },
     {
       "home": {
@@ -528,7 +528,7 @@
         "record": "3-0"
       },
       "away": {
-        "manager": "noah laing",
+        "manager": "Noah Laing",
         "record": "3-0"
       },
       "series": "Hayden McMurrey leads 11-9",
@@ -543,8 +543,8 @@
         "manager": "Kevin Mangus",
         "record": "0-3"
       },
-      "series": "Kevin Mangus leads 6-1",
-      "meetings": 7
+      "series": "Kevin Mangus leads 11-4",
+      "meetings": 15
     }
   ]
 }

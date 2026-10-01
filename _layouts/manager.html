@@ -1,0 +1,142 @@
+---
+layout: default
+---
+{%- assign m = site.data.managers[page.slug] -%}
+{%- assign s = m.season -%}
+<article class="manager">
+  <header class="post-hero">
+    <span class="kicker">{% if m.current %}{{ s.division }} division{% else %}Former manager{% endif %} · {{ m.first_season }}–{% if m.current %}present{% else %}{{ m.last_season }}{% endif %} · {{ m.seasons_played }} season{% if m.seasons_played != 1 %}s{% endif %}</span>
+    <h1>{{ m.name }}</h1>
+    {%- if m.titles.size > 0 or m.runner_ups.size > 0 %}
+    <div class="banners">
+      {%- for y in m.titles %}<span class="banner banner-title">🏆 {{ y }} Champion</span>{% endfor %}
+      {%- for y in m.runner_ups %}<span class="banner">🥈 {{ y }} Runner-up</span>{% endfor %}
+    </div>
+    {%- endif %}
+    <div class="hero-stats">
+      {%- if m.current %}
+      <div class="hero-stat"><span class="hs-label">{{ s.year }} record</span><span class="hs-value">{{ s.record }}</span><span class="hs-who">#{{ s.rank }} in standings</span></div>
+      <div class="hero-stat"><span class="hs-label">Power rank</span><span class="hs-value">#{{ s.power_rank }}</span><span class="hs-who">{% if s.power_change > 0 %}<span class="up">▲{{ s.power_change }}</span> this week{% elsif s.power_change < 0 %}<span class="down">▼{{ s.power_change | abs }}</span> this week{% else %}no change{% endif %}</span></div>
+      {%- if s.playoff_pct %}<div class="hero-stat"><span class="hs-label">Playoff odds</span><span class="hs-value">{{ s.playoff_pct }}%</span><span class="hs-who">ESPN projection</span></div>{% endif %}
+      {%- endif %}
+      <div class="hero-stat"><span class="hs-label">All-time record</span><span class="hs-value">{{ m.career.record }}</span><span class="hs-who">{{ m.career.win_pct }}% · {{ m.career.ppg }} pts/game</span></div>
+      <div class="hero-stat"><span class="hs-label">Playoffs</span><span class="hs-value">{{ m.playoff_appearances }}</span><span class="hs-who">appearances · {{ m.career.playoff_record }} in playoff games</span></div>
+    </div>
+  </header>
+
+  {%- if m.current %}
+  <section class="section">
+    <div class="section-head"><h2>{{ s.year }} Week by Week</h2><span class="muted">through Week {{ s.through_week }}</span></div>
+    <div class="week-strip">
+    {%- for w in s.weeks %}
+      {%- assign os = w.opp | slugify %}
+      <div class="wk wk-{{ w.result }}">
+        <div class="wk-track"><div class="wk-bar" style="height: {{ w.bar }}%"></div></div>
+        <span class="wk-score">{{ w.score }}</span>
+        <span class="wk-label">Wk {{ w.week }} · <b>{{ w.result }}</b> vs <a href="{{ '/managers/' | append: os | append: '.html' | relative_url }}">{{ w.opp }}</a> ({{ w.opp_score }})</span>
+        <span class="wk-meta">proj {{ w.projected }} · {{ w.bench }} left on bench</span>
+      </div>
+    {%- endfor %}
+    </div>
+    <div class="chips">
+      <span class="chip">All-play <b>{{ s.luck.all_play_record }}</b></span>
+      <span class="chip">Expected wins <b>{{ s.luck.expected_wins }}</b></span>
+      <span class="chip">Luck <b>{% if s.luck.luck > 0 %}+{% endif %}{{ s.luck.luck }}</b></span>
+      <span class="chip">Points against vs avg <b>{% if s.luck.points_against_vs_league_avg > 0 %}+{% endif %}{{ s.luck.points_against_vs_league_avg }}</b></span>
+    </div>
+  </section>
+
+  {%- if s.injuries.size > 0 %}
+  <section class="section">
+    <div class="section-head"><h2>Injury Report</h2></div>
+    <div class="table-wrap"><table class="standings">
+      <thead><tr><th>Player</th><th>Status</th><th class="num">Games missed in a row</th></tr></thead>
+      <tbody>{% for i in s.injuries %}<tr><td><span class="mgr">{{ i.name }}</span><span class="team">{{ i.pos }}</span></td><td>{{ i.status }}</td><td class="num">{{ i.missed }}</td></tr>{% endfor %}</tbody>
+    </table></div>
+  </section>
+  {%- endif %}
+
+  {%- if s.moves.size > 0 %}
+  <section class="section">
+    <div class="section-head"><h2>{{ s.year }} Moves</h2><span class="muted">points scored since each move</span></div>
+    <div class="table-wrap"><table class="standings ledger">
+      <thead><tr><th>Wk</th><th>Added</th><th>Dropped</th><th class="num hide-sm">Net</th></tr></thead>
+      <tbody>
+      {%- for mv in s.moves %}
+        <tr>
+          <td class="muted">{{ mv.week }}</td>
+          <td>{% for a in mv.added %}<span class="mgr move-add-name">+ {{ a.name }}</span><span class="team">{{ a.pos }} · {{ a.since }} pts since · {{ a.started }} started</span>{% endfor %}</td>
+          <td>{% for d in mv.dropped %}<span class="mgr move-drop-name">− {{ d.name }}</span><span class="team">{{ d.pos }} · {{ d.since }} pts since · now {{ d.now_on }}</span>{% endfor %}</td>
+          <td class="num hide-sm">{% if mv.net %}<span class="{% if mv.net contains '-' %}down{% else %}up{% endif %}">{{ mv.net }}</span>{% endif %}</td>
+        </tr>
+      {%- endfor %}
+      </tbody>
+    </table></div>
+  </section>
+  {%- endif %}
+
+  {%- if s.trades.size > 0 %}
+  <section class="section">
+    <div class="section-head"><h2>Trades</h2></div>
+    {%- for tr in s.trades %}
+    <div class="trade">
+      {%- for sd in tr.sides %}<div class="trade-side"><span class="mgr">{{ sd.manager }}</span> got {{ sd.received | join: ", " }} <span class="muted">· {{ sd.points }} pts since</span></div>{% endfor %}
+    </div>
+    {%- endfor %}
+  </section>
+  {%- endif %}
+
+  {%- if s.draft.size > 0 %}
+  <section class="section">
+    <div class="section-head"><h2>{{ s.year }} Draft Class</h2><span class="muted">positional rank: drafted → points</span></div>
+    <div class="table-wrap"><table class="standings">
+      <thead><tr><th class="num">Rd</th><th>Player</th><th class="num">Pts</th><th class="hide-sm">Rank</th><th class="num">Value</th><th class="hide-sm">Still here</th></tr></thead>
+      <tbody>{% for d in s.draft %}<tr><td class="num muted">{{ d.round }}</td><td><span class="mgr">{{ d.player }}</span><span class="team">{{ d.pos }}</span></td><td class="num">{{ d.points }}</td><td class="hide-sm muted">{{ d.rank }}</td><td class="num">{% if d.value > 0 %}<span class="up">+{{ d.value }}</span>{% elsif d.value < 0 %}<span class="down">{{ d.value }}</span>{% else %}0{% endif %}</td><td class="hide-sm">{% if d.kept %}✓{% else %}<span class="muted">—</span>{% endif %}</td></tr>{% endfor %}</tbody>
+    </table></div>
+  </section>
+  {%- endif %}
+  {%- endif %}
+
+  <section class="section">
+    <div class="section-head"><h2>Season by Season</h2><span class="muted">regular-season record</span></div>
+    <div class="table-wrap"><table class="standings">
+      <thead><tr><th>Year</th><th>Record</th><th class="num">PF</th><th class="num hide-sm">Pts/game</th><th>Finish</th></tr></thead>
+      <tbody>{% for y in m.seasons %}<tr><td>{{ y.year }}</td><td class="record">{{ y.record }}</td><td class="num">{{ y.pf }}</td><td class="num hide-sm">{{ y.ppg }}</td><td><span class="finish finish-{{ y.finish | slugify }}">{% if y.finish == "Champion" %}🏆 {% endif %}{{ y.finish }}</span></td></tr>{% endfor %}</tbody>
+    </table></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Head to Head</h2><span class="muted">all games, playoffs included</span></div>
+    <div class="table-wrap"><table class="standings">
+      <thead><tr><th>Opponent</th><th>Record</th><th class="num hide-sm">Win %</th><th class="num hide-sm">Playoff mtgs</th><th class="hide-sm">Last meeting</th></tr></thead>
+      <tbody>
+      {%- for h in m.head_to_head %}
+        {%- assign hs = h.opponent | slugify %}
+        <tr{% unless h.current %} class="former"{% endunless %}><td><a class="mgr" href="{{ '/managers/' | append: hs | append: '.html' | relative_url }}">{{ h.opponent }}</a></td><td class="record">{{ h.record }}</td><td class="num hide-sm">{{ h.win_pct }}%</td><td class="num hide-sm">{{ h.playoff_meetings }}</td><td class="hide-sm muted">{{ h.last }}</td></tr>
+      {%- endfor %}
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Personal Records</h2><span class="muted">regular season</span></div>
+    <div class="awards">
+      {%- assign r = m.records %}
+      {%- if r.best_score %}<div class="award"><div class="award-head"><span class="award-label">Best score</span></div><div class="award-stat">{{ r.best_score.score }}</div><div class="award-detail">{{ r.best_score.year }} wk {{ r.best_score.week }} vs {{ r.best_score.opp }}</div></div>{% endif %}
+      {%- if r.worst_score %}<div class="award"><div class="award-head"><span class="award-label">Worst score</span></div><div class="award-stat">{{ r.worst_score.score }}</div><div class="award-detail">{{ r.worst_score.year }} wk {{ r.worst_score.week }} vs {{ r.worst_score.opp }}</div></div>{% endif %}
+      {%- if r.biggest_win %}<div class="award"><div class="award-head"><span class="award-label">Biggest win</span></div><div class="award-stat">+{{ r.biggest_win.margin }}</div><div class="award-detail">{{ r.biggest_win.score }}–{{ r.biggest_win.opp_score }} vs {{ r.biggest_win.opp }}, {{ r.biggest_win.year }} wk {{ r.biggest_win.week }}</div></div>{% endif %}
+      {%- if r.worst_loss %}<div class="award"><div class="award-head"><span class="award-label">Worst loss</span></div><div class="award-stat">−{{ r.worst_loss.margin }}</div><div class="award-detail">{{ r.worst_loss.score }}–{{ r.worst_loss.opp_score }} vs {{ r.worst_loss.opp }}, {{ r.worst_loss.year }} wk {{ r.worst_loss.week }}</div></div>{% endif %}
+      {%- if r.win_streak %}<div class="award"><div class="award-head"><span class="award-label">Longest win streak</span></div><div class="award-stat">{{ r.win_streak.length }}</div><div class="award-detail">{{ r.win_streak.from }} to {{ r.win_streak.to }}</div></div>{% endif %}
+      {%- if r.losing_streak %}<div class="award"><div class="award-head"><span class="award-label">Longest losing streak</span></div><div class="award-stat">{{ r.losing_streak.length }}</div><div class="award-detail">{{ r.losing_streak.from }} to {{ r.losing_streak.to }}</div></div>{% endif %}
+    </div>
+  </section>
+
+  {%- assign mentions = "" | split: "" %}
+  {%- for post in site.posts %}{% if post.content contains m.name %}{% assign mentions = mentions | push: post %}{% endif %}{% endfor %}
+  {%- if mentions.size > 0 %}
+  <section class="section">
+    <div class="section-head"><h2>In the Recaps</h2></div>
+    <div class="post-grid">{% for post in mentions %}{% include post-card.html %}{% endfor %}</div>
+  </section>
+  {%- endif %}
+</article>

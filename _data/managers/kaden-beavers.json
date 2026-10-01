@@ -1,0 +1,193 @@
+{
+  "name": "Kaden Beavers",
+  "slug": "kaden-beavers",
+  "current": false,
+  "first_season": 2017,
+  "last_season": 2020,
+  "seasons_played": 4,
+  "titles": [],
+  "runner_ups": [
+    2017
+  ],
+  "playoff_appearances": 3,
+  "career": {
+    "record": "34-22",
+    "win_pct": 60.7,
+    "playoff_record": "1-3",
+    "ppg": "115.41"
+  },
+  "seasons": [
+    {
+      "year": 2020,
+      "record": "10-4",
+      "pf": "1747.36",
+      "ppg": "124.81",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2019,
+      "record": "10-4",
+      "pf": "1850.08",
+      "ppg": "132.15",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2018,
+      "record": "4-10",
+      "pf": "1443.46",
+      "ppg": "103.10",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2017,
+      "record": "10-4",
+      "pf": "1422.00",
+      "ppg": "101.57",
+      "finish": "Runner-up"
+    }
+  ],
+  "head_to_head": [
+    {
+      "opponent": "Noah Laing",
+      "record": "4-6",
+      "win_pct": 40.0,
+      "meetings": 10,
+      "playoff_meetings": 2,
+      "last": "2020 wk 15: 147.86–158.34 L",
+      "current": true
+    },
+    {
+      "opponent": "Michael Luisi",
+      "record": "7-2",
+      "win_pct": 77.8,
+      "meetings": 9,
+      "playoff_meetings": 0,
+      "last": "2020 wk 16: 103.02–100.62 W",
+      "current": true
+    },
+    {
+      "opponent": "Jonathan Cooper",
+      "record": "7-2",
+      "win_pct": 77.8,
+      "meetings": 9,
+      "playoff_meetings": 1,
+      "last": "2020 wk 10: 97.72–34.62 W",
+      "current": true
+    },
+    {
+      "opponent": "Hayden McMurrey",
+      "record": "5-4",
+      "win_pct": 55.6,
+      "meetings": 9,
+      "playoff_meetings": 0,
+      "last": "2020 wk 12: 116.88–117.98 L",
+      "current": true
+    },
+    {
+      "opponent": "Andrew Hobby",
+      "record": "6-3",
+      "win_pct": 66.7,
+      "meetings": 9,
+      "playoff_meetings": 1,
+      "last": "2020 wk 13: 171.36–117.18 W",
+      "current": true
+    },
+    {
+      "opponent": "Luke Sullivan",
+      "record": "2-2",
+      "win_pct": 50.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2020 wk 7: 115.00–98.72 W",
+      "current": true
+    },
+    {
+      "opponent": "Harrison Gross",
+      "record": "2-2",
+      "win_pct": 50.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2020 wk 8: 99.04–123.84 L",
+      "current": true
+    },
+    {
+      "opponent": "Ben Fuller",
+      "record": "2-2",
+      "win_pct": 50.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2020 wk 11: 135.22–117.44 W",
+      "current": true
+    },
+    {
+      "opponent": "Kevin Mangus",
+      "record": "2-1",
+      "win_pct": 66.7,
+      "meetings": 3,
+      "playoff_meetings": 0,
+      "last": "2020 wk 6: 119.20–98.92 W",
+      "current": true
+    },
+    {
+      "opponent": "Judd Oefinger",
+      "record": "0-3",
+      "win_pct": 0.0,
+      "meetings": 3,
+      "playoff_meetings": 0,
+      "last": "2018 wk 16: 106.08–129.34 L",
+      "current": false
+    }
+  ],
+  "records": {
+    "best_score": {
+      "year": 2019,
+      "week": 8,
+      "score": "199.46",
+      "opp_score": "170.46",
+      "opp": "Harrison Gross",
+      "result": "W"
+    },
+    "worst_score": {
+      "year": 2017,
+      "week": 6,
+      "score": "76.00",
+      "opp_score": "94.00",
+      "opp": "Judd Oefinger",
+      "result": "L"
+    },
+    "biggest_win": {
+      "year": 2017,
+      "week": 7,
+      "score": "128.00",
+      "opp_score": "50.00",
+      "opp": "Luke Sullivan",
+      "result": "W",
+      "margin": "78.00"
+    },
+    "worst_loss": {
+      "year": 2018,
+      "week": 9,
+      "score": "77.72",
+      "opp_score": "182.74",
+      "opp": "Michael Luisi",
+      "result": "L",
+      "margin": "105.02"
+    },
+    "win_streak": {
+      "manager_name": "Kaden Beavers",
+      "team_name": "",
+      "type": "win",
+      "length": 6,
+      "from": "2018 wk 13",
+      "to": "2019 wk 4"
+    },
+    "losing_streak": {
+      "manager_name": "Kaden Beavers",
+      "team_name": "",
+      "type": "loss",
+      "length": 7,
+      "from": "2018 wk 6",
+      "to": "2018 wk 12"
+    }
+  }
+}

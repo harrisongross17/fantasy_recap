@@ -21,7 +21,7 @@
     },
     {
       "rank": 2,
-      "manager": "luke sullivan",
+      "manager": "Luke Sullivan",
       "division": "Blacks",
       "division_leader": true,
       "record": "2-0",
@@ -37,7 +37,7 @@
     },
     {
       "rank": 3,
-      "manager": "noah laing",
+      "manager": "Noah Laing",
       "division": "Whites",
       "division_leader": false,
       "record": "2-0",
@@ -167,7 +167,7 @@
   "matchups": [
     {
       "home": {
-        "manager": "noah laing",
+        "manager": "Noah Laing",
         "score": "160.58",
         "projected": "131.59",
         "record": "2-0"
@@ -240,7 +240,7 @@
     },
     {
       "home": {
-        "manager": "luke sullivan",
+        "manager": "Luke Sullivan",
         "score": "118.92",
         "projected": "114.54",
         "record": "2-0"
@@ -262,7 +262,7 @@
     {
       "icon": "🔥",
       "label": "Top Score",
-      "manager": "noah laing",
+      "manager": "Noah Laing",
       "stat": "160.58",
       "unit": "pts",
       "detail": "vs Kevin Mangus"
@@ -281,12 +281,12 @@
       "manager": "Jimmy Miller",
       "stat": "112.86",
       "unit": "pts",
-      "detail": "Highest losing score — fell to luke sullivan"
+      "detail": "Highest losing score — fell to Luke Sullivan"
     },
     {
       "icon": "⭐",
       "label": "Player of the Week",
-      "manager": "luke sullivan",
+      "manager": "Luke Sullivan",
       "stat": "42.50",
       "unit": "pts",
       "detail": "Jaxon Smith-Njigba (WR), projected 18.49"
@@ -436,7 +436,7 @@
     },
     {
       "kind": "Free agent",
-      "manager": "noah laing",
+      "manager": "Noah Laing",
       "lines": [
         {
           "dir": "add",
@@ -621,15 +621,15 @@
     },
     {
       "home": {
-        "manager": "noah laing",
+        "manager": "Noah Laing",
         "record": "2-0"
       },
       "away": {
         "manager": "Andrew Hobby",
         "record": "2-0"
       },
-      "series": "Andrew Hobby leads 9-7",
-      "meetings": 16
+      "series": "Noah Laing leads 10-9",
+      "meetings": 19
     },
     {
       "home": {
@@ -637,11 +637,11 @@
         "record": "0-2"
       },
       "away": {
-        "manager": "luke sullivan",
+        "manager": "Luke Sullivan",
         "record": "2-0"
       },
-      "series": "luke sullivan leads 4-2",
-      "meetings": 6
+      "series": "Series tied 7-7",
+      "meetings": 14
     },
     {
       "home": {
@@ -652,8 +652,8 @@
         "manager": "Michael Luisi",
         "record": "0-2"
       },
-      "series": "Michael Luisi leads 6-5",
-      "meetings": 11
+      "series": "Michael Luisi leads 16-11",
+      "meetings": 27
     },
     {
       "home": {

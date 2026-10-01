@@ -50,7 +50,7 @@
     },
     {
       "rank": 4,
-      "manager": "noah laing",
+      "manager": "Noah Laing",
       "division": "Whites",
       "division_leader": false,
       "record": "1-0",
@@ -65,7 +65,7 @@
     },
     {
       "rank": 5,
-      "manager": "luke sullivan",
+      "manager": "Luke Sullivan",
       "division": "Blacks",
       "division_leader": false,
       "record": "1-0",
@@ -183,7 +183,7 @@
         "record": "0-1"
       },
       "away": {
-        "manager": "noah laing",
+        "manager": "Noah Laing",
         "score": "133.82",
         "projected": "123.48",
         "record": "1-0"
@@ -230,7 +230,7 @@
     },
     {
       "home": {
-        "manager": "luke sullivan",
+        "manager": "Luke Sullivan",
         "score": "131.36",
         "projected": "112.75",
         "record": "1-0"
@@ -260,7 +260,7 @@
     {
       "icon": "🪑",
       "label": "Bench Blunder",
-      "manager": "noah laing",
+      "manager": "Noah Laing",
       "stat": "43.98",
       "unit": "pts left on bench",
       "detail": "Optimal lineup: 177.80"
@@ -271,12 +271,12 @@
       "manager": "Ben Fuller",
       "stat": "120.26",
       "unit": "pts",
-      "detail": "Highest losing score — fell to luke sullivan"
+      "detail": "Highest losing score — fell to Luke Sullivan"
     },
     {
       "icon": "⭐",
       "label": "Player of the Week",
-      "manager": "luke sullivan",
+      "manager": "Luke Sullivan",
       "stat": "37.26",
       "unit": "pts",
       "detail": "Caleb Williams (QB), projected 16.39"
@@ -407,7 +407,7 @@
     },
     {
       "kind": "Waiver",
-      "manager": "Hunter McMurrey",
+      "manager": "Hayden McMurrey",
       "lines": [
         {
           "dir": "add",
@@ -447,15 +447,15 @@
   "next_week": [
     {
       "home": {
-        "manager": "noah laing",
+        "manager": "Noah Laing",
         "record": "1-0"
       },
       "away": {
         "manager": "Kevin Mangus",
         "record": "0-1"
       },
-      "series": "noah laing leads 6-2",
-      "meetings": 8
+      "series": "Noah Laing leads 10-6",
+      "meetings": 16
     },
     {
       "home": {
@@ -490,12 +490,12 @@
         "manager": "Michael Luisi",
         "record": "0-1"
       },
-      "series": "Michael Luisi leads 7-5",
-      "meetings": 12
+      "series": "Michael Luisi leads 17-10",
+      "meetings": 27
     },
     {
       "home": {
-        "manager": "luke sullivan",
+        "manager": "Luke Sullivan",
         "record": "1-0"
       },
       "away": {

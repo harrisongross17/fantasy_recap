@@ -1,0 +1,603 @@
+{
+  "name": "Ben Fuller",
+  "slug": "ben-fuller",
+  "current": true,
+  "first_season": 2015,
+  "last_season": 2026,
+  "seasons_played": 12,
+  "titles": [
+    2021
+  ],
+  "runner_ups": [
+    2020
+  ],
+  "playoff_appearances": 6,
+  "career": {
+    "record": "85-77",
+    "win_pct": 52.5,
+    "playoff_record": "3-5",
+    "ppg": "115.78"
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "record": "0-3",
+      "pf": "305.62",
+      "ppg": "101.87",
+      "finish": "In progress"
+    },
+    {
+      "year": 2025,
+      "record": "7-8",
+      "pf": "1856.82",
+      "ppg": "123.79",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2024,
+      "record": "10-5",
+      "pf": "1907.16",
+      "ppg": "127.14",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2023,
+      "record": "8-7",
+      "pf": "1872.86",
+      "ppg": "124.86",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2022,
+      "record": "6-9",
+      "pf": "1959.08",
+      "ppg": "130.61",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2021,
+      "record": "9-6",
+      "pf": "1858.70",
+      "ppg": "123.91",
+      "finish": "Champion"
+    },
+    {
+      "year": 2020,
+      "record": "8-6",
+      "pf": "1805.32",
+      "ppg": "128.95",
+      "finish": "Runner-up"
+    },
+    {
+      "year": 2019,
+      "record": "5-9",
+      "pf": "1564.74",
+      "ppg": "111.77",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2018,
+      "record": "9-5",
+      "pf": "1846.80",
+      "ppg": "131.91",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2017,
+      "record": "9-5",
+      "pf": "1260.00",
+      "ppg": "90.00",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2016,
+      "record": "6-8",
+      "pf": "1173.00",
+      "ppg": "83.79",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2015,
+      "record": "8-6",
+      "pf": "1347.00",
+      "ppg": "96.21",
+      "finish": "Lost in semifinal"
+    }
+  ],
+  "head_to_head": [
+    {
+      "opponent": "Harrison Gross",
+      "record": "10-15",
+      "win_pct": 40.0,
+      "meetings": 25,
+      "playoff_meetings": 0,
+      "last": "2026 wk 3: 89.08–143.64 L",
+      "current": true
+    },
+    {
+      "opponent": "Luke Sullivan",
+      "record": "13-10",
+      "win_pct": 56.5,
+      "meetings": 23,
+      "playoff_meetings": 0,
+      "last": "2026 wk 1: 120.26–131.36 L",
+      "current": true
+    },
+    {
+      "opponent": "Andrew Hobby",
+      "record": "11-12",
+      "win_pct": 47.8,
+      "meetings": 23,
+      "playoff_meetings": 1,
+      "last": "2025 wk 15: 97.02–211.12 L",
+      "current": true
+    },
+    {
+      "opponent": "Jonathan Cooper",
+      "record": "6-17",
+      "win_pct": 26.1,
+      "meetings": 23,
+      "playoff_meetings": 1,
+      "last": "2026 wk 2: 96.28–126.74 L",
+      "current": true
+    },
+    {
+      "opponent": "Noah Laing",
+      "record": "12-9",
+      "win_pct": 57.1,
+      "meetings": 21,
+      "playoff_meetings": 3,
+      "last": "2025 wk 17: 106.88–132.98 L",
+      "current": true
+    },
+    {
+      "opponent": "Kevin Mangus",
+      "record": "9-6",
+      "win_pct": 60.0,
+      "meetings": 15,
+      "playoff_meetings": 0,
+      "last": "2025 wk 13: 102.82–111.64 L",
+      "current": true
+    },
+    {
+      "opponent": "Hayden McMurrey",
+      "record": "9-5",
+      "win_pct": 64.3,
+      "meetings": 14,
+      "playoff_meetings": 1,
+      "last": "2025 wk 8: 104.42–127.48 L",
+      "current": true
+    },
+    {
+      "opponent": "Michael Luisi",
+      "record": "7-7",
+      "win_pct": 50.0,
+      "meetings": 14,
+      "playoff_meetings": 2,
+      "last": "2025 wk 7: 145.28–80.04 W",
+      "current": true
+    },
+    {
+      "opponent": "Jimmy Miller",
+      "record": "7-3",
+      "win_pct": 70.0,
+      "meetings": 10,
+      "playoff_meetings": 0,
+      "last": "2025 wk 12: 201.12–100.68 W",
+      "current": true
+    },
+    {
+      "opponent": "Judd Oefinger",
+      "record": "4-2",
+      "win_pct": 66.7,
+      "meetings": 6,
+      "playoff_meetings": 0,
+      "last": "2018 wk 12: 124.54–93.22 W",
+      "current": false
+    },
+    {
+      "opponent": "Drew Rooney",
+      "record": "1-3",
+      "win_pct": 25.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2016 wk 16: 93.00–58.00 W",
+      "current": false
+    },
+    {
+      "opponent": "Kaden Beavers",
+      "record": "2-2",
+      "win_pct": 50.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2020 wk 11: 117.44–135.22 L",
+      "current": false
+    },
+    {
+      "opponent": "Jake Birdsong",
+      "record": "1-1",
+      "win_pct": 50.0,
+      "meetings": 2,
+      "playoff_meetings": 0,
+      "last": "2015 wk 12: 98.00–113.00 L",
+      "current": false
+    }
+  ],
+  "records": {
+    "best_score": {
+      "year": 2022,
+      "week": 2,
+      "score": "205.12",
+      "opp_score": "114.46",
+      "opp": "Jonathan Cooper",
+      "result": "W"
+    },
+    "worst_score": {
+      "year": 2015,
+      "week": 11,
+      "score": "46.00",
+      "opp_score": "101.00",
+      "opp": "Drew Rooney",
+      "result": "L"
+    },
+    "biggest_win": {
+      "year": 2025,
+      "week": 12,
+      "score": "201.12",
+      "opp_score": "100.68",
+      "opp": "Jimmy Miller",
+      "result": "W",
+      "margin": "100.44"
+    },
+    "worst_loss": {
+      "year": 2025,
+      "week": 15,
+      "score": "97.02",
+      "opp_score": "211.12",
+      "opp": "Andrew Hobby",
+      "result": "L",
+      "margin": "114.10"
+    },
+    "win_streak": {
+      "manager_name": "Ben Fuller",
+      "team_name": "",
+      "type": "win",
+      "length": 9,
+      "from": "2017 wk 7",
+      "to": "2018 wk 1"
+    },
+    "losing_streak": {
+      "manager_name": "Ben Fuller",
+      "team_name": "",
+      "type": "loss",
+      "length": 6,
+      "from": "2019 wk 10",
+      "to": "2020 wk 1"
+    }
+  },
+  "season": {
+    "year": 2026,
+    "through_week": 3,
+    "division": "Blacks",
+    "record": "0-3",
+    "rank": 9,
+    "power_rank": 9,
+    "power_change": -2,
+    "playoff_pct": 4.5,
+    "pf": "305.62",
+    "weeks": [
+      {
+        "week": 1,
+        "result": "L",
+        "score": "120.26",
+        "opp": "Luke Sullivan",
+        "opp_score": "131.36",
+        "projected": "125.11",
+        "bench": "24.80",
+        "bar": 60
+      },
+      {
+        "week": 2,
+        "result": "L",
+        "score": "96.28",
+        "opp": "Jonathan Cooper",
+        "opp_score": "126.74",
+        "projected": "120.47",
+        "bench": "44.40",
+        "bar": 48
+      },
+      {
+        "week": 3,
+        "result": "L",
+        "score": "89.08",
+        "opp": "Harrison Gross",
+        "opp_score": "143.64",
+        "projected": "119.67",
+        "bench": "36.30",
+        "bar": 45
+      }
+    ],
+    "luck": {
+      "all_play_record": "6-21",
+      "expected_wins": 0.67,
+      "luck": -0.67,
+      "points_against_vs_league_avg": 37.94,
+      "wins_below_median": 0,
+      "losses_above_median": 0
+    },
+    "moves": [
+      {
+        "week": 4,
+        "date": "9/30",
+        "added": [
+          {
+            "name": "Alvin Kamara",
+            "pos": "RB",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "De'Von Achane",
+            "pos": "RB",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 3,
+        "date": "9/23",
+        "added": [
+          {
+            "name": "Panthers D/ST",
+            "pos": "D/ST",
+            "since": "6.00",
+            "started": "6.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Buccaneers D/ST",
+            "pos": "D/ST",
+            "since": "7.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "-1.00"
+      },
+      {
+        "week": 2,
+        "date": "9/16",
+        "added": [
+          {
+            "name": "Buccaneers D/ST",
+            "pos": "D/ST",
+            "since": "11.00",
+            "started": "4.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Jaguars D/ST",
+            "pos": "D/ST",
+            "since": "14.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "-3.00"
+      },
+      {
+        "week": 1,
+        "date": "9/3",
+        "added": [
+          {
+            "name": "Jaguars D/ST",
+            "pos": "D/ST",
+            "since": "28.00",
+            "started": "14.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Patriots D/ST",
+            "pos": "D/ST",
+            "since": "27.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "1.00"
+      }
+    ],
+    "trades": [],
+    "draft": [
+      {
+        "round": 1,
+        "overall": 9,
+        "player": "CeeDee Lamb",
+        "pos": "WR",
+        "points": "70.90",
+        "rank": "WR5 → WR3",
+        "value": 2,
+        "kept": true
+      },
+      {
+        "round": 2,
+        "overall": 12,
+        "player": "De'Von Achane",
+        "pos": "RB",
+        "points": "24.60",
+        "rank": "RB6 → RB29",
+        "value": -23,
+        "kept": false
+      },
+      {
+        "round": 3,
+        "overall": 29,
+        "player": "George Pickens",
+        "pos": "WR",
+        "points": "31.00",
+        "rank": "WR12 → WR28",
+        "value": -16,
+        "kept": true
+      },
+      {
+        "round": 4,
+        "overall": 32,
+        "player": "Travis Etienne Jr.",
+        "pos": "RB",
+        "points": "30.90",
+        "rank": "RB16 → RB24",
+        "value": -8,
+        "kept": true
+      },
+      {
+        "round": 5,
+        "overall": 49,
+        "player": "Jaylen Waddle",
+        "pos": "WR",
+        "points": "29.40",
+        "rank": "WR24 → WR30",
+        "value": -6,
+        "kept": true
+      },
+      {
+        "round": 6,
+        "overall": 52,
+        "player": "Jadarian Price",
+        "pos": "RB",
+        "points": "14.00",
+        "rank": "RB22 → RB38",
+        "value": -16,
+        "kept": true
+      },
+      {
+        "round": 7,
+        "overall": 69,
+        "player": "TreVeyon Henderson",
+        "pos": "RB",
+        "points": "17.50",
+        "rank": "RB27 → RB37",
+        "value": -10,
+        "kept": true
+      },
+      {
+        "round": 8,
+        "overall": 72,
+        "player": "Joe Burrow",
+        "pos": "QB",
+        "points": "52.92",
+        "rank": "QB5 → QB7",
+        "value": -2,
+        "kept": true
+      },
+      {
+        "round": 9,
+        "overall": 89,
+        "player": "Dallas Goedert",
+        "pos": "TE",
+        "points": "25.10",
+        "rank": "TE10 → TE13",
+        "value": -3,
+        "kept": true
+      },
+      {
+        "round": 10,
+        "overall": 92,
+        "player": "Michael Wilson",
+        "pos": "WR",
+        "points": "40.30",
+        "rank": "WR39 → WR18",
+        "value": 21,
+        "kept": true
+      },
+      {
+        "round": 11,
+        "overall": 109,
+        "player": "Kyle Monangai",
+        "pos": "RB",
+        "points": "31.30",
+        "rank": "RB36 → RB23",
+        "value": 13,
+        "kept": true
+      },
+      {
+        "round": 12,
+        "overall": 112,
+        "player": "Makai Lemon",
+        "pos": "WR",
+        "points": "10.30",
+        "rank": "WR48 → WR53",
+        "value": -5,
+        "kept": true
+      },
+      {
+        "round": 13,
+        "overall": 129,
+        "player": "RJ Harvey",
+        "pos": "RB",
+        "points": "18.80",
+        "rank": "RB43 → RB35",
+        "value": 8,
+        "kept": true
+      },
+      {
+        "round": 14,
+        "overall": 132,
+        "player": "Dalton Kincaid",
+        "pos": "TE",
+        "points": "44.30",
+        "rank": "TE17 → TE4",
+        "value": 13,
+        "kept": true
+      },
+      {
+        "round": 15,
+        "overall": 149,
+        "player": "Patriots D/ST",
+        "pos": "D/ST",
+        "points": "27.00",
+        "rank": "D/ST7 → D/ST3",
+        "value": 4,
+        "kept": false
+      },
+      {
+        "round": 16,
+        "overall": 152,
+        "player": "Tyler Loop",
+        "pos": "K",
+        "points": "31.00",
+        "rank": "K7 → K1",
+        "value": 6,
+        "kept": true
+      }
+    ],
+    "injuries": [
+      {
+        "name": "Dallas Goedert",
+        "pos": "TE",
+        "status": "Doubtful",
+        "missed": 1,
+        "storylines": [
+          "still_out"
+        ]
+      },
+      {
+        "name": "Jadarian Price",
+        "pos": "RB",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": []
+      },
+      {
+        "name": "Travis Etienne Jr.",
+        "pos": "RB",
+        "status": "Out",
+        "missed": 0,
+        "storylines": []
+      }
+    ]
+  }
+}

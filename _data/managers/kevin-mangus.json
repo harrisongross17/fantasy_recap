@@ -1,0 +1,461 @@
+{
+  "name": "Kevin Mangus",
+  "slug": "kevin-mangus",
+  "current": true,
+  "first_season": 2019,
+  "last_season": 2026,
+  "seasons_played": 8,
+  "titles": [],
+  "runner_ups": [],
+  "playoff_appearances": 3,
+  "career": {
+    "record": "51-55",
+    "win_pct": 48.1,
+    "playoff_record": "0-3",
+    "ppg": "117.54"
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "record": "0-3",
+      "pf": "329.08",
+      "ppg": "109.69",
+      "finish": "In progress"
+    },
+    {
+      "year": 2025,
+      "record": "7-8",
+      "pf": "1656.00",
+      "ppg": "110.40",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2024,
+      "record": "9-6",
+      "pf": "1831.08",
+      "ppg": "122.07",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2023,
+      "record": "7-8",
+      "pf": "1725.14",
+      "ppg": "115.01",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2022,
+      "record": "8-7",
+      "pf": "1864.34",
+      "ppg": "124.29",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2021,
+      "record": "6-9",
+      "pf": "1749.14",
+      "ppg": "116.61",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2020,
+      "record": "5-9",
+      "pf": "1587.82",
+      "ppg": "113.42",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2019,
+      "record": "9-5",
+      "pf": "1716.58",
+      "ppg": "122.61",
+      "finish": "Lost in semifinal"
+    }
+  ],
+  "head_to_head": [
+    {
+      "opponent": "Noah Laing",
+      "record": "6-11",
+      "win_pct": 35.3,
+      "meetings": 17,
+      "playoff_meetings": 0,
+      "last": "2026 wk 2: 96.18–160.58 L",
+      "current": true
+    },
+    {
+      "opponent": "Harrison Gross",
+      "record": "8-9",
+      "win_pct": 47.1,
+      "meetings": 17,
+      "playoff_meetings": 2,
+      "last": "2025 wk 15: 106.68–161.90 L",
+      "current": true
+    },
+    {
+      "opponent": "Luke Sullivan",
+      "record": "7-8",
+      "win_pct": 46.7,
+      "meetings": 15,
+      "playoff_meetings": 0,
+      "last": "2026 wk 3: 124.60–155.50 L",
+      "current": true
+    },
+    {
+      "opponent": "Ben Fuller",
+      "record": "6-9",
+      "win_pct": 40.0,
+      "meetings": 15,
+      "playoff_meetings": 0,
+      "last": "2025 wk 13: 111.64–102.82 W",
+      "current": true
+    },
+    {
+      "opponent": "Jonathan Cooper",
+      "record": "11-4",
+      "win_pct": 73.3,
+      "meetings": 15,
+      "playoff_meetings": 0,
+      "last": "2025 wk 17: 61.68–92.50 L",
+      "current": true
+    },
+    {
+      "opponent": "Michael Luisi",
+      "record": "3-8",
+      "win_pct": 27.3,
+      "meetings": 11,
+      "playoff_meetings": 1,
+      "last": "2025 wk 8: 127.98–117.06 W",
+      "current": true
+    },
+    {
+      "opponent": "Jimmy Miller",
+      "record": "5-6",
+      "win_pct": 45.5,
+      "meetings": 11,
+      "playoff_meetings": 0,
+      "last": "2026 wk 1: 108.30–133.52 L",
+      "current": true
+    },
+    {
+      "opponent": "Andrew Hobby",
+      "record": "2-7",
+      "win_pct": 22.2,
+      "meetings": 9,
+      "playoff_meetings": 0,
+      "last": "2025 wk 7: 147.76–99.54 W",
+      "current": true
+    },
+    {
+      "opponent": "Hayden McMurrey",
+      "record": "4-3",
+      "win_pct": 57.1,
+      "meetings": 7,
+      "playoff_meetings": 0,
+      "last": "2025 wk 10: 111.90–116.70 L",
+      "current": true
+    },
+    {
+      "opponent": "Kaden Beavers",
+      "record": "1-2",
+      "win_pct": 33.3,
+      "meetings": 3,
+      "playoff_meetings": 0,
+      "last": "2020 wk 6: 98.92–119.20 L",
+      "current": false
+    }
+  ],
+  "records": {
+    "best_score": {
+      "year": 2022,
+      "week": 7,
+      "score": "167.42",
+      "opp_score": "120.24",
+      "opp": "Andrew Hobby",
+      "result": "W"
+    },
+    "worst_score": {
+      "year": 2025,
+      "week": 11,
+      "score": "62.40",
+      "opp_score": "100.00",
+      "opp": "Luke Sullivan",
+      "result": "L"
+    },
+    "biggest_win": {
+      "year": 2020,
+      "week": 8,
+      "score": "144.94",
+      "opp_score": "59.30",
+      "opp": "Jonathan Cooper",
+      "result": "W",
+      "margin": "85.64"
+    },
+    "worst_loss": {
+      "year": 2019,
+      "week": 7,
+      "score": "79.24",
+      "opp_score": "172.72",
+      "opp": "Andrew Hobby",
+      "result": "L",
+      "margin": "93.48"
+    },
+    "win_streak": {
+      "manager_name": "Kevin Mangus",
+      "team_name": "",
+      "type": "win",
+      "length": 6,
+      "from": "2019 wk 1",
+      "to": "2019 wk 6"
+    },
+    "losing_streak": {
+      "manager_name": "Kevin Mangus",
+      "team_name": "",
+      "type": "loss",
+      "length": 5,
+      "from": "2025 wk 14",
+      "to": "2026 wk 3"
+    }
+  },
+  "season": {
+    "year": 2026,
+    "through_week": 3,
+    "division": "Blacks",
+    "record": "0-3",
+    "rank": 8,
+    "power_rank": 8,
+    "power_change": 1,
+    "playoff_pct": 15.5,
+    "pf": "329.08",
+    "weeks": [
+      {
+        "week": 1,
+        "result": "L",
+        "score": "108.30",
+        "opp": "Jimmy Miller",
+        "opp_score": "133.52",
+        "projected": "123.50",
+        "bench": "18.90",
+        "bar": 54
+      },
+      {
+        "week": 2,
+        "result": "L",
+        "score": "96.18",
+        "opp": "Noah Laing",
+        "opp_score": "160.58",
+        "projected": "120.73",
+        "bench": "11.10",
+        "bar": 48
+      },
+      {
+        "week": 3,
+        "result": "L",
+        "score": "124.60",
+        "opp": "Luke Sullivan",
+        "opp_score": "155.50",
+        "projected": "117.67",
+        "bench": "14.06",
+        "bar": 62
+      }
+    ],
+    "luck": {
+      "all_play_record": "7-20",
+      "expected_wins": 0.78,
+      "luck": -0.78,
+      "points_against_vs_league_avg": 85.8,
+      "wins_below_median": 0,
+      "losses_above_median": 1
+    },
+    "moves": [],
+    "trades": [],
+    "draft": [
+      {
+        "round": 1,
+        "overall": 7,
+        "player": "Christian McCaffrey",
+        "pos": "RB",
+        "points": "58.00",
+        "rank": "RB4 → RB6",
+        "value": -2,
+        "kept": true
+      },
+      {
+        "round": 2,
+        "overall": 14,
+        "player": "Ashton Jeanty",
+        "pos": "RB",
+        "points": "55.30",
+        "rank": "RB8 → RB8",
+        "value": 0,
+        "kept": true
+      },
+      {
+        "round": 3,
+        "overall": 27,
+        "player": "Nico Collins",
+        "pos": "WR",
+        "points": "21.20",
+        "rank": "WR11 → WR41",
+        "value": -30,
+        "kept": true
+      },
+      {
+        "round": 4,
+        "overall": 34,
+        "player": "Zay Flowers",
+        "pos": "WR",
+        "points": "41.40",
+        "rank": "WR15 → WR17",
+        "value": -2,
+        "kept": true
+      },
+      {
+        "round": 5,
+        "overall": 47,
+        "player": "Colston Loveland",
+        "pos": "TE",
+        "points": "8.40",
+        "rank": "TE3 → TE16",
+        "value": -13,
+        "kept": true
+      },
+      {
+        "round": 6,
+        "overall": 54,
+        "player": "Jameson Williams",
+        "pos": "WR",
+        "points": "22.70",
+        "rank": "WR27 → WR36",
+        "value": -9,
+        "kept": true
+      },
+      {
+        "round": 7,
+        "overall": 67,
+        "player": "Rhamondre Stevenson",
+        "pos": "RB",
+        "points": "24.90",
+        "rank": "RB26 → RB28",
+        "value": -2,
+        "kept": true
+      },
+      {
+        "round": 8,
+        "overall": 74,
+        "player": "DK Metcalf",
+        "pos": "WR",
+        "points": "26.80",
+        "rank": "WR32 → WR33",
+        "value": -1,
+        "kept": true
+      },
+      {
+        "round": 9,
+        "overall": 87,
+        "player": "Matthew Stafford",
+        "pos": "QB",
+        "points": "51.98",
+        "rank": "QB11 → QB9",
+        "value": 2,
+        "kept": true
+      },
+      {
+        "round": 10,
+        "overall": 94,
+        "player": "Jakobi Meyers",
+        "pos": "WR",
+        "points": "35.40",
+        "rank": "WR40 → WR24",
+        "value": 16,
+        "kept": true
+      },
+      {
+        "round": 11,
+        "overall": 107,
+        "player": "Aaron Jones Sr.",
+        "pos": "RB",
+        "points": "34.70",
+        "rank": "RB35 → RB21",
+        "value": 14,
+        "kept": true
+      },
+      {
+        "round": 12,
+        "overall": 114,
+        "player": "Mark Andrews",
+        "pos": "TE",
+        "points": "25.20",
+        "rank": "TE14 → TE12",
+        "value": 2,
+        "kept": true
+      },
+      {
+        "round": 13,
+        "overall": 127,
+        "player": "Rams D/ST",
+        "pos": "D/ST",
+        "points": "17.00",
+        "rank": "D/ST2 → D/ST5",
+        "value": -3,
+        "kept": true
+      },
+      {
+        "round": 14,
+        "overall": 134,
+        "player": "Harrison Mevis",
+        "pos": "K",
+        "points": "20.00",
+        "rank": "K4 → K8",
+        "value": -4,
+        "kept": true
+      },
+      {
+        "round": 15,
+        "overall": 147,
+        "player": "Sam Darnold",
+        "pos": "QB",
+        "points": "28.18",
+        "rank": "QB16 → QB14",
+        "value": 2,
+        "kept": true
+      },
+      {
+        "round": 16,
+        "overall": 154,
+        "player": "Eagles D/ST",
+        "pos": "D/ST",
+        "points": "8.00",
+        "rank": "D/ST10 → D/ST9",
+        "value": 1,
+        "kept": true
+      }
+    ],
+    "injuries": [
+      {
+        "name": "Nico Collins",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 2,
+        "storylines": [
+          "returning"
+        ]
+      },
+      {
+        "name": "Zay Flowers",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "returned"
+        ]
+      },
+      {
+        "name": "Jakobi Meyers",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": []
+      }
+    ]
+  }
+}

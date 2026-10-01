@@ -1,0 +1,484 @@
+{
+  "name": "Jimmy Miller",
+  "slug": "jimmy-miller",
+  "current": true,
+  "first_season": 2021,
+  "last_season": 2026,
+  "seasons_played": 6,
+  "titles": [
+    2022
+  ],
+  "runner_ups": [
+    2023,
+    2025
+  ],
+  "playoff_appearances": 3,
+  "career": {
+    "record": "45-33",
+    "win_pct": 57.7,
+    "playoff_record": "4-2",
+    "ppg": "121.46"
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "record": "1-2",
+      "pf": "348.10",
+      "ppg": "116.03",
+      "finish": "In progress"
+    },
+    {
+      "year": 2025,
+      "record": "8-7",
+      "pf": "1790.18",
+      "ppg": "119.35",
+      "finish": "Runner-up"
+    },
+    {
+      "year": 2024,
+      "record": "6-9",
+      "pf": "1701.30",
+      "ppg": "113.42",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2023,
+      "record": "11-4",
+      "pf": "1880.62",
+      "ppg": "125.37",
+      "finish": "Runner-up"
+    },
+    {
+      "year": 2022,
+      "record": "11-4",
+      "pf": "1922.88",
+      "ppg": "128.19",
+      "finish": "Champion"
+    },
+    {
+      "year": 2021,
+      "record": "8-7",
+      "pf": "1830.54",
+      "ppg": "122.04",
+      "finish": "Missed playoffs"
+    }
+  ],
+  "head_to_head": [
+    {
+      "opponent": "Luke Sullivan",
+      "record": "7-6",
+      "win_pct": 53.8,
+      "meetings": 13,
+      "playoff_meetings": 0,
+      "last": "2026 wk 2: 112.86–118.92 L",
+      "current": true
+    },
+    {
+      "opponent": "Hayden McMurrey",
+      "record": "7-5",
+      "win_pct": 58.3,
+      "meetings": 12,
+      "playoff_meetings": 2,
+      "last": "2025 wk 16: 142.06–129.20 W",
+      "current": true
+    },
+    {
+      "opponent": "Kevin Mangus",
+      "record": "6-5",
+      "win_pct": 54.5,
+      "meetings": 11,
+      "playoff_meetings": 0,
+      "last": "2026 wk 1: 133.52–108.30 W",
+      "current": true
+    },
+    {
+      "opponent": "Jonathan Cooper",
+      "record": "9-2",
+      "win_pct": 81.8,
+      "meetings": 11,
+      "playoff_meetings": 0,
+      "last": "2026 wk 3: 101.72–134.94 L",
+      "current": true
+    },
+    {
+      "opponent": "Michael Luisi",
+      "record": "6-5",
+      "win_pct": 54.5,
+      "meetings": 11,
+      "playoff_meetings": 1,
+      "last": "2025 wk 17: 117.12–118.98 L",
+      "current": true
+    },
+    {
+      "opponent": "Ben Fuller",
+      "record": "3-7",
+      "win_pct": 30.0,
+      "meetings": 10,
+      "playoff_meetings": 0,
+      "last": "2025 wk 12: 100.68–201.12 L",
+      "current": true
+    },
+    {
+      "opponent": "Harrison Gross",
+      "record": "4-4",
+      "win_pct": 50.0,
+      "meetings": 8,
+      "playoff_meetings": 1,
+      "last": "2025 wk 8: 166.26–100.08 W",
+      "current": true
+    },
+    {
+      "opponent": "Andrew Hobby",
+      "record": "4-3",
+      "win_pct": 57.1,
+      "meetings": 7,
+      "playoff_meetings": 2,
+      "last": "2025 wk 13: 97.44–126.42 L",
+      "current": true
+    },
+    {
+      "opponent": "Noah Laing",
+      "record": "4-1",
+      "win_pct": 80.0,
+      "meetings": 5,
+      "playoff_meetings": 0,
+      "last": "2025 wk 7: 176.94–130.46 W",
+      "current": true
+    }
+  ],
+  "records": {
+    "best_score": {
+      "year": 2023,
+      "week": 12,
+      "score": "183.96",
+      "opp_score": "109.78",
+      "opp": "Ben Fuller",
+      "result": "W"
+    },
+    "worst_score": {
+      "year": 2025,
+      "week": 14,
+      "score": "75.70",
+      "opp_score": "132.20",
+      "opp": "Michael Luisi",
+      "result": "L"
+    },
+    "biggest_win": {
+      "year": 2025,
+      "week": 10,
+      "score": "175.20",
+      "opp_score": "88.40",
+      "opp": "Luke Sullivan",
+      "result": "W",
+      "margin": "86.80"
+    },
+    "worst_loss": {
+      "year": 2025,
+      "week": 12,
+      "score": "100.68",
+      "opp_score": "201.12",
+      "opp": "Ben Fuller",
+      "result": "L",
+      "margin": "100.44"
+    },
+    "win_streak": {
+      "manager_name": "Jimmy Miller",
+      "team_name": "",
+      "type": "win",
+      "length": 9,
+      "from": "2022 wk 3",
+      "to": "2022 wk 11"
+    },
+    "losing_streak": {
+      "manager_name": "Jimmy Miller",
+      "team_name": "",
+      "type": "loss",
+      "length": 4,
+      "from": "2025 wk 12",
+      "to": "2025 wk 15"
+    }
+  },
+  "season": {
+    "year": 2026,
+    "through_week": 3,
+    "division": "Blacks",
+    "record": "1-2",
+    "rank": 7,
+    "power_rank": 7,
+    "power_change": -2,
+    "playoff_pct": 27.7,
+    "pf": "348.10",
+    "weeks": [
+      {
+        "week": 1,
+        "result": "W",
+        "score": "133.52",
+        "opp": "Kevin Mangus",
+        "opp_score": "108.30",
+        "projected": "124.07",
+        "bench": "17.70",
+        "bar": 67
+      },
+      {
+        "week": 2,
+        "result": "L",
+        "score": "112.86",
+        "opp": "Luke Sullivan",
+        "opp_score": "118.92",
+        "projected": "126.52",
+        "bench": "11.90",
+        "bar": 56
+      },
+      {
+        "week": 3,
+        "result": "L",
+        "score": "101.72",
+        "opp": "Jonathan Cooper",
+        "opp_score": "134.94",
+        "projected": "121.42",
+        "bench": "14.20",
+        "bar": 51
+      }
+    ],
+    "luck": {
+      "all_play_record": "12-15",
+      "expected_wins": 1.33,
+      "luck": -0.33,
+      "points_against_vs_league_avg": -1.64,
+      "wins_below_median": 0,
+      "losses_above_median": 0
+    },
+    "moves": [
+      {
+        "week": 3,
+        "date": "9/23",
+        "added": [
+          {
+            "name": "Giants D/ST",
+            "pos": "D/ST",
+            "since": "9.00",
+            "started": "9.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Chargers D/ST",
+            "pos": "D/ST",
+            "since": "13.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "-4.00"
+      },
+      {
+        "week": 2,
+        "date": "9/17",
+        "added": [
+          {
+            "name": "Chargers D/ST",
+            "pos": "D/ST",
+            "since": "17.00",
+            "started": "4.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Lions D/ST",
+            "pos": "D/ST",
+            "since": "3.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "14.00"
+      }
+    ],
+    "trades": [],
+    "draft": [
+      {
+        "round": 1,
+        "overall": 8,
+        "player": "Amon-Ra St. Brown",
+        "pos": "WR",
+        "points": "75.80",
+        "rank": "WR4 → WR2",
+        "value": 2,
+        "kept": true
+      },
+      {
+        "round": 2,
+        "overall": 13,
+        "player": "Saquon Barkley",
+        "pos": "RB",
+        "points": "21.00",
+        "rank": "RB7 → RB33",
+        "value": -26,
+        "kept": true
+      },
+      {
+        "round": 3,
+        "overall": 28,
+        "player": "Javonte Williams",
+        "pos": "RB",
+        "points": "50.50",
+        "rank": "RB15 → RB11",
+        "value": 4,
+        "kept": true
+      },
+      {
+        "round": 4,
+        "overall": 33,
+        "player": "Emeka Egbuka",
+        "pos": "WR",
+        "points": "32.80",
+        "rank": "WR14 → WR26",
+        "value": -12,
+        "kept": true
+      },
+      {
+        "round": 5,
+        "overall": 48,
+        "player": "DJ Moore",
+        "pos": "WR",
+        "points": "33.60",
+        "rank": "WR23 → WR25",
+        "value": -2,
+        "kept": true
+      },
+      {
+        "round": 6,
+        "overall": 53,
+        "player": "Rome Odunze",
+        "pos": "WR",
+        "points": "21.90",
+        "rank": "WR26 → WR39",
+        "value": -13,
+        "kept": true
+      },
+      {
+        "round": 7,
+        "overall": 68,
+        "player": "Jake Ferguson",
+        "pos": "TE",
+        "points": "32.20",
+        "rank": "TE8 → TE10",
+        "value": -2,
+        "kept": true
+      },
+      {
+        "round": 8,
+        "overall": 73,
+        "player": "Jalen Hurts",
+        "pos": "QB",
+        "points": "53.50",
+        "rank": "QB6 → QB6",
+        "value": 0,
+        "kept": true
+      },
+      {
+        "round": 9,
+        "overall": 88,
+        "player": "Jordan Addison",
+        "pos": "WR",
+        "points": "24.10",
+        "rank": "WR37 → WR35",
+        "value": 2,
+        "kept": true
+      },
+      {
+        "round": 10,
+        "overall": 93,
+        "player": "Tony Pollard",
+        "pos": "RB",
+        "points": "25.50",
+        "rank": "RB32 → RB27",
+        "value": 5,
+        "kept": true
+      },
+      {
+        "round": 11,
+        "overall": 108,
+        "player": "T.J. Hockenson",
+        "pos": "TE",
+        "points": "22.60",
+        "rank": "TE13 → TE14",
+        "value": -1,
+        "kept": true
+      },
+      {
+        "round": 12,
+        "overall": 113,
+        "player": "Deebo Samuel Sr.",
+        "pos": "WR",
+        "points": "39.90",
+        "rank": "WR49 → WR19",
+        "value": 30,
+        "kept": true
+      },
+      {
+        "round": 13,
+        "overall": 128,
+        "player": "Khalil Shakir",
+        "pos": "WR",
+        "points": "17.40",
+        "rank": "WR53 → WR44",
+        "value": 9,
+        "kept": true
+      },
+      {
+        "round": 14,
+        "overall": 133,
+        "player": "Zach Charbonnet",
+        "pos": "RB",
+        "points": "0.00",
+        "rank": "RB44 → RB46",
+        "value": -2,
+        "kept": true
+      },
+      {
+        "round": 15,
+        "overall": 148,
+        "player": "Harrison Butker",
+        "pos": "K",
+        "points": "28.00",
+        "rank": "K6 → K3",
+        "value": 3,
+        "kept": true
+      },
+      {
+        "round": 16,
+        "overall": 153,
+        "player": "Lions D/ST",
+        "pos": "D/ST",
+        "points": "8.00",
+        "rank": "D/ST9 → D/ST8",
+        "value": 1,
+        "kept": false
+      }
+    ],
+    "injuries": [
+      {
+        "name": "Zach Charbonnet",
+        "pos": "RB",
+        "status": "Out",
+        "missed": 3,
+        "storylines": [
+          "still_out"
+        ]
+      },
+      {
+        "name": "DJ Moore",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": []
+      },
+      {
+        "name": "Tony Pollard",
+        "pos": "RB",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": []
+      }
+    ]
+  }
+}

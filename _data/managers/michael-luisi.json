@@ -1,0 +1,958 @@
+{
+  "name": "Michael Luisi",
+  "slug": "michael-luisi",
+  "current": true,
+  "first_season": 2014,
+  "last_season": 2026,
+  "seasons_played": 13,
+  "titles": [
+    2014,
+    2025
+  ],
+  "runner_ups": [
+    2018,
+    2024
+  ],
+  "playoff_appearances": 7,
+  "career": {
+    "record": "105-71",
+    "win_pct": 59.7,
+    "playoff_record": "6-5",
+    "ppg": "116.12"
+  },
+  "seasons": [
+    {
+      "year": 2026,
+      "record": "0-3",
+      "pf": "281.80",
+      "ppg": "93.93",
+      "finish": "In progress"
+    },
+    {
+      "year": 2025,
+      "record": "9-6",
+      "pf": "1850.98",
+      "ppg": "123.40",
+      "finish": "Champion"
+    },
+    {
+      "year": 2024,
+      "record": "11-4",
+      "pf": "2050.14",
+      "ppg": "136.68",
+      "finish": "Runner-up"
+    },
+    {
+      "year": 2023,
+      "record": "6-9",
+      "pf": "1897.46",
+      "ppg": "126.50",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2022,
+      "record": "8-7",
+      "pf": "1676.72",
+      "ppg": "111.78",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2021,
+      "record": "9-6",
+      "pf": "1848.96",
+      "ppg": "123.26",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2020,
+      "record": "10-4",
+      "pf": "1744.98",
+      "ppg": "124.64",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2019,
+      "record": "8-6",
+      "pf": "1767.52",
+      "ppg": "126.25",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2018,
+      "record": "8-6",
+      "pf": "1969.06",
+      "ppg": "140.65",
+      "finish": "Runner-up"
+    },
+    {
+      "year": 2017,
+      "record": "7-7",
+      "pf": "1226.00",
+      "ppg": "87.57",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2016,
+      "record": "11-3",
+      "pf": "1339.00",
+      "ppg": "95.64",
+      "finish": "Lost in semifinal"
+    },
+    {
+      "year": 2015,
+      "record": "8-6",
+      "pf": "1339.00",
+      "ppg": "95.64",
+      "finish": "Missed playoffs"
+    },
+    {
+      "year": 2014,
+      "record": "10-4",
+      "pf": "1445.00",
+      "ppg": "103.21",
+      "finish": "Champion"
+    }
+  ],
+  "head_to_head": [
+    {
+      "opponent": "Hayden McMurrey",
+      "record": "16-12",
+      "win_pct": 57.1,
+      "meetings": 28,
+      "playoff_meetings": 1,
+      "last": "2026 wk 3: 97.16–102.76 L",
+      "current": true
+    },
+    {
+      "opponent": "Andrew Hobby",
+      "record": "17-11",
+      "win_pct": 60.7,
+      "meetings": 28,
+      "playoff_meetings": 2,
+      "last": "2026 wk 2: 75.88–131.30 L",
+      "current": true
+    },
+    {
+      "opponent": "Noah Laing",
+      "record": "17-4",
+      "win_pct": 81.0,
+      "meetings": 21,
+      "playoff_meetings": 1,
+      "last": "2026 wk 1: 108.76–133.82 L",
+      "current": true
+    },
+    {
+      "opponent": "Jonathan Cooper",
+      "record": "10-10",
+      "win_pct": 50.0,
+      "meetings": 20,
+      "playoff_meetings": 0,
+      "last": "2025 wk 9: 120.84–65.50 W",
+      "current": true
+    },
+    {
+      "opponent": "Luke Sullivan",
+      "record": "14-6",
+      "win_pct": 70.0,
+      "meetings": 20,
+      "playoff_meetings": 1,
+      "last": "2025 wk 15: 133.80–118.80 W",
+      "current": true
+    },
+    {
+      "opponent": "Harrison Gross",
+      "record": "6-12",
+      "win_pct": 33.3,
+      "meetings": 18,
+      "playoff_meetings": 1,
+      "last": "2025 wk 13: 107.70–148.06 L",
+      "current": true
+    },
+    {
+      "opponent": "Ben Fuller",
+      "record": "7-7",
+      "win_pct": 50.0,
+      "meetings": 14,
+      "playoff_meetings": 2,
+      "last": "2025 wk 7: 80.04–145.28 L",
+      "current": true
+    },
+    {
+      "opponent": "Kevin Mangus",
+      "record": "8-3",
+      "win_pct": 72.7,
+      "meetings": 11,
+      "playoff_meetings": 1,
+      "last": "2025 wk 8: 117.06–127.98 L",
+      "current": true
+    },
+    {
+      "opponent": "Jimmy Miller",
+      "record": "5-6",
+      "win_pct": 45.5,
+      "meetings": 11,
+      "playoff_meetings": 1,
+      "last": "2025 wk 17: 118.98–117.12 W",
+      "current": true
+    },
+    {
+      "opponent": "Kaden Beavers",
+      "record": "2-7",
+      "win_pct": 22.2,
+      "meetings": 9,
+      "playoff_meetings": 0,
+      "last": "2020 wk 16: 100.62–103.02 L",
+      "current": false
+    },
+    {
+      "opponent": "Judd Oefinger",
+      "record": "5-2",
+      "win_pct": 71.4,
+      "meetings": 7,
+      "playoff_meetings": 0,
+      "last": "2018 wk 14: 112.80–150.90 L",
+      "current": false
+    },
+    {
+      "opponent": "Drew Rooney",
+      "record": "4-2",
+      "win_pct": 66.7,
+      "meetings": 6,
+      "playoff_meetings": 0,
+      "last": "2016 wk 9: 103.00–67.00 W",
+      "current": false
+    },
+    {
+      "opponent": "Jake Birdsong",
+      "record": "3-1",
+      "win_pct": 75.0,
+      "meetings": 4,
+      "playoff_meetings": 0,
+      "last": "2015 wk 14: 138.00–73.00 W",
+      "current": false
+    },
+    {
+      "opponent": "Trip Smith",
+      "record": "2-0",
+      "win_pct": 100.0,
+      "meetings": 2,
+      "playoff_meetings": 1,
+      "last": "2014 wk 15: 99.00–80.00 W",
+      "current": false
+    },
+    {
+      "opponent": "Jeff Rosinbaum",
+      "record": "1-0",
+      "win_pct": 100.0,
+      "meetings": 1,
+      "playoff_meetings": 0,
+      "last": "2014 wk 8: 82.00–51.00 W",
+      "current": false
+    }
+  ],
+  "records": {
+    "best_score": {
+      "year": 2024,
+      "week": 15,
+      "score": "187.98",
+      "opp_score": "106.64",
+      "opp": "Luke Sullivan",
+      "result": "W"
+    },
+    "worst_score": {
+      "year": 2016,
+      "week": 6,
+      "score": "53.00",
+      "opp_score": "97.00",
+      "opp": "Luke Sullivan",
+      "result": "L"
+    },
+    "biggest_win": {
+      "year": 2014,
+      "week": 14,
+      "score": "169.00",
+      "opp_score": "50.00",
+      "opp": "Jake Birdsong",
+      "result": "W",
+      "margin": "119.00"
+    },
+    "worst_loss": {
+      "year": 2020,
+      "week": 10,
+      "score": "89.68",
+      "opp_score": "160.06",
+      "opp": "Hayden McMurrey",
+      "result": "L",
+      "margin": "70.38"
+    },
+    "win_streak": {
+      "manager_name": "Michael Luisi",
+      "team_name": "",
+      "type": "win",
+      "length": 11,
+      "from": "2017 wk 11",
+      "to": "2018 wk 7"
+    },
+    "losing_streak": {
+      "manager_name": "Michael Luisi",
+      "team_name": "",
+      "type": "loss",
+      "length": 6,
+      "from": "2017 wk 5",
+      "to": "2017 wk 10"
+    }
+  },
+  "season": {
+    "year": 2026,
+    "through_week": 3,
+    "division": "Whites",
+    "record": "0-3",
+    "rank": 10,
+    "power_rank": 10,
+    "power_change": 0,
+    "playoff_pct": 9.4,
+    "pf": "281.80",
+    "weeks": [
+      {
+        "week": 1,
+        "result": "L",
+        "score": "108.76",
+        "opp": "Noah Laing",
+        "opp_score": "133.82",
+        "projected": "122.95",
+        "bench": "19.84",
+        "bar": 54
+      },
+      {
+        "week": 2,
+        "result": "L",
+        "score": "75.88",
+        "opp": "Andrew Hobby",
+        "opp_score": "131.30",
+        "projected": "110.07",
+        "bench": "8.80",
+        "bar": 38
+      },
+      {
+        "week": 3,
+        "result": "L",
+        "score": "97.16",
+        "opp": "Hayden McMurrey",
+        "opp_score": "102.76",
+        "projected": "111.27",
+        "bench": "4.44",
+        "bar": 49
+      }
+    ],
+    "luck": {
+      "all_play_record": "3-24",
+      "expected_wins": 0.33,
+      "luck": -0.33,
+      "points_against_vs_league_avg": 4.08,
+      "wins_below_median": 0,
+      "losses_above_median": 0
+    },
+    "moves": [
+      {
+        "week": 4,
+        "date": "9/30",
+        "added": [
+          {
+            "name": "Will Reichard",
+            "pos": "K",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Tyler Bass",
+            "pos": "K",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 4,
+        "date": "9/30",
+        "added": [
+          {
+            "name": "Jordyn Tyson",
+            "pos": "WR",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Adonai Mitchell",
+            "pos": "WR",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 4,
+        "date": "9/30",
+        "added": [
+          {
+            "name": "Juwan Johnson",
+            "pos": "TE",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Chris Godwin Jr.",
+            "pos": "WR",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 4,
+        "date": "9/30",
+        "added": [
+          {
+            "name": "Braelon Allen",
+            "pos": "RB",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Jared Goff",
+            "pos": "QB",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 3,
+        "date": "9/25",
+        "added": [
+          {
+            "name": "Jared Goff",
+            "pos": "QB",
+            "since": "19.36",
+            "started": "19.36"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Jonah Coleman",
+            "pos": "RB",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "19.36"
+      },
+      {
+        "week": 3,
+        "date": "9/24",
+        "added": [
+          {
+            "name": "Tyler Bass",
+            "pos": "K",
+            "since": "6.00",
+            "started": "6.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Evan McPherson",
+            "pos": "K",
+            "since": "11.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "-5.00"
+      },
+      {
+        "week": 3,
+        "date": "9/23",
+        "added": [
+          {
+            "name": "Jonah Coleman",
+            "pos": "RB",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Jonathon Brooks",
+            "pos": "RB",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 3,
+        "date": "9/23",
+        "added": [
+          {
+            "name": "Vikings D/ST",
+            "pos": "D/ST",
+            "since": "19.00",
+            "started": "19.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "49ers D/ST",
+            "pos": "D/ST",
+            "since": "0.00",
+            "now_on": "My Team Might Be Good?"
+          }
+        ],
+        "net": "19.00"
+      },
+      {
+        "week": 3,
+        "date": "9/23",
+        "added": [
+          {
+            "name": "Evan McPherson",
+            "pos": "K",
+            "since": "11.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Cameron Dicker",
+            "pos": "K",
+            "since": "9.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "2.00"
+      },
+      {
+        "week": 3,
+        "date": "9/23",
+        "added": [
+          {
+            "name": "Tyler Shough",
+            "pos": "QB",
+            "since": "23.80",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Justin Herbert",
+            "pos": "QB",
+            "since": "12.74",
+            "now_on": "Island of Injured Toys"
+          }
+        ],
+        "net": "11.06"
+      },
+      {
+        "week": 3,
+        "date": "9/23",
+        "added": [
+          {
+            "name": "Adonai Mitchell",
+            "pos": "WR",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Caleb Douglas",
+            "pos": "WR",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 3,
+        "date": "9/23",
+        "added": [
+          {
+            "name": "Denzel Boston",
+            "pos": "WR",
+            "since": "8.10",
+            "started": "8.10"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Quentin Johnston",
+            "pos": "WR",
+            "since": "7.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "1.10"
+      },
+      {
+        "week": 2,
+        "date": "9/17",
+        "added": [
+          {
+            "name": "Cameron Dicker",
+            "pos": "K",
+            "since": "10.00",
+            "started": "1.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Cam Little",
+            "pos": "K",
+            "since": "11.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "-1.00"
+      },
+      {
+        "week": 2,
+        "date": "9/16",
+        "added": [
+          {
+            "name": "49ers D/ST",
+            "pos": "D/ST",
+            "since": "9.00",
+            "started": "9.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Chargers D/ST",
+            "pos": "D/ST",
+            "since": "17.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "-8.00"
+      },
+      {
+        "week": 2,
+        "date": "9/16",
+        "added": [
+          {
+            "name": "Caleb Douglas",
+            "pos": "WR",
+            "since": "3.90",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "De'Zhaun Stribling",
+            "pos": "WR",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "3.90"
+      },
+      {
+        "week": 1,
+        "date": "9/9",
+        "added": [
+          {
+            "name": "Cam Little",
+            "pos": "K",
+            "since": "23.00",
+            "started": "12.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Evan McPherson",
+            "pos": "K",
+            "since": "42.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "-19.00"
+      },
+      {
+        "week": 1,
+        "date": "9/5",
+        "added": [
+          {
+            "name": "Chargers D/ST",
+            "pos": "D/ST",
+            "since": "17.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Seahawks D/ST",
+            "pos": "D/ST",
+            "since": "28.00",
+            "now_on": "Island of Injured Toys"
+          }
+        ],
+        "net": "-11.00"
+      },
+      {
+        "week": 1,
+        "date": "9/5",
+        "added": [
+          {
+            "name": "Evan McPherson",
+            "pos": "K",
+            "since": "42.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Cam Little",
+            "pos": "K",
+            "since": "23.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "19.00"
+      },
+      {
+        "week": 1,
+        "date": "9/1",
+        "added": [
+          {
+            "name": "De'Zhaun Stribling",
+            "pos": "WR",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Rashid Shaheed",
+            "pos": "WR",
+            "since": "11.70",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "-11.70"
+      }
+    ],
+    "trades": [],
+    "draft": [
+      {
+        "round": 1,
+        "overall": 4,
+        "player": "Puka Nacua",
+        "pos": "WR",
+        "points": "12.40",
+        "rank": "WR2 → WR48",
+        "value": -46,
+        "kept": true
+      },
+      {
+        "round": 2,
+        "overall": 17,
+        "player": "Chase Brown",
+        "pos": "RB",
+        "points": "38.90",
+        "rank": "RB10 → RB19",
+        "value": -9,
+        "kept": true
+      },
+      {
+        "round": 3,
+        "overall": 24,
+        "player": "A.J. Brown",
+        "pos": "WR",
+        "points": "5.60",
+        "rank": "WR9 → WR56",
+        "value": -47,
+        "kept": true
+      },
+      {
+        "round": 4,
+        "overall": 37,
+        "player": "DeVonta Smith",
+        "pos": "WR",
+        "points": "48.50",
+        "rank": "WR17 → WR11",
+        "value": 6,
+        "kept": true
+      },
+      {
+        "round": 5,
+        "overall": 44,
+        "player": "Quinshon Judkins",
+        "pos": "RB",
+        "points": "26.70",
+        "rank": "RB20 → RB26",
+        "value": -6,
+        "kept": true
+      },
+      {
+        "round": 6,
+        "overall": 57,
+        "player": "David Montgomery",
+        "pos": "RB",
+        "points": "40.10",
+        "rank": "RB24 → RB18",
+        "value": 6,
+        "kept": true
+      },
+      {
+        "round": 7,
+        "overall": 64,
+        "player": "Tucker Kraft",
+        "pos": "TE",
+        "points": "19.60",
+        "rank": "TE6 → TE15",
+        "value": -9,
+        "kept": true
+      },
+      {
+        "round": 8,
+        "overall": 77,
+        "player": "Justin Herbert",
+        "pos": "QB",
+        "points": "33.88",
+        "rank": "QB8 → QB12",
+        "value": -4,
+        "kept": false
+      },
+      {
+        "round": 9,
+        "overall": 84,
+        "player": "Jonathon Brooks",
+        "pos": "RB",
+        "points": "9.30",
+        "rank": "RB30 → RB44",
+        "value": -14,
+        "kept": false
+      },
+      {
+        "round": 10,
+        "overall": 97,
+        "player": "Trevor Lawrence",
+        "pos": "QB",
+        "points": "52.04",
+        "rank": "QB12 → QB8",
+        "value": 4,
+        "kept": true
+      },
+      {
+        "round": 11,
+        "overall": 104,
+        "player": "Quentin Johnston",
+        "pos": "WR",
+        "points": "13.10",
+        "rank": "WR44 → WR47",
+        "value": -3,
+        "kept": false
+      },
+      {
+        "round": 12,
+        "overall": 117,
+        "player": "Jacory Croskey-Merritt",
+        "pos": "RB",
+        "points": "23.70",
+        "rank": "RB39 → RB30",
+        "value": 9,
+        "kept": true
+      },
+      {
+        "round": 13,
+        "overall": 124,
+        "player": "Chris Godwin Jr.",
+        "pos": "WR",
+        "points": "22.60",
+        "rank": "WR52 → WR37",
+        "value": 15,
+        "kept": false
+      },
+      {
+        "round": 14,
+        "overall": 137,
+        "player": "Rashid Shaheed",
+        "pos": "WR",
+        "points": "11.70",
+        "rank": "WR55 → WR51",
+        "value": 4,
+        "kept": false
+      },
+      {
+        "round": 15,
+        "overall": 144,
+        "player": "Seahawks D/ST",
+        "pos": "D/ST",
+        "points": "28.00",
+        "rank": "D/ST5 → D/ST2",
+        "value": 3,
+        "kept": false
+      },
+      {
+        "round": 16,
+        "overall": 157,
+        "player": "Cam Little",
+        "pos": "K",
+        "points": "23.00",
+        "rank": "K9 → K6",
+        "value": 3,
+        "kept": false
+      }
+    ],
+    "injuries": [
+      {
+        "name": "Jordyn Tyson",
+        "pos": "WR",
+        "status": "Injury Reserve",
+        "missed": 3,
+        "storylines": [
+          "on_ir",
+          "still_out"
+        ]
+      },
+      {
+        "name": "A.J. Brown",
+        "pos": "WR",
+        "status": "Injury Reserve",
+        "missed": 2,
+        "storylines": [
+          "on_ir",
+          "still_out"
+        ]
+      },
+      {
+        "name": "Puka Nacua",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 2,
+        "storylines": [
+          "returning"
+        ]
+      },
+      {
+        "name": "DeVonta Smith",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": []
+      }
+    ]
+  }
+}

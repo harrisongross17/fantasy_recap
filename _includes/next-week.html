@@ -1,9 +1,9 @@
 <div class="next-week">
 {%- for m in wd.next_week %}
   <div class="preview">
-    <div class="pv-side"><span class="mgr">{{ m.home.manager }}</span><span class="team">{{ m.home.record }}</span></div>
+    <div class="pv-side">{%- assign ms = m.home.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{{ m.home.manager }}</a><span class="team">{{ m.home.record }}</span></div>
     <div class="pv-vs">vs</div>
-    <div class="pv-side right"><span class="mgr">{{ m.away.manager }}</span><span class="team">{{ m.away.record }}</span></div>
+    <div class="pv-side right">{%- assign ms = m.away.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{{ m.away.manager }}</a><span class="team">{{ m.away.record }}</span></div>
     <div class="pv-series">{{ m.series }}{% if m.meetings > 0 %} · {{ m.meetings }} meetings{% endif %}</div>
   </div>
 {%- endfor %}
