@@ -1,0 +1,51 @@
+---
+layout: default
+---
+{%- assign wkey = "week_" | append: page.week -%}
+{%- assign wd = site.data.weeks[wkey] -%}
+<article class="post">
+  <header class="post-hero">
+    <span class="kicker">{% if page.week %}Week {{ page.week }} · {% endif %}{{ page.date | date: "%b %-d, %Y" }}</span>
+    <h1>{{ page.headline | default: page.title }}</h1>
+    {%- if page.description %}<p class="dek">{{ page.description }}</p>{% endif %}
+  </header>
+
+  {%- if wd %}
+  <section class="section">
+    <div class="section-head"><h2>Awards</h2></div>
+    {%- include awards.html -%}
+  </section>
+  <section class="section">
+    <div class="section-head"><h2>Scoreboard</h2></div>
+    {%- include scoreboard.html -%}
+  </section>
+  {%- endif %}
+
+  <div class="prose">
+{{ content }}
+  </div>
+
+  {%- if wd %}
+  <section class="section">
+    <div class="section-head"><h2>Standings</h2><span class="muted">after Week {{ wd.week }}</span></div>
+    {%- include standings.html -%}
+  </section>
+  {%- if wd.moves.size > 0 %}
+  <section class="section">
+    <div class="section-head"><h2>Roster Moves</h2><span class="muted">heading into Week {{ wd.week | plus: 1 }}</span></div>
+    {%- include moves.html -%}
+  </section>
+  {%- endif %}
+  {%- if wd.next_week.size > 0 %}
+  <section class="section">
+    <div class="section-head"><h2>Up Next: Week {{ wd.week | plus: 1 }}</h2></div>
+    {%- include next-week.html -%}
+  </section>
+  {%- endif %}
+  {%- endif %}
+
+  <nav class="post-nav">
+    {%- if page.previous %}<a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>{% else %}<span></span>{% endif %}
+    {%- if page.next %}<a href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>{% endif %}
+  </nav>
+</article>

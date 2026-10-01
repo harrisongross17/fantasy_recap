@@ -1,0 +1,18 @@
+<div class="scoreboard">
+{%- assign sides = "home,away" | split: "," -%}
+{%- for m in wd.matchups %}
+  <div class="matchup">
+    {%- if m.tags.size > 0 %}
+    <div class="matchup-tags">{% for t in m.tags %}<span class="tag tag-{{ t | slugify }}">{{ t }}</span>{% endfor %}</div>
+    {%- endif %}
+    {%- for k in sides -%}
+    {%- assign s = m[k] %}
+    <div class="side{% if m.winner == k %} win{% elsif m.winner %} loss{% endif %}">
+      <div class="who"><span class="mgr">{{ s.manager }}</span><span class="team">{% if site.show_team_names %}{{ s.team }} · {% endif %}{{ s.record }}</span></div>
+      <div class="pts"><span class="score">{{ s.score }}</span><span class="proj">proj {{ s.projected }}</span></div>
+    </div>
+    {%- endfor %}
+    <div class="margin">{% if m.winner %}Won by {{ m.margin }}{% else %}Tie{% endif %}</div>
+  </div>
+{%- endfor %}
+</div>

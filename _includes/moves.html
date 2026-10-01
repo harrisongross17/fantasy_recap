@@ -1,0 +1,13 @@
+<div class="moves">
+{%- for m in wd.moves %}
+  <div class="move">
+    <div class="move-head"><span class="mgr">{{ m.manager }}</span><span class="move-kind">{{ m.kind }}</span></div>
+    <ul class="move-lines">
+    {%- for l in m.lines %}
+      <li class="move-{{ l.dir }}"><span class="sign">{% if l.dir == "add" %}+{% else %}−{% endif %}</span><span class="pl">{{ l.name }}</span><span class="pl-meta">{{ l.pos }}{% if l.nfl != "" %} · {{ l.nfl }}{% endif %}{% if l.note %} · {{ l.note }}{% endif %}</span></li>
+    {%- endfor %}
+    </ul>
+    <div class="move-date">{{ m.date }}</div>
+  </div>
+{%- endfor %}
+</div>

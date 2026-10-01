@@ -1,0 +1,6 @@
+<a class="post-card" href="{{ post.url | relative_url }}">
+  <span class="kicker">{% if post.week %}Week {{ post.week }} · {% endif %}{{ post.date | date: "%b %-d, %Y" }}</span>
+  <span class="pc-title">{{ post.headline | default: post.title }}</span>
+  {%- if post.description %}<span class="pc-dek">{{ post.description }}</span>{% endif %}
+  <span class="pc-more">Read the recap →</span>
+</a>

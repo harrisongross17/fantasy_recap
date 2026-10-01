@@ -1,0 +1,671 @@
+{
+  "week": 2,
+  "year": 2026,
+  "complete": true,
+  "standings": [
+    {
+      "rank": 1,
+      "manager": "Andrew Hobby",
+      "division": "Whites",
+      "division_leader": true,
+      "record": "2-0",
+      "pf": "298.86",
+      "pa": "191.98",
+      "streak": "W2",
+      "form": [
+        "W",
+        "W"
+      ],
+      "power_rank": 1,
+      "power_change": 0
+    },
+    {
+      "rank": 2,
+      "manager": "luke sullivan",
+      "division": "Blacks",
+      "division_leader": true,
+      "record": "2-0",
+      "pf": "250.28",
+      "pa": "233.12",
+      "streak": "W2",
+      "form": [
+        "W",
+        "W"
+      ],
+      "power_rank": 4,
+      "power_change": 1
+    },
+    {
+      "rank": 3,
+      "manager": "noah laing",
+      "division": "Whites",
+      "division_leader": false,
+      "record": "2-0",
+      "pf": "294.40",
+      "pa": "204.94",
+      "streak": "W2",
+      "form": [
+        "W",
+        "W"
+      ],
+      "power_rank": 2,
+      "power_change": 1
+    },
+    {
+      "rank": 4,
+      "manager": "Hayden McMurrey",
+      "division": "Whites",
+      "division_leader": false,
+      "record": "2-0",
+      "pf": "274.18",
+      "pa": "194.26",
+      "streak": "W2",
+      "form": [
+        "W",
+        "W"
+      ],
+      "power_rank": 3,
+      "power_change": -1
+    },
+    {
+      "rank": 5,
+      "manager": "Jimmy Miller",
+      "division": "Blacks",
+      "division_leader": false,
+      "record": "1-1",
+      "pf": "246.38",
+      "pa": "227.22",
+      "streak": "L1",
+      "form": [
+        "W",
+        "L"
+      ],
+      "power_rank": 5,
+      "power_change": -1
+    },
+    {
+      "rank": 6,
+      "manager": "Jonathan Cooper",
+      "division": "Blacks",
+      "division_leader": false,
+      "record": "1-1",
+      "pf": "221.40",
+      "pa": "246.94",
+      "streak": "W1",
+      "form": [
+        "L",
+        "W"
+      ],
+      "power_rank": 6,
+      "power_change": 4
+    },
+    {
+      "rank": 7,
+      "manager": "Ben Fuller",
+      "division": "Blacks",
+      "division_leader": false,
+      "record": "0-2",
+      "pf": "216.54",
+      "pa": "258.10",
+      "streak": "L2",
+      "form": [
+        "L",
+        "L"
+      ],
+      "power_rank": 7,
+      "power_change": -1
+    },
+    {
+      "rank": 8,
+      "manager": "Harrison Gross",
+      "division": "Whites",
+      "division_leader": false,
+      "record": "0-2",
+      "pf": "215.70",
+      "pa": "291.08",
+      "streak": "L2",
+      "form": [
+        "L",
+        "L"
+      ],
+      "power_rank": 8,
+      "power_change": 1
+    },
+    {
+      "rank": 9,
+      "manager": "Kevin Mangus",
+      "division": "Blacks",
+      "division_leader": false,
+      "record": "0-2",
+      "pf": "204.48",
+      "pa": "294.10",
+      "streak": "L2",
+      "form": [
+        "L",
+        "L"
+      ],
+      "power_rank": 9,
+      "power_change": -2
+    },
+    {
+      "rank": 10,
+      "manager": "Michael Luisi",
+      "division": "Whites",
+      "division_leader": false,
+      "record": "0-2",
+      "pf": "184.64",
+      "pa": "265.12",
+      "streak": "L2",
+      "form": [
+        "L",
+        "L"
+      ],
+      "power_rank": 10,
+      "power_change": -2
+    }
+  ],
+  "matchups": [
+    {
+      "home": {
+        "manager": "noah laing",
+        "score": "160.58",
+        "projected": "131.59",
+        "record": "2-0"
+      },
+      "away": {
+        "manager": "Kevin Mangus",
+        "score": "96.18",
+        "projected": "120.73",
+        "record": "0-2"
+      },
+      "winner": "home",
+      "margin": "64.40",
+      "tags": [
+        "High score",
+        "Blowout"
+      ]
+    },
+    {
+      "home": {
+        "manager": "Harrison Gross",
+        "score": "99.60",
+        "projected": "123.45",
+        "record": "0-2"
+      },
+      "away": {
+        "manager": "Hayden McMurrey",
+        "score": "123.52",
+        "projected": "127.68",
+        "record": "2-0"
+      },
+      "winner": "away",
+      "margin": "23.92",
+      "tags": []
+    },
+    {
+      "home": {
+        "manager": "Ben Fuller",
+        "score": "96.28",
+        "projected": "120.47",
+        "record": "0-2"
+      },
+      "away": {
+        "manager": "Jonathan Cooper",
+        "score": "126.74",
+        "projected": "124.86",
+        "record": "1-1"
+      },
+      "winner": "away",
+      "margin": "30.46",
+      "tags": []
+    },
+    {
+      "home": {
+        "manager": "Andrew Hobby",
+        "score": "131.30",
+        "projected": "130.96",
+        "record": "2-0"
+      },
+      "away": {
+        "manager": "Michael Luisi",
+        "score": "75.88",
+        "projected": "110.07",
+        "record": "0-2"
+      },
+      "winner": "home",
+      "margin": "55.42",
+      "tags": [
+        "Low score"
+      ]
+    },
+    {
+      "home": {
+        "manager": "luke sullivan",
+        "score": "118.92",
+        "projected": "114.54",
+        "record": "2-0"
+      },
+      "away": {
+        "manager": "Jimmy Miller",
+        "score": "112.86",
+        "projected": "126.52",
+        "record": "1-1"
+      },
+      "winner": "home",
+      "margin": "6.06",
+      "tags": [
+        "Nail-biter"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "icon": "\ud83d\udd25",
+      "label": "Top Score",
+      "manager": "noah laing",
+      "stat": "160.58",
+      "unit": "pts",
+      "detail": "vs Kevin Mangus"
+    },
+    {
+      "icon": "\ud83e\ude91",
+      "label": "Bench Blunder",
+      "manager": "Ben Fuller",
+      "stat": "44.40",
+      "unit": "pts left on bench",
+      "detail": "Optimal lineup: 140.68 \u2014 would have beaten Jonathan Cooper"
+    },
+    {
+      "icon": "\ud83d\udc94",
+      "label": "Toughest Loss",
+      "manager": "Jimmy Miller",
+      "stat": "112.86",
+      "unit": "pts",
+      "detail": "Highest losing score \u2014 fell to luke sullivan"
+    },
+    {
+      "icon": "\u2b50",
+      "label": "Player of the Week",
+      "manager": "luke sullivan",
+      "stat": "42.50",
+      "unit": "pts",
+      "detail": "Jaxon Smith-Njigba (WR), projected 18.49"
+    },
+    {
+      "icon": "\ud83d\uddd1\ufe0f",
+      "label": "Drop Regret",
+      "manager": "Michael Luisi",
+      "stat": "20.00",
+      "unit": "pts behind",
+      "detail": "Dropped Seahawks D/ST (24.00 since) for Chargers D/ST (4.00) in week 1"
+    }
+  ],
+  "moves": [
+    {
+      "kind": "Free agent",
+      "manager": "Andrew Hobby",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "49ers D/ST",
+          "pos": "D/ST",
+          "nfl": "SF"
+        },
+        {
+          "dir": "drop",
+          "name": "Ravens D/ST",
+          "pos": "D/ST",
+          "nfl": "BAL"
+        }
+      ],
+      "date": "Sun 9/27"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Jared Goff",
+          "pos": "QB",
+          "nfl": "DET"
+        },
+        {
+          "dir": "drop",
+          "name": "Jonah Coleman",
+          "pos": "RB",
+          "nfl": "DEN"
+        }
+      ],
+      "date": "Fri 9/25"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Andrew Hobby",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Devaughn Vele",
+          "pos": "WR",
+          "nfl": "NO"
+        },
+        {
+          "dir": "drop",
+          "name": "Alvin Kamara",
+          "pos": "RB",
+          "nfl": "NO"
+        }
+      ],
+      "date": "Thu 9/24"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Tyler Bass",
+          "pos": "K",
+          "nfl": "BUF"
+        },
+        {
+          "dir": "drop",
+          "name": "Evan McPherson",
+          "pos": "K",
+          "nfl": "CIN"
+        }
+      ],
+      "date": "Thu 9/24"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Andrew Hobby",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Chase McLaughlin",
+          "pos": "K",
+          "nfl": "TB"
+        },
+        {
+          "dir": "drop",
+          "name": "Cairo Santos",
+          "pos": "K",
+          "nfl": "CHI"
+        }
+      ],
+      "date": "Thu 9/24"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Harrison Gross",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Bryce Young",
+          "pos": "QB",
+          "nfl": "CAR"
+        },
+        {
+          "dir": "drop",
+          "name": "Jaxson Dart",
+          "pos": "QB",
+          "nfl": "NYG"
+        }
+      ],
+      "date": "Thu 9/24"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Harrison Gross",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Justin Herbert",
+          "pos": "QB",
+          "nfl": "LAC"
+        },
+        {
+          "dir": "drop",
+          "name": "Woody Marks",
+          "pos": "RB",
+          "nfl": "HOU"
+        }
+      ],
+      "date": "Thu 9/24"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "noah laing",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Bengals D/ST",
+          "pos": "D/ST",
+          "nfl": "CIN"
+        },
+        {
+          "dir": "drop",
+          "name": "Kenny Gainwell",
+          "pos": "RB",
+          "nfl": "TB"
+        }
+      ],
+      "date": "Wed 9/23"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Jimmy Miller",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Giants D/ST",
+          "pos": "D/ST",
+          "nfl": "NYG"
+        },
+        {
+          "dir": "drop",
+          "name": "Chargers D/ST",
+          "pos": "D/ST",
+          "nfl": "LAC"
+        }
+      ],
+      "date": "Wed 9/23"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Jonah Coleman",
+          "pos": "RB",
+          "nfl": "DEN"
+        },
+        {
+          "dir": "drop",
+          "name": "Jonathon Brooks",
+          "pos": "RB",
+          "nfl": "CAR"
+        }
+      ],
+      "date": "Wed 9/23"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Ben Fuller",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Panthers D/ST",
+          "pos": "D/ST",
+          "nfl": "CAR"
+        },
+        {
+          "dir": "drop",
+          "name": "Buccaneers D/ST",
+          "pos": "D/ST",
+          "nfl": "TB"
+        }
+      ],
+      "date": "Wed 9/23"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Vikings D/ST",
+          "pos": "D/ST",
+          "nfl": "MIN"
+        },
+        {
+          "dir": "drop",
+          "name": "49ers D/ST",
+          "pos": "D/ST",
+          "nfl": "SF"
+        }
+      ],
+      "date": "Wed 9/23"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Evan McPherson",
+          "pos": "K",
+          "nfl": "CIN"
+        },
+        {
+          "dir": "drop",
+          "name": "Cameron Dicker",
+          "pos": "K",
+          "nfl": "LAC"
+        }
+      ],
+      "date": "Wed 9/23"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Tyler Shough",
+          "pos": "QB",
+          "nfl": "NO"
+        },
+        {
+          "dir": "drop",
+          "name": "Justin Herbert",
+          "pos": "QB",
+          "nfl": "LAC"
+        }
+      ],
+      "date": "Wed 9/23"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Adonai Mitchell",
+          "pos": "WR",
+          "nfl": "NYJ"
+        },
+        {
+          "dir": "drop",
+          "name": "Caleb Douglas",
+          "pos": "WR",
+          "nfl": "MIA"
+        }
+      ],
+      "date": "Wed 9/23"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Denzel Boston",
+          "pos": "WR",
+          "nfl": "CLE"
+        },
+        {
+          "dir": "drop",
+          "name": "Quentin Johnston",
+          "pos": "WR",
+          "nfl": "LAC"
+        }
+      ],
+      "date": "Wed 9/23"
+    }
+  ],
+  "next_week": [
+    {
+      "home": {
+        "manager": "Harrison Gross",
+        "record": "0-2"
+      },
+      "away": {
+        "manager": "Ben Fuller",
+        "record": "0-2"
+      },
+      "series": "Harrison Gross leads 14-10",
+      "meetings": 24
+    },
+    {
+      "home": {
+        "manager": "noah laing",
+        "record": "2-0"
+      },
+      "away": {
+        "manager": "Andrew Hobby",
+        "record": "2-0"
+      },
+      "series": "Andrew Hobby leads 9-7",
+      "meetings": 16
+    },
+    {
+      "home": {
+        "manager": "Kevin Mangus",
+        "record": "0-2"
+      },
+      "away": {
+        "manager": "luke sullivan",
+        "record": "2-0"
+      },
+      "series": "luke sullivan leads 4-2",
+      "meetings": 6
+    },
+    {
+      "home": {
+        "manager": "Hayden McMurrey",
+        "record": "2-0"
+      },
+      "away": {
+        "manager": "Michael Luisi",
+        "record": "0-2"
+      },
+      "series": "Michael Luisi leads 6-5",
+      "meetings": 11
+    },
+    {
+      "home": {
+        "manager": "Jonathan Cooper",
+        "record": "1-1"
+      },
+      "away": {
+        "manager": "Jimmy Miller",
+        "record": "1-1"
+      },
+      "series": "Jimmy Miller leads 9-1",
+      "meetings": 10
+    }
+  ]
+}

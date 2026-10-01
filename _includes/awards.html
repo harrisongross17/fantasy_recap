@@ -1,0 +1,10 @@
+<div class="awards">
+{%- for a in wd.awards %}
+  <div class="award">
+    <div class="award-head"><span class="award-icon">{{ a.icon }}</span><span class="award-label">{{ a.label }}</span></div>
+    <div class="award-stat">{{ a.stat }} <span class="unit">{{ a.unit }}</span></div>
+    <div class="award-manager">{{ a.manager }}</div>
+    <div class="award-detail">{{ a.detail }}</div>
+  </div>
+{%- endfor %}
+</div>

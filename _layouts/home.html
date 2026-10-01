@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{%- assign latest = site.posts.first -%}
+{%- assign wkey = "week_" | append: latest.week -%}
+{%- assign wd = site.data.weeks[wkey] -%}
+{%- if latest %}
+<section class="hero">
+  <span class="kicker">Latest · {% if latest.week %}Week {{ latest.week }} · {% endif %}{{ latest.date | date: "%b %-d, %Y" }}</span>
+  <h1><a href="{{ latest.url | relative_url }}">{{ latest.headline | default: latest.title }}</a></h1>
+  {%- if latest.description %}<p class="dek">{{ latest.description }}</p>{% endif %}
+  {%- if wd %}
+  <div class="hero-stats">
+    {%- for a in wd.awards limit: 3 %}
+    <div class="hero-stat"><span class="hs-label">{{ a.icon }} {{ a.label }}</span><span class="hs-value">{{ a.stat }}</span><span class="hs-who">{{ a.manager }}</span></div>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+  <a class="button" href="{{ latest.url | relative_url }}">Read the Week {{ latest.week }} recap →</a>
+</section>
+{%- endif %}
+
+{%- if wd %}
+<section class="section">
+  <div class="section-head"><h2>Standings</h2><span class="muted">after Week {{ wd.week }}</span></div>
+  {%- assign compact = true -%}
+  {%- include standings.html -%}
+</section>
+{%- endif %}
+
+<section class="section" id="recaps">
+  <div class="section-head"><h2>Recaps</h2></div>
+  <div class="post-grid">
+  {%- for post in site.posts %}
+    {%- include post-card.html -%}
+  {%- endfor %}
+  </div>
+</section>

@@ -12,9 +12,25 @@ baseurl: "/fantasy_recap"
 # like /2026/09/15/week-1-recap.html
 permalink: /:year/:month/:day/:title.html
 
-# Minima theme options — feel free to tweak later
-minima:
-  skin: dark
+# Absolute site address — used for link previews (Open Graph) and the feed
+url: "https://harrisongross17.github.io"
+
+# The look comes from _layouts/, _includes/ and assets/css/league.css.
+# minima stays as the base theme, but every page uses our own layouts.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Show ESPN team names next to managers on scorecards and standings.
+# The site is public, so these are visible to anyone with the link.
+show_team_names: false
+
+# Default link-preview image for anything shared in a group chat
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og-card.png
 
 # Keep the setup README out of the built site (it's for you, not readers)
 exclude:
