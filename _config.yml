@@ -4,9 +4,9 @@ theme: minima
 
 # IMPORTANT: set this to match how you name your GitHub repo.
 #   - If your repo is named exactly "<your-username>.github.io", set: baseurl: ""
-#   - If your repo has any other name (e.g. "fantasy-recap"), set: baseurl: "/fantasy-recap"
+#   - If your repo has any other name (e.g. "fantasy_recap"), set: baseurl: "/fantasy_recap"
 #     (must start with a slash, no trailing slash)
-baseurl: "/fantasy-recap"
+baseurl: "/fantasy_recap"
 
 # Shows newest posts first (default), and lets Jekyll build post URLs
 # like /2026/09/15/week-1-recap.html
