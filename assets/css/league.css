@@ -283,14 +283,18 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: .01e
 .standings .record { font-weight: 600; font-variant-numeric: tabular-nums; }
 .standings.compact td { padding: 8px 12px; }
 
-/* Playoff picture: highlighted rows, a gold line under the last playoff spot */
-.standings tr.in-playoffs td { background: rgba(242, 182, 50, .06); }
-.standings tr.in-playoffs td:first-child { box-shadow: inset 3px 0 0 var(--accent); }
-.standings tr.playoff-line td { border-bottom: 2px solid var(--accent); }
-.playoff-key {
-  display: inline-block; width: 10px; height: 10px; margin-right: 6px; vertical-align: -1px;
-  border-radius: 2px; background: rgba(242, 182, 50, .35); box-shadow: inset 2px 0 0 var(--accent);
+/* Playoff picture: rows grouped into in / out, outside teams dimmed */
+.standings tr.group td {
+  padding: 8px 12px;
+  font: 600 11px/1 var(--display);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(242, 182, 50, .08);
 }
+.standings tr.group.out td { color: var(--muted); background: var(--surface-2); }
+.standings tr.group .group-note { color: var(--muted); margin-left: 6px; }
+.standings tr.outside td { opacity: .7; }
 
 .div {
   padding: 2px 8px;
