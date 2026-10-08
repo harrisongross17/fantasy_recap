@@ -31,6 +31,9 @@ divisions:
   "Whites": { bg: "#eef0f2", fg: "#111111" }
   "Blacks": { bg: "#000000", fg: "#eef0f2", border: "#3a414b" }
 
+# Main label on scorecards, standings and awards: "manager" or "team"
+primary_label: manager
+
 # Show ESPN team names next to managers on scorecards and standings.
 # The site is public, so these are visible to anyone with the link.
 show_team_names: false

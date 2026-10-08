@@ -748,7 +748,7 @@
             "name": "Cam Little",
             "pos": "K",
             "since": "25.00",
-            "now_on": "Free agent"
+            "now_on": "Saquon Deez Nuts Some Moore"
           }
         ],
         "net": "-3.00"
@@ -853,7 +853,7 @@
             "name": "Cam Little",
             "pos": "K",
             "since": "37.00",
-            "now_on": "Free agent"
+            "now_on": "Saquon Deez Nuts Some Moore"
           }
         ],
         "net": "10.00"
@@ -1066,15 +1066,6 @@
       {
         "name": "Jacory Croskey-Merritt",
         "pos": "RB",
-        "status": "Questionable",
-        "missed": 0,
-        "storylines": [
-          "newly_injured"
-        ]
-      },
-      {
-        "name": "Tyler Shough",
-        "pos": "QB",
         "status": "Questionable",
         "missed": 0,
         "storylines": [

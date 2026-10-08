@@ -352,6 +352,20 @@
     },
     "moves": [
       {
+        "week": 5,
+        "date": "10/8",
+        "added": [
+          {
+            "name": "Will Shipley",
+            "pos": "RB",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [],
+        "net": null
+      },
+      {
         "week": 4,
         "date": "10/1",
         "added": [],

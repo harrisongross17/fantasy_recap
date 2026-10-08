@@ -1,9 +1,9 @@
 <div class="next-week">
 {%- for m in wd.next_week %}
   <div class="preview">
-    <div class="pv-side">{%- assign ms = m.home.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{{ m.home.manager }}</a><span class="team">{{ m.home.record }}</span></div>
+    <div class="pv-side">{%- assign ms = m.home.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{% if site.primary_label == "team" and m.home.team %}{{ m.home.team }}{% else %}{{ m.home.manager }}{% endif %}</a><span class="team">{% if site.primary_label == "team" and m.home.team %}{{ m.home.manager }} · {% endif %}{{ m.home.record }}</span></div>
     <div class="pv-vs">vs</div>
-    <div class="pv-side right">{%- assign ms = m.away.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{{ m.away.manager }}</a><span class="team">{{ m.away.record }}</span></div>
+    <div class="pv-side right">{%- assign ms = m.away.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{% if site.primary_label == "team" and m.away.team %}{{ m.away.team }}{% else %}{{ m.away.manager }}{% endif %}</a><span class="team">{% if site.primary_label == "team" and m.away.team %}{{ m.away.manager }} · {% endif %}{{ m.away.record }}</span></div>
     <div class="pv-series">{{ m.series }}{% if m.meetings > 0 %} · {{ m.meetings }} meetings{% endif %}</div>
   </div>
 {%- endfor %}

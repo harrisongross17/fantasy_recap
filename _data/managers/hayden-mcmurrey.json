@@ -671,6 +671,15 @@
         ]
       },
       {
+        "name": "Jaylen Wright",
+        "pos": "RB",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "returned"
+        ]
+      },
+      {
         "name": "Malik Nabers",
         "pos": "WR",
         "status": "Questionable",

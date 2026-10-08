@@ -442,6 +442,15 @@
     ],
     "injuries": [
       {
+        "name": "Ashton Jeanty",
+        "pos": "RB",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "newly_injured"
+        ]
+      },
+      {
         "name": "Rhamondre Stevenson",
         "pos": "RB",
         "status": "Questionable",

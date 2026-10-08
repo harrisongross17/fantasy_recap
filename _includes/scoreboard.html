@@ -8,7 +8,7 @@
     {%- for k in sides -%}
     {%- assign s = m[k] %}
     <div class="side{% if m.winner == k %} win{% elsif m.winner %} loss{% endif %}">
-      <div class="who">{%- assign ms = s.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{{ s.manager }}</a><span class="team">{% if site.show_team_names %}{{ s.team }} · {% endif %}{{ s.record }}</span></div>
+      <div class="who">{%- assign ms = s.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{% if site.primary_label == "team" and s.team %}{{ s.team }}{% else %}{{ s.manager }}{% endif %}</a><span class="team">{% if site.primary_label == "team" and s.team %}{{ s.manager }} · {% elsif site.show_team_names %}{{ s.team }} · {% endif %}{{ s.record }}</span></div>
       <div class="pts"><span class="score">{{ s.score }}</span><span class="proj">proj {{ s.projected }}</span></div>
     </div>
     {%- endfor %}

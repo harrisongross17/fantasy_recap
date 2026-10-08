@@ -7,6 +7,7 @@ layout: default
   <header class="post-hero">
     <span class="kicker">{% if m.current %}{{ s.division }} division{% else %}Former manager{% endif %} · {{ m.first_season }}–{% if m.current %}present{% else %}{{ m.last_season }}{% endif %} · {{ m.seasons_played }} season{% if m.seasons_played != 1 %}s{% endif %}</span>
     <h1>{{ m.name }}</h1>
+    {%- if m.team %}<p class="dek">{{ m.team }}</p>{% endif %}
     {%- if m.titles.size > 0 or m.runner_ups.size > 0 %}
     <div class="banners">
       {%- for y in m.titles %}<span class="banner banner-title">🏆 {{ y }} Champion</span>{% endfor %}

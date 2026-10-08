@@ -2,6 +2,7 @@
   "week": 1,
   "year": 2026,
   "complete": true,
+  "playoff_teams": 4,
   "standings": [
     {
       "rank": 1,
@@ -15,6 +16,7 @@
       "form": [
         "W"
       ],
+      "in_playoffs": true,
       "power_rank": 1,
       "power_change": 0
     },
@@ -30,6 +32,7 @@
       "form": [
         "W"
       ],
+      "in_playoffs": true,
       "power_rank": 4,
       "power_change": 0
     },
@@ -45,6 +48,7 @@
       "form": [
         "W"
       ],
+      "in_playoffs": true,
       "power_rank": 2,
       "power_change": 0
     },
@@ -60,6 +64,7 @@
       "form": [
         "W"
       ],
+      "in_playoffs": true,
       "power_rank": 3,
       "power_change": 0
     },
@@ -75,6 +80,7 @@
       "form": [
         "W"
       ],
+      "in_playoffs": false,
       "power_rank": 5,
       "power_change": 0
     },
@@ -90,6 +96,7 @@
       "form": [
         "L"
       ],
+      "in_playoffs": false,
       "power_rank": 6,
       "power_change": 0
     },
@@ -105,6 +112,7 @@
       "form": [
         "L"
       ],
+      "in_playoffs": false,
       "power_rank": 9,
       "power_change": 0
     },
@@ -120,6 +128,7 @@
       "form": [
         "L"
       ],
+      "in_playoffs": false,
       "power_rank": 8,
       "power_change": 0
     },
@@ -135,6 +144,7 @@
       "form": [
         "L"
       ],
+      "in_playoffs": false,
       "power_rank": 7,
       "power_change": 0
     },
@@ -150,6 +160,7 @@
       "form": [
         "L"
       ],
+      "in_playoffs": false,
       "power_rank": 10,
       "power_change": 0
     }
@@ -444,6 +455,195 @@
       "date": "Wed 9/16"
     }
   ],
+  "season_stats": {
+    "through_week": 1,
+    "leaders": [
+      {
+        "icon": "🔥",
+        "label": "Most Points",
+        "manager": "Andrew Hobby",
+        "stat": "167.56",
+        "detail": "167.56 per game"
+      },
+      {
+        "icon": "🧱",
+        "label": "Toughest Schedule",
+        "manager": "Harrison Gross",
+        "stat": "167.56",
+        "detail": "most points scored against"
+      },
+      {
+        "icon": "🔄",
+        "label": "Most Waiver Moves",
+        "manager": "Michael Luisi",
+        "stat": "7",
+        "detail": "adds this season"
+      },
+      {
+        "icon": "🎯",
+        "label": "Best Lineup Setter",
+        "manager": "Luke Sullivan",
+        "stat": "95.7%",
+        "detail": "of possible points started"
+      },
+      {
+        "icon": "🪑",
+        "label": "Most Left on Bench",
+        "manager": "Noah Laing",
+        "stat": "43.98",
+        "detail": "points on the bench"
+      },
+      {
+        "icon": "🍀",
+        "label": "Luckiest Record",
+        "manager": "Luke Sullivan",
+        "stat": "+0.44",
+        "detail": "wins above expected · all-play 5-4"
+      }
+    ],
+    "table": [
+      {
+        "manager": "Andrew Hobby",
+        "pf": "167.56",
+        "pa": "116.10",
+        "avg": "167.56",
+        "high": "167.56",
+        "low": "167.56",
+        "moves": 2,
+        "trades": 0,
+        "bench": "37.90",
+        "efficiency": 81.6,
+        "all_play": "9-0",
+        "luck": 0.0
+      },
+      {
+        "manager": "Hayden McMurrey",
+        "pf": "150.66",
+        "pa": "94.66",
+        "avg": "150.66",
+        "high": "150.66",
+        "low": "150.66",
+        "moves": 3,
+        "trades": 0,
+        "bench": "7.40",
+        "efficiency": 95.3,
+        "all_play": "8-1",
+        "luck": 0.11
+      },
+      {
+        "manager": "Noah Laing",
+        "pf": "133.82",
+        "pa": "108.76",
+        "avg": "133.82",
+        "high": "133.82",
+        "low": "133.82",
+        "moves": 2,
+        "trades": 1,
+        "bench": "43.98",
+        "efficiency": 75.3,
+        "all_play": "7-2",
+        "luck": 0.22
+      },
+      {
+        "manager": "Jimmy Miller",
+        "pf": "133.52",
+        "pa": "108.30",
+        "avg": "133.52",
+        "high": "133.52",
+        "low": "133.52",
+        "moves": 1,
+        "trades": 0,
+        "bench": "17.70",
+        "efficiency": 88.3,
+        "all_play": "6-3",
+        "luck": 0.33
+      },
+      {
+        "manager": "Luke Sullivan",
+        "pf": "131.36",
+        "pa": "120.26",
+        "avg": "131.36",
+        "high": "131.36",
+        "low": "131.36",
+        "moves": 0,
+        "trades": 0,
+        "bench": "5.90",
+        "efficiency": 95.7,
+        "all_play": "5-4",
+        "luck": 0.44
+      },
+      {
+        "manager": "Ben Fuller",
+        "pf": "120.26",
+        "pa": "131.36",
+        "avg": "120.26",
+        "high": "120.26",
+        "low": "120.26",
+        "moves": 2,
+        "trades": 0,
+        "bench": "24.80",
+        "efficiency": 82.9,
+        "all_play": "4-5",
+        "luck": -0.44
+      },
+      {
+        "manager": "Harrison Gross",
+        "pf": "116.10",
+        "pa": "167.56",
+        "avg": "116.10",
+        "high": "116.10",
+        "low": "116.10",
+        "moves": 1,
+        "trades": 1,
+        "bench": "32.90",
+        "efficiency": 77.9,
+        "all_play": "3-6",
+        "luck": -0.33
+      },
+      {
+        "manager": "Michael Luisi",
+        "pf": "108.76",
+        "pa": "133.82",
+        "avg": "108.76",
+        "high": "108.76",
+        "low": "108.76",
+        "moves": 7,
+        "trades": 0,
+        "bench": "19.84",
+        "efficiency": 84.6,
+        "all_play": "2-7",
+        "luck": -0.22
+      },
+      {
+        "manager": "Kevin Mangus",
+        "pf": "108.30",
+        "pa": "133.52",
+        "avg": "108.30",
+        "high": "108.30",
+        "low": "108.30",
+        "moves": 0,
+        "trades": 0,
+        "bench": "18.90",
+        "efficiency": 85.1,
+        "all_play": "1-8",
+        "luck": -0.11
+      },
+      {
+        "manager": "Jonathan Cooper",
+        "pf": "94.66",
+        "pa": "150.66",
+        "avg": "94.66",
+        "high": "94.66",
+        "low": "94.66",
+        "moves": 0,
+        "trades": 0,
+        "bench": "24.40",
+        "efficiency": 79.5,
+        "all_play": "0-9",
+        "luck": 0.0
+      }
+    ]
+  },
   "next_week": [
     {
       "home": {

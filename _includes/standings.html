@@ -1,14 +1,16 @@
 <div class="table-wrap">
 <table class="standings{% if compact %} compact{% endif %}">
   <thead>
-    <tr><th class="num">#</th><th>Manager</th><th class="hide-sm">Div</th><th>Record</th><th class="num">PF</th>{% unless compact %}<th class="num hide-sm">PA</th>{% endunless %}<th>Streak</th>{% unless compact %}<th class="hide-sm">Form</th><th class="num hide-sm">Power</th>{% endunless %}</tr>
+    <tr><th class="num">#</th><th>{% if site.primary_label == "team" %}Team{% else %}Manager{% endif %}</th>{% unless site.show_divisions == false %}<th class="hide-sm">Div</th>{% endunless %}<th>Record</th><th class="num">PF</th>{% unless compact %}<th class="num hide-sm">PA</th>{% endunless %}<th>Streak</th>{% unless compact %}<th class="hide-sm">Form</th><th class="num hide-sm">Power</th>{% endunless %}</tr>
   </thead>
   <tbody>
   {%- for s in wd.standings %}
-    <tr>
+    <tr class="{% if s.in_playoffs %}in-playoffs{% endif %}{% if wd.playoff_teams and s.rank == wd.playoff_teams %} playoff-line{% endif %}">
       <td class="num rank">{{ s.rank }}</td>
-      <td>{%- assign ms = s.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{{ s.manager }}</a>{% if site.show_team_names %}{% unless compact %}<span class="team">{{ s.team }}</span>{% endunless %}{% endif %}</td>
+      <td>{%- assign ms = s.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{% if site.primary_label == "team" and s.team %}{{ s.team }}{% else %}{{ s.manager }}{% endif %}</a>{% if site.primary_label == "team" and s.team %}<span class="team">{{ s.manager }}</span>{% elsif site.show_team_names %}{% unless compact %}<span class="team">{{ s.team }}</span>{% endunless %}{% endif %}</td>
+      {%- unless site.show_divisions == false %}
       <td class="hide-sm">{%- assign dv = site.divisions[s.division] -%}<span class="div"{% if dv %} style="background: {{ dv.bg }}; color: {{ dv.fg }};{% if dv.border %} border: 1px solid {{ dv.border }};{% endif %}"{% endif %}>{{ s.division }}</span>{% if s.division_leader %}<span class="leader" title="Division leader">★</span>{% endif %}</td>
+      {%- endunless %}
       <td class="record">{{ s.record }}</td>
       <td class="num">{{ s.pf }}</td>
       {%- unless compact %}<td class="num hide-sm muted">{{ s.pa }}</td>{% endunless %}
@@ -22,3 +24,6 @@
   </tbody>
 </table>
 </div>
+{%- if wd.playoff_teams %}
+<p class="table-note muted"><span class="playoff-key"></span>Playoff position: top {{ wd.playoff_teams }} make the playoffs</p>
+{%- endif %}

@@ -260,6 +260,48 @@
     },
     "moves": [
       {
+        "week": 5,
+        "date": "10/8",
+        "added": [
+          {
+            "name": "Commanders D/ST",
+            "pos": "D/ST",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Giants D/ST",
+            "pos": "D/ST",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 5,
+        "date": "10/8",
+        "added": [
+          {
+            "name": "Cam Little",
+            "pos": "K",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Harrison Butker",
+            "pos": "K",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
         "week": 3,
         "date": "9/23",
         "added": [
@@ -452,7 +494,7 @@
         "points": "34.00",
         "rank": "K6 → K6",
         "value": 0,
-        "kept": true
+        "kept": false
       },
       {
         "round": 16,
@@ -496,13 +538,6 @@
       {
         "name": "DJ Moore",
         "pos": "WR",
-        "status": "Questionable",
-        "missed": 0,
-        "storylines": []
-      },
-      {
-        "name": "Tony Pollard",
-        "pos": "RB",
         "status": "Questionable",
         "missed": 0,
         "storylines": []

@@ -702,6 +702,15 @@
         ]
       },
       {
+        "name": "Chris Olave",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "newly_injured"
+        ]
+      },
+      {
         "name": "Isaiah Likely",
         "pos": "TE",
         "status": "Questionable",
@@ -713,16 +722,7 @@
       {
         "name": "Michael Pittman Jr.",
         "pos": "WR",
-        "status": "Questionable",
-        "missed": 0,
-        "storylines": [
-          "newly_injured"
-        ]
-      },
-      {
-        "name": "Rashod Bateman",
-        "pos": "WR",
-        "status": "Questionable",
+        "status": "Out",
         "missed": 0,
         "storylines": [
           "newly_injured"
