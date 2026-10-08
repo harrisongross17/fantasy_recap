@@ -1,0 +1,38 @@
+{%- assign ss = wd.season_stats -%}
+<div class="awards leaders">
+{%- for a in ss.leaders %}
+  {%- assign ms = a.manager | slugify %}
+  <div class="award">
+    <div class="award-head"><span class="award-icon">{{ a.icon }}</span><span class="award-label">{{ a.label }}</span></div>
+    <div class="award-stat">{{ a.stat }}</div>
+    <div class="award-manager"><a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{{ a.manager }}</a></div>
+    <div class="award-detail">{{ a.detail }}</div>
+  </div>
+{%- endfor %}
+</div>
+<div class="table-wrap season-table">
+<table class="standings">
+  <thead>
+    <tr><th>Manager</th><th class="num">PF</th><th class="num">PA</th><th class="num hide-sm">Avg</th><th class="num hide-sm">High</th><th class="num hide-sm">Low</th><th class="num">Moves</th><th class="num hide-sm">Trades</th><th class="num hide-sm">Bench</th><th class="num hide-sm">Lineup %</th><th class="hide-sm">All-play</th></tr>
+  </thead>
+  <tbody>
+  {%- for r in ss.table %}
+    {%- assign ms = r.manager | slugify %}
+    <tr>
+      <td><a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{{ r.manager }}</a></td>
+      <td class="num">{{ r.pf }}</td>
+      <td class="num">{{ r.pa }}</td>
+      <td class="num hide-sm">{{ r.avg }}</td>
+      <td class="num hide-sm">{{ r.high }}</td>
+      <td class="num hide-sm muted">{{ r.low }}</td>
+      <td class="num">{{ r.moves }}</td>
+      <td class="num hide-sm">{{ r.trades }}</td>
+      <td class="num hide-sm">{{ r.bench }}</td>
+      <td class="num hide-sm">{{ r.efficiency }}%</td>
+      <td class="hide-sm record">{{ r.all_play }}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+</div>
+<p class="table-note muted">Moves = waiver and free-agent adds. Bench = points left on the bench vs. the best possible lineup; Lineup % = share of those possible points actually started. All-play = record if every team played every other team each week.</p>

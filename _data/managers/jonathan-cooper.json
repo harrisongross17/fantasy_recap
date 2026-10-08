@@ -12,17 +12,17 @@
   "runner_ups": [],
   "playoff_appearances": 4,
   "career": {
-    "record": "80-96",
-    "win_pct": 45.5,
+    "record": "80-97",
+    "win_pct": 45.2,
     "playoff_record": "4-2",
-    "ppg": "108.05"
+    "ppg": "108.13"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "2-1",
-      "pf": "356.34",
-      "ppg": "118.78",
+      "record": "2-2",
+      "pf": "479.54",
+      "ppg": "119.88",
       "finish": "In progress"
     },
     {
@@ -176,11 +176,11 @@
     },
     {
       "opponent": "Kevin Mangus",
-      "record": "4-11",
-      "win_pct": 26.7,
-      "meetings": 15,
+      "record": "4-12",
+      "win_pct": 25.0,
+      "meetings": 16,
       "playoff_meetings": 0,
-      "last": "2025 wk 17: 92.50–61.68 W",
+      "last": "2026 wk 4: 123.20–128.08 L",
       "current": true
     },
     {
@@ -301,14 +301,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 3,
+    "through_week": 4,
     "division": "Blacks",
-    "record": "2-1",
-    "rank": 5,
-    "power_rank": 5,
-    "power_change": 1,
-    "playoff_pct": 53.3,
-    "pf": "356.34",
+    "record": "2-2",
+    "rank": 6,
+    "power_rank": 6,
+    "power_change": -1,
+    "playoff_pct": 47.5,
+    "pf": "479.54",
     "weeks": [
       {
         "week": 1,
@@ -339,17 +339,42 @@
         "projected": "127.23",
         "bench": "35.10",
         "bar": 67
+      },
+      {
+        "week": 4,
+        "result": "L",
+        "score": "123.20",
+        "opp": "Kevin Mangus",
+        "opp_score": "128.08",
+        "projected": "127.23",
+        "bench": "5.30",
+        "bar": 62
       }
     ],
     "luck": {
-      "all_play_record": "13-14",
-      "expected_wins": 1.44,
-      "luck": 0.56,
-      "points_against_vs_league_avg": -15.14,
+      "all_play_record": "19-17",
+      "expected_wins": 2.11,
+      "luck": -0.11,
+      "points_against_vs_league_avg": -6.73,
       "wins_below_median": 0,
-      "losses_above_median": 0
+      "losses_above_median": 1
     },
-    "moves": [],
+    "moves": [
+      {
+        "week": 4,
+        "date": "10/1",
+        "added": [],
+        "dropped": [
+          {
+            "name": "Jahdae Walker",
+            "pos": "WR",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": null
+      }
+    ],
     "trades": [],
     "draft": [
       {
@@ -357,9 +382,9 @@
         "overall": 3,
         "player": "Ja'Marr Chase",
         "pos": "WR",
-        "points": "54.50",
-        "rank": "WR1 → WR8",
-        "value": -7,
+        "points": "60.20",
+        "rank": "WR1 → WR11",
+        "value": -10,
         "kept": true
       },
       {
@@ -367,9 +392,9 @@
         "overall": 18,
         "player": "Jeremiyah Love",
         "pos": "RB",
-        "points": "42.40",
-        "rank": "RB11 → RB14",
-        "value": -3,
+        "points": "48.90",
+        "rank": "RB11 → RB18",
+        "value": -7,
         "kept": true
       },
       {
@@ -377,7 +402,7 @@
         "overall": 23,
         "player": "Kenneth Walker III",
         "pos": "RB",
-        "points": "79.20",
+        "points": "110.10",
         "rank": "RB13 → RB2",
         "value": 11,
         "kept": true
@@ -388,8 +413,8 @@
         "player": "Breece Hall",
         "pos": "RB",
         "points": "42.50",
-        "rank": "RB18 → RB13",
-        "value": 5,
+        "rank": "RB18 → RB26",
+        "value": -8,
         "kept": true
       },
       {
@@ -397,9 +422,9 @@
         "overall": 43,
         "player": "Tee Higgins",
         "pos": "WR",
-        "points": "44.40",
-        "rank": "WR21 → WR15",
-        "value": 6,
+        "points": "71.10",
+        "rank": "WR21 → WR8",
+        "value": 13,
         "kept": true
       },
       {
@@ -408,8 +433,8 @@
         "player": "Jayden Daniels",
         "pos": "QB",
         "points": "32.40",
-        "rank": "QB3 → QB13",
-        "value": -10,
+        "rank": "QB3 → QB15",
+        "value": -12,
         "kept": true
       },
       {
@@ -417,7 +442,7 @@
         "overall": 63,
         "player": "Kyle Pitts Sr.",
         "pos": "TE",
-        "points": "4.00",
+        "points": "11.70",
         "rank": "TE5 → TE17",
         "value": -12,
         "kept": true
@@ -427,9 +452,9 @@
         "overall": 78,
         "player": "Harold Fannin Jr.",
         "pos": "TE",
-        "points": "38.60",
-        "rank": "TE9 → TE7",
-        "value": 2,
+        "points": "50.30",
+        "rank": "TE9 → TE6",
+        "value": 3,
         "kept": true
       },
       {
@@ -437,7 +462,7 @@
         "overall": 83,
         "player": "Matthew Golden",
         "pos": "WR",
-        "points": "46.30",
+        "points": "58.00",
         "rank": "WR36 → WR12",
         "value": 24,
         "kept": true
@@ -447,7 +472,7 @@
         "overall": 98,
         "player": "Texans D/ST",
         "pos": "D/ST",
-        "points": "13.00",
+        "points": "16.00",
         "rank": "D/ST1 → D/ST7",
         "value": -6,
         "kept": true
@@ -457,7 +482,7 @@
         "overall": 103,
         "player": "Brandon Aubrey",
         "pos": "K",
-        "points": "28.00",
+        "points": "38.00",
         "rank": "K1 → K2",
         "value": -1,
         "kept": true
@@ -468,8 +493,8 @@
         "player": "Rachaad White",
         "pos": "RB",
         "points": "30.10",
-        "rank": "RB40 → RB25",
-        "value": 15,
+        "rank": "RB40 → RB34",
+        "value": 6,
         "kept": true
       },
       {
@@ -477,7 +502,7 @@
         "overall": 123,
         "player": "Wan'Dale Robinson",
         "pos": "WR",
-        "points": "29.40",
+        "points": "40.40",
         "rank": "WR51 → WR31",
         "value": 20,
         "kept": true
@@ -487,7 +512,7 @@
         "overall": 138,
         "player": "Patrick Mahomes",
         "pos": "QB",
-        "points": "66.58",
+        "points": "83.58",
         "rank": "QB14 → QB3",
         "value": 11,
         "kept": true
@@ -497,9 +522,9 @@
         "overall": 143,
         "player": "Jerry Jeudy",
         "pos": "WR",
-        "points": "4.60",
-        "rank": "WR57 → WR57",
-        "value": 0,
+        "points": "11.20",
+        "rank": "WR57 → WR54",
+        "value": 3,
         "kept": true
       },
       {
@@ -508,17 +533,17 @@
         "player": "Jahdae Walker",
         "pos": "WR",
         "points": "7.10",
-        "rank": "WR59 → WR54",
-        "value": 5,
-        "kept": true
+        "rank": "WR59 → WR55",
+        "value": 4,
+        "kept": false
       }
     ],
     "injuries": [
       {
         "name": "Jayden Daniels",
         "pos": "QB",
-        "status": "Questionable",
-        "missed": 1,
+        "status": "Active",
+        "missed": 2,
         "storylines": [
           "returning"
         ]
@@ -527,15 +552,46 @@
         "name": "Breece Hall",
         "pos": "RB",
         "status": "Doubtful",
-        "missed": 0,
-        "storylines": []
+        "missed": 1,
+        "storylines": [
+          "still_out"
+        ]
       },
       {
         "name": "Rachaad White",
         "pos": "RB",
         "status": "Questionable",
+        "missed": 1,
+        "storylines": [
+          "returning"
+        ]
+      },
+      {
+        "name": "Ja'Marr Chase",
+        "pos": "WR",
+        "status": "Questionable",
         "missed": 0,
-        "storylines": []
+        "storylines": [
+          "newly_injured"
+        ]
+      },
+      {
+        "name": "Jeremiyah Love",
+        "pos": "RB",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "newly_injured"
+        ]
+      },
+      {
+        "name": "Tee Higgins",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "newly_injured"
+        ]
       }
     ]
   }

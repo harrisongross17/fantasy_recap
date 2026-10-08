@@ -28,6 +28,13 @@ layout: default
 </section>
 {%- endif %}
 
+{%- if wd.season_stats %}
+<section class="section" id="season-stats">
+  <div class="section-head"><h2>Season Stats</h2><span class="muted">through Week {{ wd.week }}</span></div>
+  {%- include season-stats.html -%}
+</section>
+{%- endif %}
+
 {%- assign L = site.data.league -%}
 {%- if L %}
 <section class="section" id="managers">

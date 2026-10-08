@@ -13,17 +13,17 @@
   ],
   "playoff_appearances": 3,
   "career": {
-    "record": "84-92",
-    "win_pct": 47.7,
+    "record": "84-93",
+    "win_pct": 47.5,
     "playoff_record": "3-2",
-    "ppg": "110.29"
+    "ppg": "110.19"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "3-0",
-      "pf": "376.94",
-      "ppg": "125.65",
+      "record": "3-1",
+      "pf": "468.86",
+      "ppg": "117.22",
       "finish": "In progress"
     },
     {
@@ -140,21 +140,21 @@
       "current": true
     },
     {
+      "opponent": "Noah Laing",
+      "record": "11-10",
+      "win_pct": 52.4,
+      "meetings": 21,
+      "playoff_meetings": 0,
+      "last": "2026 wk 4: 91.92–103.52 L",
+      "current": true
+    },
+    {
       "opponent": "Harrison Gross",
       "record": "9-11",
       "win_pct": 45.0,
       "meetings": 20,
       "playoff_meetings": 1,
       "last": "2026 wk 2: 123.52–99.60 W",
-      "current": true
-    },
-    {
-      "opponent": "Noah Laing",
-      "record": "11-9",
-      "win_pct": 55.0,
-      "meetings": 20,
-      "playoff_meetings": 0,
-      "last": "2025 wk 13: 122.78–115.10 W",
       "current": true
     },
     {
@@ -302,14 +302,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 3,
+    "through_week": 4,
     "division": "Whites",
-    "record": "3-0",
-    "rank": 3,
-    "power_rank": 2,
-    "power_change": 1,
-    "playoff_pct": 65.0,
-    "pf": "376.94",
+    "record": "3-1",
+    "rank": 4,
+    "power_rank": 4,
+    "power_change": -2,
+    "playoff_pct": 57.6,
+    "pf": "468.86",
     "weeks": [
       {
         "week": 1,
@@ -340,17 +340,90 @@
         "projected": "126.95",
         "bench": "19.70",
         "bar": 51
+      },
+      {
+        "week": 4,
+        "result": "L",
+        "score": "91.92",
+        "opp": "Noah Laing",
+        "opp_score": "103.52",
+        "projected": "122.03",
+        "bench": "8.00",
+        "bar": 46
       }
     ],
     "luck": {
-      "all_play_record": "17-10",
+      "all_play_record": "17-19",
       "expected_wins": 1.89,
       "luck": 1.11,
-      "points_against_vs_league_avg": -72.38,
+      "points_against_vs_league_avg": -88.53,
       "wins_below_median": 1,
       "losses_above_median": 0
     },
     "moves": [
+      {
+        "week": 5,
+        "date": "10/7",
+        "added": [
+          {
+            "name": "Jets D/ST",
+            "pos": "D/ST",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Chiefs D/ST",
+            "pos": "D/ST",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 5,
+        "date": "10/7",
+        "added": [
+          {
+            "name": "Juwan Johnson",
+            "pos": "TE",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Kyler Murray",
+            "pos": "QB",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 4,
+        "date": "10/2",
+        "added": [
+          {
+            "name": "Jaylen Wright",
+            "pos": "RB",
+            "since": "0.70",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Kaelon Black",
+            "pos": "RB",
+            "since": "1.30",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "-0.60"
+      },
       {
         "week": 2,
         "date": "9/16",
@@ -358,8 +431,8 @@
           {
             "name": "Chiefs D/ST",
             "pos": "D/ST",
-            "since": "8.00",
-            "started": "8.00"
+            "since": "9.00",
+            "started": "9.00"
           }
         ],
         "dropped": [
@@ -367,10 +440,10 @@
             "name": "Cowboys D/ST",
             "pos": "D/ST",
             "since": "-1.00",
-            "now_on": "Free agent"
+            "now_on": "Luke loves monangais"
           }
         ],
-        "net": "9.00"
+        "net": "10.00"
       },
       {
         "week": 1,
@@ -379,7 +452,7 @@
           {
             "name": "Kaelon Black",
             "pos": "RB",
-            "since": "12.20",
+            "since": "13.50",
             "started": "0.00"
           }
         ],
@@ -387,11 +460,11 @@
           {
             "name": "Roschon Johnson",
             "pos": "RB",
-            "since": "0.00",
+            "since": "3.30",
             "now_on": "Free agent"
           }
         ],
-        "net": "12.20"
+        "net": "10.20"
       },
       {
         "week": 1,
@@ -400,7 +473,7 @@
           {
             "name": "Roschon Johnson",
             "pos": "RB",
-            "since": "0.00",
+            "since": "3.30",
             "started": "0.00"
           }
         ],
@@ -412,7 +485,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "0.00"
+        "net": "3.30"
       }
     ],
     "trades": [],
@@ -423,8 +496,8 @@
         "player": "Justin Jefferson",
         "pos": "WR",
         "points": "44.90",
-        "rank": "WR6 → WR13",
-        "value": -7,
+        "rank": "WR6 → WR24",
+        "value": -18,
         "kept": true
       },
       {
@@ -432,9 +505,9 @@
         "overall": 11,
         "player": "James Cook III",
         "pos": "RB",
-        "points": "50.20",
-        "rank": "RB5 → RB12",
-        "value": -7,
+        "points": "66.50",
+        "rank": "RB5 → RB11",
+        "value": -6,
         "kept": true
       },
       {
@@ -442,9 +515,9 @@
         "overall": 30,
         "player": "Malik Nabers",
         "pos": "WR",
-        "points": "21.60",
-        "rank": "WR13 → WR40",
-        "value": -27,
+        "points": "44.80",
+        "rank": "WR13 → WR25",
+        "value": -12,
         "kept": true
       },
       {
@@ -452,7 +525,7 @@
         "overall": 31,
         "player": "Josh Allen",
         "pos": "QB",
-        "points": "93.94",
+        "points": "112.46",
         "rank": "QB1 → QB1",
         "value": 0,
         "kept": true
@@ -462,9 +535,9 @@
         "overall": 50,
         "player": "D'Andre Swift",
         "pos": "RB",
-        "points": "56.10",
-        "rank": "RB21 → RB7",
-        "value": 14,
+        "points": "63.50",
+        "rank": "RB21 → RB12",
+        "value": 9,
         "kept": true
       },
       {
@@ -472,9 +545,9 @@
         "overall": 51,
         "player": "Luther Burden III",
         "pos": "WR",
-        "points": "35.50",
-        "rank": "WR25 → WR23",
-        "value": 2,
+        "points": "46.90",
+        "rank": "WR25 → WR22",
+        "value": 3,
         "kept": true
       },
       {
@@ -482,7 +555,7 @@
         "overall": 70,
         "player": "Brian Thomas Jr.",
         "pos": "WR",
-        "points": "15.80",
+        "points": "25.50",
         "rank": "WR31 → WR46",
         "value": -15,
         "kept": true
@@ -493,8 +566,8 @@
         "player": "Rico Dowdle",
         "pos": "RB",
         "points": "10.50",
-        "rank": "RB28 → RB42",
-        "value": -14,
+        "rank": "RB28 → RB43",
+        "value": -15,
         "kept": true
       },
       {
@@ -502,9 +575,9 @@
         "overall": 90,
         "player": "Mike Evans",
         "pos": "WR",
-        "points": "37.70",
-        "rank": "WR38 → WR21",
-        "value": 17,
+        "points": "50.30",
+        "rank": "WR38 → WR20",
+        "value": 18,
         "kept": true
       },
       {
@@ -512,9 +585,9 @@
         "overall": 91,
         "player": "Travis Kelce",
         "pos": "TE",
-        "points": "49.10",
-        "rank": "TE11 → TE2",
-        "value": 9,
+        "points": "52.60",
+        "rank": "TE11 → TE5",
+        "value": 6,
         "kept": true
       },
       {
@@ -522,9 +595,9 @@
         "overall": 110,
         "player": "J.K. Dobbins",
         "pos": "RB",
-        "points": "13.50",
-        "rank": "RB37 → RB39",
-        "value": -2,
+        "points": "20.70",
+        "rank": "RB37 → RB40",
+        "value": -3,
         "kept": true
       },
       {
@@ -542,9 +615,9 @@
         "overall": 130,
         "player": "Josh Downs",
         "pos": "WR",
-        "points": "32.60",
-        "rank": "WR54 → WR27",
-        "value": 27,
+        "points": "37.20",
+        "rank": "WR54 → WR36",
+        "value": 18,
         "kept": true
       },
       {
@@ -552,9 +625,9 @@
         "overall": 131,
         "player": "Jason Myers",
         "pos": "K",
-        "points": "23.00",
-        "rank": "K3 → K4",
-        "value": -1,
+        "points": "29.00",
+        "rank": "K3 → K7",
+        "value": -4,
         "kept": true
       },
       {
@@ -572,28 +645,48 @@
         "overall": 151,
         "player": "Kyler Murray",
         "pos": "QB",
-        "points": "10.04",
+        "points": "21.52",
         "rank": "QB17 → QB17",
         "value": 0,
-        "kept": true
+        "kept": false
       }
     ],
     "injuries": [
       {
         "name": "Rico Dowdle",
         "pos": "RB",
-        "status": "Out",
-        "missed": 1,
+        "status": "Questionable",
+        "missed": 2,
         "storylines": [
-          "still_out"
+          "returning"
         ]
       },
       {
         "name": "Justin Jefferson",
         "pos": "WR",
         "status": "Questionable",
+        "missed": 1,
+        "storylines": [
+          "returning"
+        ]
+      },
+      {
+        "name": "D'Andre Swift",
+        "pos": "RB",
+        "status": "Questionable",
         "missed": 0,
-        "storylines": []
+        "storylines": [
+          "newly_injured"
+        ]
+      },
+      {
+        "name": "Malik Nabers",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "newly_injured"
+        ]
       },
       {
         "name": "Mike Evans",

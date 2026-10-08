@@ -14,17 +14,17 @@
   ],
   "playoff_appearances": 3,
   "career": {
-    "record": "45-33",
-    "win_pct": 57.7,
+    "record": "45-34",
+    "win_pct": 57.0,
     "playoff_record": "4-2",
-    "ppg": "121.46"
+    "ppg": "121.11"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "1-2",
-      "pf": "348.10",
-      "ppg": "116.03",
+      "record": "1-3",
+      "pf": "442.52",
+      "ppg": "110.63",
       "finish": "In progress"
     },
     {
@@ -101,21 +101,21 @@
       "current": true
     },
     {
+      "opponent": "Ben Fuller",
+      "record": "3-8",
+      "win_pct": 27.3,
+      "meetings": 11,
+      "playoff_meetings": 0,
+      "last": "2026 wk 4: 94.42–156.52 L",
+      "current": true
+    },
+    {
       "opponent": "Michael Luisi",
       "record": "6-5",
       "win_pct": 54.5,
       "meetings": 11,
       "playoff_meetings": 1,
       "last": "2025 wk 17: 117.12–118.98 L",
-      "current": true
-    },
-    {
-      "opponent": "Ben Fuller",
-      "record": "3-7",
-      "win_pct": 30.0,
-      "meetings": 10,
-      "playoff_meetings": 0,
-      "last": "2025 wk 12: 100.68–201.12 L",
       "current": true
     },
     {
@@ -200,14 +200,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 3,
+    "through_week": 4,
     "division": "Blacks",
-    "record": "1-2",
-    "rank": 7,
-    "power_rank": 7,
+    "record": "1-3",
+    "rank": 9,
+    "power_rank": 9,
     "power_change": -2,
-    "playoff_pct": 27.7,
-    "pf": "348.10",
+    "playoff_pct": 17.0,
+    "pf": "442.52",
     "weeks": [
       {
         "week": 1,
@@ -238,13 +238,23 @@
         "projected": "121.42",
         "bench": "14.20",
         "bar": 51
+      },
+      {
+        "week": 4,
+        "result": "L",
+        "score": "94.42",
+        "opp": "Ben Fuller",
+        "opp_score": "156.52",
+        "projected": "113.63",
+        "bench": "59.20",
+        "bar": 47
       }
     ],
     "luck": {
-      "all_play_record": "12-15",
-      "expected_wins": 1.33,
-      "luck": -0.33,
-      "points_against_vs_league_avg": -1.64,
+      "all_play_record": "13-23",
+      "expected_wins": 1.44,
+      "luck": -0.44,
+      "points_against_vs_league_avg": 35.21,
       "wins_below_median": 0,
       "losses_above_median": 0
     },
@@ -256,19 +266,19 @@
           {
             "name": "Giants D/ST",
             "pos": "D/ST",
-            "since": "9.00",
-            "started": "9.00"
+            "since": "25.00",
+            "started": "25.00"
           }
         ],
         "dropped": [
           {
             "name": "Chargers D/ST",
             "pos": "D/ST",
-            "since": "13.00",
+            "since": "19.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "-4.00"
+        "net": "6.00"
       },
       {
         "week": 2,
@@ -277,7 +287,7 @@
           {
             "name": "Chargers D/ST",
             "pos": "D/ST",
-            "since": "17.00",
+            "since": "23.00",
             "started": "4.00"
           }
         ],
@@ -285,11 +295,11 @@
           {
             "name": "Lions D/ST",
             "pos": "D/ST",
-            "since": "3.00",
+            "since": "2.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "14.00"
+        "net": "21.00"
       }
     ],
     "trades": [],
@@ -299,9 +309,9 @@
         "overall": 8,
         "player": "Amon-Ra St. Brown",
         "pos": "WR",
-        "points": "75.80",
-        "rank": "WR4 → WR2",
-        "value": 2,
+        "points": "91.30",
+        "rank": "WR4 → WR3",
+        "value": 1,
         "kept": true
       },
       {
@@ -309,9 +319,9 @@
         "overall": 13,
         "player": "Saquon Barkley",
         "pos": "RB",
-        "points": "21.00",
-        "rank": "RB7 → RB33",
-        "value": -26,
+        "points": "23.00",
+        "rank": "RB7 → RB36",
+        "value": -29,
         "kept": true
       },
       {
@@ -319,9 +329,9 @@
         "overall": 28,
         "player": "Javonte Williams",
         "pos": "RB",
-        "points": "50.50",
-        "rank": "RB15 → RB11",
-        "value": 4,
+        "points": "81.80",
+        "rank": "RB15 → RB7",
+        "value": 8,
         "kept": true
       },
       {
@@ -329,9 +339,9 @@
         "overall": 33,
         "player": "Emeka Egbuka",
         "pos": "WR",
-        "points": "32.80",
-        "rank": "WR14 → WR26",
-        "value": -12,
+        "points": "36.10",
+        "rank": "WR14 → WR39",
+        "value": -25,
         "kept": true
       },
       {
@@ -339,9 +349,9 @@
         "overall": 48,
         "player": "DJ Moore",
         "pos": "WR",
-        "points": "33.60",
-        "rank": "WR23 → WR25",
-        "value": -2,
+        "points": "36.30",
+        "rank": "WR23 → WR38",
+        "value": -15,
         "kept": true
       },
       {
@@ -349,9 +359,9 @@
         "overall": 53,
         "player": "Rome Odunze",
         "pos": "WR",
-        "points": "21.90",
-        "rank": "WR26 → WR39",
-        "value": -13,
+        "points": "37.30",
+        "rank": "WR26 → WR35",
+        "value": -9,
         "kept": true
       },
       {
@@ -359,9 +369,9 @@
         "overall": 68,
         "player": "Jake Ferguson",
         "pos": "TE",
-        "points": "32.20",
-        "rank": "TE8 → TE10",
-        "value": -2,
+        "points": "36.30",
+        "rank": "TE8 → TE13",
+        "value": -5,
         "kept": true
       },
       {
@@ -369,9 +379,9 @@
         "overall": 73,
         "player": "Jalen Hurts",
         "pos": "QB",
-        "points": "53.50",
-        "rank": "QB6 → QB6",
-        "value": 0,
+        "points": "67.02",
+        "rank": "QB6 → QB7",
+        "value": -1,
         "kept": true
       },
       {
@@ -379,9 +389,9 @@
         "overall": 88,
         "player": "Jordan Addison",
         "pos": "WR",
-        "points": "24.10",
-        "rank": "WR37 → WR35",
-        "value": 2,
+        "points": "33.20",
+        "rank": "WR37 → WR41",
+        "value": -4,
         "kept": true
       },
       {
@@ -389,7 +399,7 @@
         "overall": 93,
         "player": "Tony Pollard",
         "pos": "RB",
-        "points": "25.50",
+        "points": "38.50",
         "rank": "RB32 → RB27",
         "value": 5,
         "kept": true
@@ -399,9 +409,9 @@
         "overall": 108,
         "player": "T.J. Hockenson",
         "pos": "TE",
-        "points": "22.60",
-        "rank": "TE13 → TE14",
-        "value": -1,
+        "points": "47.50",
+        "rank": "TE13 → TE9",
+        "value": 4,
         "kept": true
       },
       {
@@ -409,9 +419,9 @@
         "overall": 113,
         "player": "Deebo Samuel Sr.",
         "pos": "WR",
-        "points": "39.90",
-        "rank": "WR49 → WR19",
-        "value": 30,
+        "points": "57.90",
+        "rank": "WR49 → WR13",
+        "value": 36,
         "kept": true
       },
       {
@@ -419,9 +429,9 @@
         "overall": 128,
         "player": "Khalil Shakir",
         "pos": "WR",
-        "points": "17.40",
-        "rank": "WR53 → WR44",
-        "value": 9,
+        "points": "30.60",
+        "rank": "WR53 → WR43",
+        "value": 10,
         "kept": true
       },
       {
@@ -439,9 +449,9 @@
         "overall": 148,
         "player": "Harrison Butker",
         "pos": "K",
-        "points": "28.00",
-        "rank": "K6 → K3",
-        "value": 3,
+        "points": "34.00",
+        "rank": "K6 → K6",
+        "value": 0,
         "kept": true
       },
       {
@@ -449,9 +459,9 @@
         "overall": 153,
         "player": "Lions D/ST",
         "pos": "D/ST",
-        "points": "8.00",
-        "rank": "D/ST9 → D/ST8",
-        "value": 1,
+        "points": "7.00",
+        "rank": "D/ST9 → D/ST10",
+        "value": -1,
         "kept": false
       }
     ],
@@ -460,9 +470,27 @@
         "name": "Zach Charbonnet",
         "pos": "RB",
         "status": "Out",
-        "missed": 3,
+        "missed": 4,
         "storylines": [
           "still_out"
+        ]
+      },
+      {
+        "name": "Jordan Addison",
+        "pos": "WR",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "newly_injured"
+        ]
+      },
+      {
+        "name": "Saquon Barkley",
+        "pos": "RB",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "newly_injured"
         ]
       },
       {

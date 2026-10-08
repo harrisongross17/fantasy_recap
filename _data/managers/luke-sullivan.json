@@ -11,17 +11,17 @@
   ],
   "playoff_appearances": 1,
   "career": {
-    "record": "70-92",
-    "win_pct": 43.2,
+    "record": "70-93",
+    "win_pct": 42.9,
     "playoff_record": "1-1",
-    "ppg": "108.11"
+    "ppg": "108.07"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "3-0",
-      "pf": "405.78",
-      "ppg": "135.26",
+      "record": "3-1",
+      "pf": "507.44",
+      "ppg": "126.86",
       "finish": "In progress"
     },
     {
@@ -140,21 +140,21 @@
       "current": true
     },
     {
+      "opponent": "Andrew Hobby",
+      "record": "7-13",
+      "win_pct": 35.0,
+      "meetings": 20,
+      "playoff_meetings": 0,
+      "last": "2026 wk 4: 101.66–109.48 L",
+      "current": true
+    },
+    {
       "opponent": "Jonathan Cooper",
       "record": "8-12",
       "win_pct": 40.0,
       "meetings": 20,
       "playoff_meetings": 1,
       "last": "2025 wk 16: 101.80–93.14 W",
-      "current": true
-    },
-    {
-      "opponent": "Andrew Hobby",
-      "record": "7-12",
-      "win_pct": 36.8,
-      "meetings": 19,
-      "playoff_meetings": 0,
-      "last": "2025 wk 14: 112.90–154.74 L",
       "current": true
     },
     {
@@ -275,14 +275,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 3,
+    "through_week": 4,
     "division": "Blacks",
-    "record": "3-0",
+    "record": "3-1",
     "rank": 2,
-    "power_rank": 4,
-    "power_change": 0,
-    "playoff_pct": 62.5,
-    "pf": "405.78",
+    "power_rank": 3,
+    "power_change": 1,
+    "playoff_pct": 56.1,
+    "pf": "507.44",
     "weeks": [
       {
         "week": 1,
@@ -313,13 +313,23 @@
         "projected": "114.29",
         "bench": "20.40",
         "bar": 78
+      },
+      {
+        "week": 4,
+        "result": "L",
+        "score": "101.66",
+        "opp": "Andrew Hobby",
+        "opp_score": "109.48",
+        "projected": "115.54",
+        "bench": "34.00",
+        "bar": 51
       }
     ],
     "luck": {
-      "all_play_record": "18-9",
-      "expected_wins": 2.0,
-      "luck": 1.0,
-      "points_against_vs_league_avg": -6.08,
+      "all_play_record": "20-16",
+      "expected_wins": 2.22,
+      "luck": 0.78,
+      "points_against_vs_league_avg": -16.27,
       "wins_below_median": 0,
       "losses_above_median": 0
     },
@@ -331,8 +341,8 @@
           {
             "name": "Ravens D/ST",
             "pos": "D/ST",
-            "since": "0.00",
-            "started": "0.00"
+            "since": "7.00",
+            "started": "7.00"
           }
         ],
         "dropped": [
@@ -343,7 +353,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "0.00"
+        "net": "7.00"
       }
     ],
     "trades": [],
@@ -353,7 +363,7 @@
         "overall": 6,
         "player": "Jaxon Smith-Njigba",
         "pos": "WR",
-        "points": "104.06",
+        "points": "116.66",
         "rank": "WR3 → WR1",
         "value": 2,
         "kept": true
@@ -363,9 +373,9 @@
         "overall": 15,
         "player": "Drake London",
         "pos": "WR",
-        "points": "42.80",
-        "rank": "WR7 → WR16",
-        "value": -9,
+        "points": "57.40",
+        "rank": "WR7 → WR14",
+        "value": -7,
         "kept": true
       },
       {
@@ -383,9 +393,9 @@
         "overall": 35,
         "player": "Kyren Williams",
         "pos": "RB",
-        "points": "53.00",
-        "rank": "RB17 → RB10",
-        "value": 7,
+        "points": "89.70",
+        "rank": "RB17 → RB5",
+        "value": 12,
         "kept": true
       },
       {
@@ -394,8 +404,8 @@
         "player": "Ladd McConkey",
         "pos": "WR",
         "points": "36.30",
-        "rank": "WR22 → WR22",
-        "value": 0,
+        "rank": "WR22 → WR37",
+        "value": -15,
         "kept": true
       },
       {
@@ -403,9 +413,9 @@
         "overall": 55,
         "player": "Tyler Warren",
         "pos": "TE",
-        "points": "39.40",
-        "rank": "TE4 → TE5",
-        "value": -1,
+        "points": "48.50",
+        "rank": "TE4 → TE7",
+        "value": -3,
         "kept": true
       },
       {
@@ -413,9 +423,9 @@
         "overall": 66,
         "player": "Courtland Sutton",
         "pos": "WR",
-        "points": "16.20",
-        "rank": "WR30 → WR45",
-        "value": -15,
+        "points": "17.60",
+        "rank": "WR30 → WR50",
+        "value": -20,
         "kept": true
       },
       {
@@ -423,9 +433,9 @@
         "overall": 75,
         "player": "Bo Nix",
         "pos": "QB",
-        "points": "43.70",
-        "rank": "QB7 → QB11",
-        "value": -4,
+        "points": "57.26",
+        "rank": "QB7 → QB10",
+        "value": -3,
         "kept": true
       },
       {
@@ -433,9 +443,9 @@
         "overall": 86,
         "player": "Blake Corum",
         "pos": "RB",
-        "points": "19.10",
-        "rank": "RB31 → RB34",
-        "value": -3,
+        "points": "22.20",
+        "rank": "RB31 → RB37",
+        "value": -6,
         "kept": true
       },
       {
@@ -444,8 +454,8 @@
         "player": "Alec Pierce",
         "pos": "WR",
         "points": "12.20",
-        "rank": "WR41 → WR50",
-        "value": -9,
+        "rank": "WR41 → WR53",
+        "value": -12,
         "kept": false
       },
       {
@@ -453,9 +463,9 @@
         "overall": 106,
         "player": "KC Concepcion",
         "pos": "WR",
-        "points": "18.90",
-        "rank": "WR46 → WR43",
-        "value": 3,
+        "points": "30.30",
+        "rank": "WR46 → WR44",
+        "value": 2,
         "kept": true
       },
       {
@@ -463,9 +473,9 @@
         "overall": 115,
         "player": "Brian Robinson Jr.",
         "pos": "RB",
-        "points": "22.80",
-        "rank": "RB38 → RB31",
-        "value": 7,
+        "points": "48.50",
+        "rank": "RB38 → RB19",
+        "value": 19,
         "kept": true
       },
       {
@@ -474,8 +484,8 @@
         "player": "Kenyon Sadiq",
         "pos": "TE",
         "points": "38.60",
-        "rank": "TE16 → TE8",
-        "value": 8,
+        "rank": "TE16 → TE12",
+        "value": 4,
         "kept": true
       },
       {
@@ -483,9 +493,9 @@
         "overall": 135,
         "player": "Broncos D/ST",
         "pos": "D/ST",
-        "points": "20.00",
-        "rank": "D/ST3 → D/ST4",
-        "value": -1,
+        "points": "21.00",
+        "rank": "D/ST3 → D/ST5",
+        "value": -2,
         "kept": true
       },
       {
@@ -494,8 +504,8 @@
         "player": "Caleb Williams",
         "pos": "QB",
         "points": "44.98",
-        "rank": "QB15 → QB10",
-        "value": 5,
+        "rank": "QB15 → QB12",
+        "value": 3,
         "kept": true
       },
       {
@@ -503,9 +513,9 @@
         "overall": 155,
         "player": "Eddy Pineiro",
         "pos": "K",
-        "points": "23.00",
-        "rank": "K8 → K5",
-        "value": 3,
+        "points": "28.00",
+        "rank": "K8 → K8",
+        "value": 0,
         "kept": true
       }
     ],
@@ -514,7 +524,7 @@
         "name": "Josh Jacobs",
         "pos": "RB",
         "status": "Day To Day",
-        "missed": 3,
+        "missed": 4,
         "storylines": [
           "still_out"
         ]
@@ -522,18 +532,11 @@
       {
         "name": "Caleb Williams",
         "pos": "QB",
-        "status": "Doubtful",
-        "missed": 1,
+        "status": "Out",
+        "missed": 2,
         "storylines": [
           "still_out"
         ]
-      },
-      {
-        "name": "Kenyon Sadiq",
-        "pos": "TE",
-        "status": "Questionable",
-        "missed": 0,
-        "storylines": []
       },
       {
         "name": "Ladd McConkey",

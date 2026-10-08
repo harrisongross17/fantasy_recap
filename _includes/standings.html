@@ -8,7 +8,7 @@
     <tr>
       <td class="num rank">{{ s.rank }}</td>
       <td>{%- assign ms = s.manager | slugify -%}<a class="mgr" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{{ s.manager }}</a>{% if site.show_team_names %}{% unless compact %}<span class="team">{{ s.team }}</span>{% endunless %}{% endif %}</td>
-      <td class="hide-sm"><span class="div div-{{ s.division | slugify }}">{{ s.division }}</span>{% if s.division_leader %}<span class="leader" title="Division leader">★</span>{% endif %}</td>
+      <td class="hide-sm">{%- assign dv = site.divisions[s.division] -%}<span class="div"{% if dv %} style="background: {{ dv.bg }}; color: {{ dv.fg }};{% if dv.border %} border: 1px solid {{ dv.border }};{% endif %}"{% endif %}>{{ s.division }}</span>{% if s.division_leader %}<span class="leader" title="Division leader">★</span>{% endif %}</td>
       <td class="record">{{ s.record }}</td>
       <td class="num">{{ s.pf }}</td>
       {%- unless compact %}<td class="num hide-sm muted">{{ s.pa }}</td>{% endunless %}

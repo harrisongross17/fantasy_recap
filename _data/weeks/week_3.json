@@ -313,12 +313,158 @@
       "icon": "🗑️",
       "label": "Drop Regret",
       "manager": "Michael Luisi",
-      "stat": "19.00",
+      "stat": "11.70",
       "unit": "pts behind",
-      "detail": "Dropped Evan McPherson (42.00 since) for Cam Little (23.00) in week 1"
+      "detail": "Dropped Rashid Shaheed (11.70 since) for De'Zhaun Stribling (0.00) in week 1"
     }
   ],
   "moves": [
+    {
+      "kind": "Free agent",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Evan McPherson",
+          "pos": "K",
+          "nfl": "CIN"
+        },
+        {
+          "dir": "drop",
+          "name": "Will Reichard",
+          "pos": "K",
+          "nfl": "MIN"
+        }
+      ],
+      "date": "Sun 10/4"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Ben Fuller",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Bears D/ST",
+          "pos": "D/ST",
+          "nfl": "CHI"
+        },
+        {
+          "dir": "drop",
+          "name": "Panthers D/ST",
+          "pos": "D/ST",
+          "nfl": "CAR"
+        }
+      ],
+      "date": "Sun 10/4"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Dontayvion Wicks",
+          "pos": "WR",
+          "nfl": "PHI"
+        },
+        {
+          "dir": "drop",
+          "name": "Keenan Allen",
+          "pos": "WR",
+          "nfl": "IND"
+        }
+      ],
+      "date": "Fri 10/2"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Ben Fuller",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Emanuel Wilson",
+          "pos": "RB",
+          "nfl": "SEA"
+        },
+        {
+          "dir": "drop",
+          "name": "Dallas Goedert",
+          "pos": "TE",
+          "nfl": "PHI"
+        }
+      ],
+      "date": "Fri 10/2"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Keenan Allen",
+          "pos": "WR",
+          "nfl": "IND"
+        },
+        {
+          "dir": "drop",
+          "name": "Juwan Johnson",
+          "pos": "TE",
+          "nfl": "NO"
+        }
+      ],
+      "date": "Fri 10/2"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Hayden McMurrey",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Jaylen Wright",
+          "pos": "RB",
+          "nfl": "MIA"
+        },
+        {
+          "dir": "drop",
+          "name": "Kaelon Black",
+          "pos": "RB",
+          "nfl": "SF"
+        }
+      ],
+      "date": "Fri 10/2"
+    },
+    {
+      "kind": "Drop",
+      "manager": "Jonathan Cooper",
+      "lines": [
+        {
+          "dir": "drop",
+          "name": "Jahdae Walker",
+          "pos": "WR",
+          "nfl": "CHI"
+        }
+      ],
+      "date": "Thu 10/1"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Noah Laing",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Spencer Shrader",
+          "pos": "K",
+          "nfl": "IND"
+        },
+        {
+          "dir": "drop",
+          "name": "Jake Bates",
+          "pos": "K",
+          "nfl": "DET"
+        }
+      ],
+      "date": "Thu 10/1"
+    },
     {
       "kind": "Drop",
       "manager": "Andrew Hobby",

@@ -3,7 +3,7 @@ layout: default
 ---
 {%- assign L = site.data.league -%}
 <header class="post-hero">
-  <span class="kicker">Since 2014</span>
+  <span class="kicker">{% if site.founded %}Since {{ site.founded }}{% else %}All-time{% endif %}</span>
   <h1>Managers</h1>
   <p class="dek">Everyone who has ever managed in the league, current and former, with all-time records and titles.</p>
 </header>

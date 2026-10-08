@@ -1,7 +1,7 @@
 <header class="site-header">
   <a class="brand" href="{{ '/' | relative_url }}">
     {%- include logo.svg -%}
-    <span class="wordmark"><span class="wm-top">League of</span><span class="wm-main">Perpetual Awesomeness</span></span>
+    <span class="wordmark">{% if site.wordmark_top and site.wordmark_top != "" %}<span class="wm-top">{{ site.wordmark_top }}</span>{% endif %}<span class="wm-main">{{ site.wordmark_main | default: site.title }}</span></span>
   </a>
   <nav class="site-nav"><a href="{{ '/' | relative_url }}#recaps">Recaps</a><a href="{{ '/managers/' | relative_url }}">Managers</a></nav>
 </header>

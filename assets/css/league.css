@@ -1,4 +1,4 @@
-/* League of Perpetual Awesomeness — site theme */
+/* Fantasy recap site theme (league name and colors come from _config.yml) */
 
 :root {
   --bg: #0b0d10;
@@ -284,12 +284,12 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: .01e
 .div {
   padding: 2px 8px;
   border-radius: 999px;
+  background: var(--surface-2);   /* default; _config.yml divisions override per division */
+  color: var(--text);
   font: 600 11px/1.4 var(--display);
   letter-spacing: .1em;
   text-transform: uppercase;
 }
-.div-whites { background: #eef0f2; color: #111; }
-.div-blacks { background: #000; color: #eef0f2; border: 1px solid #3a414b; }
 .leader { color: var(--accent); margin-left: 6px; }
 
 .streak { font: 600 13px/1 var(--display); letter-spacing: .06em; }
@@ -358,6 +358,13 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: .01e
 .move-drop .pl { color: var(--muted); }
 .pl-meta { color: var(--muted); font-size: 13px; }
 .move-date { color: var(--muted); font-size: 12px; border-top: 1px solid var(--border); padding-top: 6px; }
+
+/* ── Season stats ─────────────────────────────────────────────────────── */
+
+.leaders { grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); }
+.season-table { margin-top: 24px; }
+.leaders .award-stat { font-size: 26px; }
+.table-note { font-size: 12px; margin: 8px 2px 0; }
 
 /* ── Manager links ────────────────────────────────────────────────────── */
 
