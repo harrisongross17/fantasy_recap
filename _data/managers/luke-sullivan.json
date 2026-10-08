@@ -185,6 +185,15 @@
       "current": true
     },
     {
+      "opponent": "Kaden Beavers",
+      "record": "4-2",
+      "win_pct": 66.7,
+      "meetings": 6,
+      "playoff_meetings": 0,
+      "last": "2020 wk 7: 98.72–115.00 L",
+      "current": false
+    },
+    {
       "opponent": "Judd Oefinger",
       "record": "4-2",
       "win_pct": 66.7,
@@ -194,30 +203,12 @@
       "current": false
     },
     {
-      "opponent": "Kaden Beavers",
-      "record": "2-2",
-      "win_pct": 50.0,
-      "meetings": 4,
-      "playoff_meetings": 0,
-      "last": "2020 wk 7: 98.72–115.00 L",
-      "current": false
-    },
-    {
       "opponent": "Jake Birdsong",
       "record": "2-1",
       "win_pct": 66.7,
       "meetings": 3,
       "playoff_meetings": 0,
       "last": "2015 wk 15: 131.00–83.00 W",
-      "current": false
-    },
-    {
-      "opponent": "Drew Rooney",
-      "record": "2-0",
-      "win_pct": 100.0,
-      "meetings": 2,
-      "playoff_meetings": 0,
-      "last": "2016 wk 7: 97.00–77.00 W",
       "current": false
     }
   ],

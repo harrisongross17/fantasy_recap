@@ -131,17 +131,6 @@
       "title_years": []
     },
     {
-      "name": "Kaden Beavers",
-      "slug": "kaden-beavers",
-      "current": false,
-      "years": "2017–2020",
-      "seasons": 4,
-      "record": "34-22",
-      "win_pct": 60.7,
-      "titles": 0,
-      "title_years": []
-    },
-    {
       "name": "Trip Smith",
       "slug": "trip-smith",
       "current": false,
@@ -153,13 +142,13 @@
       "title_years": []
     },
     {
-      "name": "Drew Rooney",
-      "slug": "drew-rooney",
+      "name": "Kaden Beavers",
+      "slug": "kaden-beavers",
       "current": false,
-      "years": "2014–2016",
-      "seasons": 3,
-      "record": "21-21",
-      "win_pct": 50.0,
+      "years": "2014–2020",
+      "seasons": 7,
+      "record": "55-43",
+      "win_pct": 56.1,
       "titles": 0,
       "title_years": []
     },

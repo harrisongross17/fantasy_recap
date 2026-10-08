@@ -112,20 +112,11 @@
     },
     {
       "opponent": "Kaden Beavers",
-      "record": "3-0",
-      "win_pct": 100.0,
-      "meetings": 3,
+      "record": "3-1",
+      "win_pct": 75.0,
+      "meetings": 4,
       "playoff_meetings": 0,
       "last": "2018 wk 16: 129.34–106.08 W",
-      "current": false
-    },
-    {
-      "opponent": "Drew Rooney",
-      "record": "0-1",
-      "win_pct": 0.0,
-      "meetings": 1,
-      "playoff_meetings": 0,
-      "last": "2016 wk 6: 88.00–122.00 L",
       "current": false
     }
   ],

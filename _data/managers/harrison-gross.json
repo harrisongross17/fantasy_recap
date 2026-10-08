@@ -196,6 +196,15 @@
       "current": true
     },
     {
+      "opponent": "Kaden Beavers",
+      "record": "5-3",
+      "win_pct": 62.5,
+      "meetings": 8,
+      "playoff_meetings": 1,
+      "last": "2020 wk 8: 123.84–99.04 W",
+      "current": false
+    },
+    {
       "opponent": "Judd Oefinger",
       "record": "3-5",
       "win_pct": 37.5,
@@ -211,24 +220,6 @@
       "meetings": 4,
       "playoff_meetings": 0,
       "last": "2015 wk 9: 106.00–102.00 W",
-      "current": false
-    },
-    {
-      "opponent": "Drew Rooney",
-      "record": "3-1",
-      "win_pct": 75.0,
-      "meetings": 4,
-      "playoff_meetings": 1,
-      "last": "2016 wk 8: 92.00–59.00 W",
-      "current": false
-    },
-    {
-      "opponent": "Kaden Beavers",
-      "record": "2-2",
-      "win_pct": 50.0,
-      "meetings": 4,
-      "playoff_meetings": 0,
-      "last": "2020 wk 8: 123.84–99.04 W",
       "current": false
     },
     {
