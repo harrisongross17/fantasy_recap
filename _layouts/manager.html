@@ -51,7 +51,7 @@ layout: default
   <section class="section">
     <div class="section-head"><h2>Injury Report</h2></div>
     <div class="table-wrap"><table class="standings">
-      <thead><tr><th>Player</th><th>Status</th><th class="num">Games missed in a row</th></tr></thead>
+      <thead><tr><th class="txt">Player</th><th>Status</th><th class="num">Games missed in a row</th></tr></thead>
       <tbody>{% for i in s.injuries %}<tr><td><span class="mgr">{{ i.name }}</span><span class="team">{{ i.pos }}</span></td><td>{{ i.status }}</td><td class="num">{{ i.missed }}</td></tr>{% endfor %}</tbody>
     </table></div>
   </section>
@@ -61,7 +61,7 @@ layout: default
   <section class="section">
     <div class="section-head"><h2>{{ s.year }} Moves</h2><span class="muted">points scored since each move</span></div>
     <div class="table-wrap"><table class="standings ledger">
-      <thead><tr><th>Wk</th><th>Added</th><th>Dropped</th><th class="num hide-sm">Net</th></tr></thead>
+      <thead><tr><th>Wk</th><th class="txt">Added</th><th class="txt">Dropped</th><th class="num hide-sm">Net</th></tr></thead>
       <tbody>
       {%- for mv in s.moves %}
         <tr>
@@ -91,7 +91,7 @@ layout: default
   <section class="section">
     <div class="section-head"><h2>{{ s.year }} Draft Class</h2><span class="muted">positional rank: drafted → points</span></div>
     <div class="table-wrap"><table class="standings">
-      <thead><tr><th class="num">Rd</th><th>Player</th><th class="num">Pts</th><th class="hide-sm">Rank</th><th class="num">Value</th><th class="hide-sm">Still here</th></tr></thead>
+      <thead><tr><th class="num">Rd</th><th class="txt">Player</th><th class="num">Pts</th><th class="hide-sm">Rank</th><th class="num">Value</th><th class="hide-sm">Still here</th></tr></thead>
       <tbody>{% for d in s.draft %}<tr><td class="num muted">{{ d.round }}</td><td><span class="mgr">{{ d.player }}</span><span class="team">{{ d.pos }}</span></td><td class="num">{{ d.points }}</td><td class="hide-sm muted">{{ d.rank }}</td><td class="num">{% if d.value > 0 %}<span class="up">+{{ d.value }}</span>{% elsif d.value < 0 %}<span class="down">{{ d.value }}</span>{% else %}0{% endif %}</td><td class="hide-sm">{% if d.kept %}✓{% else %}<span class="muted">—</span>{% endif %}</td></tr>{% endfor %}</tbody>
     </table></div>
   </section>
@@ -109,7 +109,7 @@ layout: default
   <section class="section">
     <div class="section-head"><h2>Head to Head</h2><span class="muted">all games, playoffs included</span></div>
     <div class="table-wrap"><table class="standings">
-      <thead><tr><th>Opponent</th><th>Record</th><th class="num hide-sm">Win %</th><th class="num hide-sm">Playoff mtgs</th><th class="hide-sm">Last meeting</th></tr></thead>
+      <thead><tr><th class="txt">Opponent</th><th>Record</th><th class="num hide-sm">Win %</th><th class="num hide-sm">Playoff mtgs</th><th class="hide-sm">Last meeting</th></tr></thead>
       <tbody>
       {%- for h in m.head_to_head %}
         {%- assign hs = h.opponent | slugify %}

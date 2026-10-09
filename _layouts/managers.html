@@ -21,7 +21,7 @@ layout: default
 <section class="section">
   <div class="section-head"><h2>All-Time</h2><span class="muted">regular season</span></div>
   <div class="table-wrap"><table class="standings">
-    <thead><tr><th>Manager</th><th class="hide-sm">Years</th><th>Record</th><th class="num">Win %</th><th class="num">Titles</th></tr></thead>
+    <thead><tr><th class="txt">Manager</th><th class="hide-sm">Years</th><th>Record</th><th class="num">Win %</th><th class="num">Titles</th></tr></thead>
     <tbody>
     {%- for p in L.managers %}
       <tr{% unless p.current %} class="former"{% endunless %}>
