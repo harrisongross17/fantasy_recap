@@ -490,6 +490,11 @@ tr.former a.mgr { color: #c4cbd3; font-weight: 500; }
 
 @media (max-width: 640px) {
   .hide-sm { display: none; }
+  .standings { font-size: 14px; }
+  .standings th, .standings td { padding: 8px 5px; }
+  .standings th { letter-spacing: .04em; }
+  .standings .rank, .standings thead th:first-child { width: 24px; padding-left: 8px; }
+  .standings .mgr, .standings .team { white-space: normal; }
   .hero { padding: 24px 18px; }
   .wm-main { font-size: 16px; }
   .logo { width: 34px; height: 38px; }
@@ -502,4 +507,10 @@ tr.former a.mgr { color: #c4cbd3; font-weight: 500; }
 
 @media (max-width: 400px) {
   .awards { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 370px) {
+  /* homepage standings: drop the streak column on the narrowest phones */
+  .standings.compact th:last-child, .standings.compact td:last-child { display: none; }
+  .standings.compact tr.group td { display: table-cell; }
 }
