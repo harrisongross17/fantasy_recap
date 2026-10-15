@@ -2,6 +2,7 @@
   "name": "Luke Sullivan",
   "slug": "luke-sullivan",
   "current": true,
+  "team": "Holly Loves Nijigbas",
   "first_season": 2015,
   "last_season": 2026,
   "seasons_played": 12,
@@ -11,17 +12,17 @@
   ],
   "playoff_appearances": 1,
   "career": {
-    "record": "70-93",
-    "win_pct": 42.9,
+    "record": "70-94",
+    "win_pct": 42.7,
     "playoff_record": "1-1",
-    "ppg": "108.07"
+    "ppg": "108.11"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "3-1",
-      "pf": "507.44",
-      "ppg": "126.86",
+      "record": "3-2",
+      "pf": "621.06",
+      "ppg": "124.21",
       "finish": "In progress"
     },
     {
@@ -122,6 +123,15 @@
       "current": true
     },
     {
+      "opponent": "Jonathan Cooper",
+      "record": "8-13",
+      "win_pct": 38.1,
+      "meetings": 21,
+      "playoff_meetings": 1,
+      "last": "2026 wk 5: 113.62–115.46 L",
+      "current": true
+    },
+    {
       "opponent": "Hayden McMurrey",
       "record": "8-12",
       "win_pct": 40.0,
@@ -146,15 +156,6 @@
       "meetings": 20,
       "playoff_meetings": 0,
       "last": "2026 wk 4: 101.66–109.48 L",
-      "current": true
-    },
-    {
-      "opponent": "Jonathan Cooper",
-      "record": "8-12",
-      "win_pct": 40.0,
-      "meetings": 20,
-      "playoff_meetings": 1,
-      "last": "2025 wk 16: 101.80–93.14 W",
       "current": true
     },
     {
@@ -266,14 +267,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 4,
+    "through_week": 5,
     "division": "Blacks",
-    "record": "3-1",
+    "record": "3-2",
     "rank": 2,
-    "power_rank": 3,
-    "power_change": 1,
-    "playoff_pct": 56.1,
-    "pf": "507.44",
+    "power_rank": 4,
+    "power_change": -1,
+    "playoff_pct": 47.5,
+    "pf": "621.06",
     "weeks": [
       {
         "week": 1,
@@ -314,13 +315,23 @@
         "projected": "115.54",
         "bench": "34.00",
         "bar": 51
+      },
+      {
+        "week": 5,
+        "result": "L",
+        "score": "113.62",
+        "opp": "Jonathan Cooper",
+        "opp_score": "115.46",
+        "projected": "115.74",
+        "bench": "22.90",
+        "bar": 57
       }
     ],
     "luck": {
-      "all_play_record": "20-16",
-      "expected_wins": 2.22,
-      "luck": 0.78,
-      "points_against_vs_league_avg": -16.27,
+      "all_play_record": "23-22",
+      "expected_wins": 2.56,
+      "luck": 0.44,
+      "points_against_vs_league_avg": -28.71,
       "wins_below_median": 0,
       "losses_above_median": 0
     },
@@ -332,7 +343,7 @@
           {
             "name": "Ravens D/ST",
             "pos": "D/ST",
-            "since": "7.00",
+            "since": "12.00",
             "started": "7.00"
           }
         ],
@@ -344,7 +355,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "7.00"
+        "net": "12.00"
       }
     ],
     "trades": [],
@@ -354,7 +365,7 @@
         "overall": 6,
         "player": "Jaxon Smith-Njigba",
         "pos": "WR",
-        "points": "116.66",
+        "points": "139.46",
         "rank": "WR3 → WR1",
         "value": 2,
         "kept": true
@@ -364,7 +375,7 @@
         "overall": 15,
         "player": "Drake London",
         "pos": "WR",
-        "points": "57.40",
+        "points": "76.20",
         "rank": "WR7 → WR14",
         "value": -7,
         "kept": true
@@ -384,7 +395,7 @@
         "overall": 35,
         "player": "Kyren Williams",
         "pos": "RB",
-        "points": "89.70",
+        "points": "109.30",
         "rank": "RB17 → RB5",
         "value": 12,
         "kept": true
@@ -395,8 +406,8 @@
         "player": "Ladd McConkey",
         "pos": "WR",
         "points": "36.30",
-        "rank": "WR22 → WR37",
-        "value": -15,
+        "rank": "WR22 → WR41",
+        "value": -19,
         "kept": true
       },
       {
@@ -404,9 +415,9 @@
         "overall": 55,
         "player": "Tyler Warren",
         "pos": "TE",
-        "points": "48.50",
-        "rank": "TE4 → TE7",
-        "value": -3,
+        "points": "69.90",
+        "rank": "TE4 → TE6",
+        "value": -2,
         "kept": true
       },
       {
@@ -414,9 +425,9 @@
         "overall": 66,
         "player": "Courtland Sutton",
         "pos": "WR",
-        "points": "17.60",
-        "rank": "WR30 → WR50",
-        "value": -20,
+        "points": "27.40",
+        "rank": "WR30 → WR47",
+        "value": -17,
         "kept": true
       },
       {
@@ -424,9 +435,9 @@
         "overall": 75,
         "player": "Bo Nix",
         "pos": "QB",
-        "points": "57.26",
-        "rank": "QB7 → QB10",
-        "value": -3,
+        "points": "65.18",
+        "rank": "QB7 → QB11",
+        "value": -4,
         "kept": true
       },
       {
@@ -434,9 +445,9 @@
         "overall": 86,
         "player": "Blake Corum",
         "pos": "RB",
-        "points": "22.20",
-        "rank": "RB31 → RB37",
-        "value": -6,
+        "points": "38.40",
+        "rank": "RB31 → RB31",
+        "value": 0,
         "kept": true
       },
       {
@@ -445,8 +456,8 @@
         "player": "Alec Pierce",
         "pos": "WR",
         "points": "12.20",
-        "rank": "WR41 → WR53",
-        "value": -12,
+        "rank": "WR41 → WR54",
+        "value": -13,
         "kept": false
       },
       {
@@ -454,9 +465,9 @@
         "overall": 106,
         "player": "KC Concepcion",
         "pos": "WR",
-        "points": "30.30",
-        "rank": "WR46 → WR44",
-        "value": 2,
+        "points": "31.80",
+        "rank": "WR46 → WR45",
+        "value": 1,
         "kept": true
       },
       {
@@ -464,9 +475,9 @@
         "overall": 115,
         "player": "Brian Robinson Jr.",
         "pos": "RB",
-        "points": "48.50",
-        "rank": "RB38 → RB19",
-        "value": 19,
+        "points": "50.10",
+        "rank": "RB38 → RB23",
+        "value": 15,
         "kept": true
       },
       {
@@ -474,9 +485,9 @@
         "overall": 126,
         "player": "Kenyon Sadiq",
         "pos": "TE",
-        "points": "38.60",
-        "rank": "TE16 → TE12",
-        "value": 4,
+        "points": "38.90",
+        "rank": "TE16 → TE14",
+        "value": 2,
         "kept": true
       },
       {
@@ -484,9 +495,9 @@
         "overall": 135,
         "player": "Broncos D/ST",
         "pos": "D/ST",
-        "points": "21.00",
-        "rank": "D/ST3 → D/ST5",
-        "value": -2,
+        "points": "35.00",
+        "rank": "D/ST3 → D/ST4",
+        "value": -1,
         "kept": true
       },
       {
@@ -495,8 +506,8 @@
         "player": "Caleb Williams",
         "pos": "QB",
         "points": "44.98",
-        "rank": "QB15 → QB12",
-        "value": 3,
+        "rank": "QB15 → QB15",
+        "value": 0,
         "kept": true
       },
       {
@@ -504,7 +515,7 @@
         "overall": 155,
         "player": "Eddy Pineiro",
         "pos": "K",
-        "points": "28.00",
+        "points": "34.00",
         "rank": "K8 → K8",
         "value": 0,
         "kept": true
@@ -515,7 +526,7 @@
         "name": "Josh Jacobs",
         "pos": "RB",
         "status": "Day To Day",
-        "missed": 4,
+        "missed": 5,
         "storylines": [
           "still_out"
         ]
@@ -523,18 +534,38 @@
       {
         "name": "Caleb Williams",
         "pos": "QB",
-        "status": "Out",
-        "missed": 2,
+        "status": "Questionable",
+        "missed": 3,
         "storylines": [
-          "still_out"
+          "returning"
         ]
       },
       {
         "name": "Ladd McConkey",
         "pos": "WR",
         "status": "Questionable",
+        "missed": 1,
+        "storylines": [
+          "returning"
+        ]
+      },
+      {
+        "name": "KC Concepcion",
+        "pos": "WR",
+        "status": "Questionable",
         "missed": 0,
-        "storylines": []
+        "storylines": [
+          "newly_injured"
+        ]
+      },
+      {
+        "name": "Kenyon Sadiq",
+        "pos": "TE",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "newly_injured"
+        ]
       }
     ]
   }

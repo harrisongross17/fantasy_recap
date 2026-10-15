@@ -2,6 +2,7 @@
   "name": "Trip Smith",
   "slug": "trip-smith",
   "current": false,
+  "team": null,
   "first_season": 2014,
   "last_season": 2014,
   "seasons_played": 1,

@@ -2,6 +2,7 @@
   "name": "Kevin Mangus",
   "slug": "kevin-mangus",
   "current": true,
+  "team": "Good Good",
   "first_season": 2019,
   "last_season": 2026,
   "seasons_played": 8,
@@ -9,17 +10,17 @@
   "runner_ups": [],
   "playoff_appearances": 3,
   "career": {
-    "record": "52-55",
-    "win_pct": 48.6,
+    "record": "53-55",
+    "win_pct": 49.1,
     "playoff_record": "0-3",
-    "ppg": "117.64"
+    "ppg": "117.51"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "1-3",
-      "pf": "457.16",
-      "ppg": "114.29",
+      "record": "2-3",
+      "pf": "561.28",
+      "ppg": "112.26",
       "finish": "In progress"
     },
     {
@@ -92,6 +93,15 @@
       "current": true
     },
     {
+      "opponent": "Ben Fuller",
+      "record": "7-9",
+      "win_pct": 43.8,
+      "meetings": 16,
+      "playoff_meetings": 0,
+      "last": "2026 wk 5: 104.12–92.38 W",
+      "current": true
+    },
+    {
       "opponent": "Jonathan Cooper",
       "record": "12-4",
       "win_pct": 75.0,
@@ -107,15 +117,6 @@
       "meetings": 15,
       "playoff_meetings": 0,
       "last": "2026 wk 3: 124.60–155.50 L",
-      "current": true
-    },
-    {
-      "opponent": "Ben Fuller",
-      "record": "6-9",
-      "win_pct": 40.0,
-      "meetings": 15,
-      "playoff_meetings": 0,
-      "last": "2025 wk 13: 111.64–102.82 W",
       "current": true
     },
     {
@@ -218,14 +219,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 4,
+    "through_week": 5,
     "division": "Blacks",
-    "record": "1-3",
-    "rank": 8,
-    "power_rank": 8,
-    "power_change": 0,
-    "playoff_pct": 23.6,
-    "pf": "457.16",
+    "record": "2-3",
+    "rank": 7,
+    "power_rank": 7,
+    "power_change": 1,
+    "playoff_pct": 20.3,
+    "pf": "561.28",
     "weeks": [
       {
         "week": 1,
@@ -266,14 +267,24 @@
         "projected": "122.57",
         "bench": "22.34",
         "bar": 64
+      },
+      {
+        "week": 5,
+        "result": "W",
+        "score": "104.12",
+        "opp": "Ben Fuller",
+        "opp_score": "92.38",
+        "projected": "126.14",
+        "bench": "17.80",
+        "bar": 52
       }
     ],
     "luck": {
-      "all_play_record": "14-22",
-      "expected_wins": 1.56,
-      "luck": -0.56,
-      "points_against_vs_league_avg": 89.33,
-      "wins_below_median": 0,
+      "all_play_record": "16-29",
+      "expected_wins": 1.78,
+      "luck": 0.22,
+      "points_against_vs_league_avg": 53.81,
+      "wins_below_median": 1,
       "losses_above_median": 1
     },
     "moves": [],
@@ -284,7 +295,7 @@
         "overall": 7,
         "player": "Christian McCaffrey",
         "pos": "RB",
-        "points": "74.00",
+        "points": "91.30",
         "rank": "RB4 → RB9",
         "value": -5,
         "kept": true
@@ -294,9 +305,9 @@
         "overall": 14,
         "player": "Ashton Jeanty",
         "pos": "RB",
-        "points": "73.90",
-        "rank": "RB8 → RB10",
-        "value": -2,
+        "points": "84.60",
+        "rank": "RB8 → RB11",
+        "value": -3,
         "kept": true
       },
       {
@@ -304,9 +315,9 @@
         "overall": 27,
         "player": "Nico Collins",
         "pos": "WR",
-        "points": "52.00",
-        "rank": "WR11 → WR18",
-        "value": -7,
+        "points": "62.60",
+        "rank": "WR11 → WR21",
+        "value": -10,
         "kept": true
       },
       {
@@ -314,9 +325,9 @@
         "overall": 34,
         "player": "Zay Flowers",
         "pos": "WR",
-        "points": "67.20",
-        "rank": "WR15 → WR9",
-        "value": 6,
+        "points": "81.80",
+        "rank": "WR15 → WR8",
+        "value": 7,
         "kept": true
       },
       {
@@ -324,9 +335,9 @@
         "overall": 47,
         "player": "Colston Loveland",
         "pos": "TE",
-        "points": "20.10",
-        "rank": "TE3 → TE16",
-        "value": -13,
+        "points": "24.00",
+        "rank": "TE3 → TE17",
+        "value": -14,
         "kept": true
       },
       {
@@ -334,9 +345,9 @@
         "overall": 54,
         "player": "Jameson Williams",
         "pos": "WR",
-        "points": "38.90",
-        "rank": "WR27 → WR33",
-        "value": -6,
+        "points": "57.60",
+        "rank": "WR27 → WR23",
+        "value": 4,
         "kept": true
       },
       {
@@ -344,9 +355,9 @@
         "overall": 67,
         "player": "Rhamondre Stevenson",
         "pos": "RB",
-        "points": "43.30",
-        "rank": "RB26 → RB25",
-        "value": 1,
+        "points": "60.80",
+        "rank": "RB26 → RB18",
+        "value": 8,
         "kept": true
       },
       {
@@ -354,9 +365,9 @@
         "overall": 74,
         "player": "DK Metcalf",
         "pos": "WR",
-        "points": "43.30",
-        "rank": "WR32 → WR28",
-        "value": 4,
+        "points": "48.60",
+        "rank": "WR32 → WR30",
+        "value": 2,
         "kept": true
       },
       {
@@ -364,9 +375,9 @@
         "overall": 87,
         "player": "Matthew Stafford",
         "pos": "QB",
-        "points": "61.66",
-        "rank": "QB11 → QB9",
-        "value": 2,
+        "points": "88.98",
+        "rank": "QB11 → QB5",
+        "value": 6,
         "kept": true
       },
       {
@@ -374,9 +385,9 @@
         "overall": 94,
         "player": "Jakobi Meyers",
         "pos": "WR",
-        "points": "41.70",
-        "rank": "WR40 → WR29",
-        "value": 11,
+        "points": "47.40",
+        "rank": "WR40 → WR33",
+        "value": 7,
         "kept": true
       },
       {
@@ -384,9 +395,9 @@
         "overall": 107,
         "player": "Aaron Jones Sr.",
         "pos": "RB",
-        "points": "51.50",
-        "rank": "RB35 → RB17",
-        "value": 18,
+        "points": "70.20",
+        "rank": "RB35 → RB15",
+        "value": 20,
         "kept": true
       },
       {
@@ -394,9 +405,9 @@
         "overall": 114,
         "player": "Mark Andrews",
         "pos": "TE",
-        "points": "38.90",
-        "rank": "TE14 → TE11",
-        "value": 3,
+        "points": "43.70",
+        "rank": "TE14 → TE12",
+        "value": 2,
         "kept": true
       },
       {
@@ -404,9 +415,9 @@
         "overall": 127,
         "player": "Rams D/ST",
         "pos": "D/ST",
-        "points": "24.00",
-        "rank": "D/ST2 → D/ST4",
-        "value": -2,
+        "points": "23.00",
+        "rank": "D/ST2 → D/ST8",
+        "value": -6,
         "kept": true
       },
       {
@@ -414,9 +425,9 @@
         "overall": 134,
         "player": "Harrison Mevis",
         "pos": "K",
-        "points": "26.00",
-        "rank": "K4 → K9",
-        "value": -5,
+        "points": "28.00",
+        "rank": "K4 → K10",
+        "value": -6,
         "kept": true
       },
       {
@@ -424,7 +435,7 @@
         "overall": 147,
         "player": "Sam Darnold",
         "pos": "QB",
-        "points": "41.50",
+        "points": "49.80",
         "rank": "QB16 → QB14",
         "value": 2,
         "kept": true
@@ -434,31 +445,13 @@
         "overall": 154,
         "player": "Eagles D/ST",
         "pos": "D/ST",
-        "points": "10.00",
-        "rank": "D/ST10 → D/ST9",
-        "value": 1,
+        "points": "11.00",
+        "rank": "D/ST10 → D/ST10",
+        "value": 0,
         "kept": true
       }
     ],
     "injuries": [
-      {
-        "name": "Ashton Jeanty",
-        "pos": "RB",
-        "status": "Questionable",
-        "missed": 0,
-        "storylines": [
-          "newly_injured"
-        ]
-      },
-      {
-        "name": "Rhamondre Stevenson",
-        "pos": "RB",
-        "status": "Questionable",
-        "missed": 0,
-        "storylines": [
-          "newly_injured"
-        ]
-      },
       {
         "name": "Zay Flowers",
         "pos": "WR",

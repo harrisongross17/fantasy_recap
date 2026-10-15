@@ -26,6 +26,12 @@ layout: default
   </div>
 
   {%- if wd %}
+  {%- if wd.top_by_position.size > 0 %}
+  <section class="section">
+    <div class="section-head"><h2>Top Performers</h2><span class="muted">best rostered players at each position</span></div>
+    {%- include top-performers.html -%}
+  </section>
+  {%- endif %}
   <section class="section">
     <div class="section-head"><h2>Standings</h2><span class="muted">after Week {{ wd.week }}</span></div>
     {%- include standings.html -%}

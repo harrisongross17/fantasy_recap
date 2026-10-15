@@ -223,6 +223,22 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: .01e
 .standings td .team, .season-table td .team { display: block; }
 .award-detail { color: var(--muted); font-size: 14px; margin-top: 4px; }
 
+/* ── Top performers by position ───────────────────────────────────────── */
+
+.top-pos { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+.pos-list { list-style: none; margin: 10px 0 0; padding: 0; }
+.pos-list li { display: grid; grid-template-columns: 18px 1fr auto; gap: 8px; align-items: baseline; padding: 6px 0; border-top: 1px solid var(--border); }
+.pos-list li:first-child { border-top: 0; padding-top: 0; }
+.pos-rank { color: var(--muted); font: 600 12px/1 var(--display); }
+.pos-who { min-width: 0; }
+.pos-player { display: block; font-weight: 600; }
+.pos-owner { display: inline; color: var(--muted); }
+a.pos-owner:hover { color: var(--accent); text-decoration: none; }
+.pos-who .tag { margin-left: 6px; vertical-align: 1px; }
+.pos-pts { font: 600 15px/1 var(--display); font-variant-numeric: tabular-nums; }
+.pos-list li.lead .pos-pts { font-size: 22px; color: var(--accent); }
+.tag-bench { background: var(--surface-2); color: var(--muted); }
+
 /* ── Scoreboard ──────────────────────────────────────────────────────── */
 
 .scoreboard { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
@@ -280,7 +296,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: .01e
 .standings th.txt, .standings td:has(.mgr), .standings tr.group td { text-align: left; }   /* names, players, group labels read left */
 .standings .num { font-variant-numeric: tabular-nums; }
 .standings .rank { color: var(--muted); width: 1%; }
-.standings .mgr { display: block; }
+.standings .mgr { display: inline; }   /* the division-leader star sits on the same line */
 .standings .team { display: block; }
 .standings .record { font-weight: 600; font-variant-numeric: tabular-nums; }
 .standings.compact td { padding: 8px 12px; }
@@ -308,6 +324,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: .01e
   text-transform: uppercase;
 }
 .leader { color: var(--accent); margin-left: 6px; }
+.legend .leader { margin: 0 2px 0 0; }
 
 .streak { font: 600 13px/1 var(--display); letter-spacing: .06em; }
 .streak-W { color: var(--win); }
@@ -510,12 +527,12 @@ tr.former a.mgr { color: #c4cbd3; font-weight: 500; }
   .scoreboard, .next-week, .post-grid, .moves { grid-template-columns: 1fr; }
   .week-strip, .mgr-grid { grid-template-columns: 1fr 1fr; }
   .site-nav { gap: 14px; }
-  .awards { grid-template-columns: 1fr 1fr; }
+  .awards, .top-pos { grid-template-columns: 1fr 1fr; }
   .award-stat { font-size: 26px; }
 }
 
 @media (max-width: 400px) {
-  .awards { grid-template-columns: 1fr; }
+  .awards, .top-pos { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 370px) {

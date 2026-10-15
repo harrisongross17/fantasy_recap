@@ -1,0 +1,1055 @@
+{
+  "week": 5,
+  "year": 2026,
+  "complete": true,
+  "playoff_teams": 4,
+  "standings": [
+    {
+      "rank": 1,
+      "manager": "Noah Laing",
+      "team": "Boots with the Ferg",
+      "division": "Whites",
+      "division_leader": true,
+      "record": "5-0",
+      "pf": "752.46",
+      "pa": "554.88",
+      "streak": "W5",
+      "form": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W"
+      ],
+      "in_playoffs": true,
+      "power_rank": 1,
+      "power_change": 0
+    },
+    {
+      "rank": 2,
+      "manager": "Luke Sullivan",
+      "team": "Holly Loves Nijigbas",
+      "division": "Blacks",
+      "division_leader": true,
+      "record": "3-2",
+      "pf": "621.06",
+      "pa": "582.66",
+      "streak": "L2",
+      "form": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "L"
+      ],
+      "in_playoffs": true,
+      "power_rank": 4,
+      "power_change": -1
+    },
+    {
+      "rank": 3,
+      "manager": "Hayden McMurrey",
+      "team": "Cooking Ws",
+      "division": "Whites",
+      "division_leader": false,
+      "record": "4-1",
+      "pf": "642.86",
+      "pa": "527.08",
+      "streak": "W1",
+      "form": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "W"
+      ],
+      "in_playoffs": true,
+      "power_rank": 2,
+      "power_change": 2
+    },
+    {
+      "rank": 4,
+      "manager": "Andrew Hobby",
+      "team": "My Team Might Be Good?",
+      "division": "Whites",
+      "division_leader": false,
+      "record": "3-2",
+      "pf": "661.52",
+      "pa": "628.32",
+      "streak": "L1",
+      "form": [
+        "W",
+        "W",
+        "L",
+        "W",
+        "L"
+      ],
+      "in_playoffs": true,
+      "power_rank": 3,
+      "power_change": -1
+    },
+    {
+      "rank": 5,
+      "manager": "Jonathan Cooper",
+      "team": "Harrison is  gay",
+      "division": "Blacks",
+      "division_leader": false,
+      "record": "3-2",
+      "pf": "595.00",
+      "pa": "590.36",
+      "streak": "W1",
+      "form": [
+        "L",
+        "W",
+        "W",
+        "L",
+        "W"
+      ],
+      "in_playoffs": false,
+      "power_rank": 5,
+      "power_change": 1
+    },
+    {
+      "rank": 6,
+      "manager": "Harrison Gross",
+      "team": "Island of Injured Toys",
+      "division": "Whites",
+      "division_leader": false,
+      "record": "2-3",
+      "pf": "675.08",
+      "pa": "683.20",
+      "streak": "L1",
+      "form": [
+        "L",
+        "L",
+        "W",
+        "W",
+        "L"
+      ],
+      "in_playoffs": false,
+      "power_rank": 6,
+      "power_change": -1
+    },
+    {
+      "rank": 7,
+      "manager": "Kevin Mangus",
+      "team": "Good Good",
+      "division": "Blacks",
+      "division_leader": false,
+      "record": "2-3",
+      "pf": "561.28",
+      "pa": "665.18",
+      "streak": "W2",
+      "form": [
+        "L",
+        "L",
+        "L",
+        "W",
+        "W"
+      ],
+      "in_playoffs": false,
+      "power_rank": 7,
+      "power_change": 1
+    },
+    {
+      "rank": 8,
+      "manager": "Ben Fuller",
+      "team": "Luke loves monangais",
+      "division": "Blacks",
+      "division_leader": false,
+      "record": "1-4",
+      "pf": "554.52",
+      "pa": "600.28",
+      "streak": "L1",
+      "form": [
+        "L",
+        "L",
+        "L",
+        "W",
+        "L"
+      ],
+      "in_playoffs": false,
+      "power_rank": 8,
+      "power_change": -1
+    },
+    {
+      "rank": 9,
+      "manager": "Michael Luisi",
+      "team": "Road to 0-17",
+      "division": "Whites",
+      "division_leader": false,
+      "record": "1-4",
+      "pf": "534.92",
+      "pa": "619.14",
+      "streak": "W1",
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "W"
+      ],
+      "in_playoffs": false,
+      "power_rank": 9,
+      "power_change": 1
+    },
+    {
+      "rank": 10,
+      "manager": "Jimmy Miller",
+      "team": "Saquon Deez Nuts Some Moore",
+      "division": "Blacks",
+      "division_leader": false,
+      "record": "1-4",
+      "pf": "515.02",
+      "pa": "662.62",
+      "streak": "L4",
+      "form": [
+        "W",
+        "L",
+        "L",
+        "L",
+        "L"
+      ],
+      "in_playoffs": false,
+      "power_rank": 10,
+      "power_change": -1
+    }
+  ],
+  "matchups": [
+    {
+      "home": {
+        "manager": "Michael Luisi",
+        "team": "Road to 0-17",
+        "score": "143.94",
+        "projected": "124.08",
+        "record": "1-4"
+      },
+      "away": {
+        "manager": "Jimmy Miller",
+        "team": "Saquon Deez Nuts Some Moore",
+        "score": "72.50",
+        "projected": "115.68",
+        "record": "1-4"
+      },
+      "winner": "home",
+      "margin": "71.44",
+      "tags": [
+        "Low score",
+        "Blowout"
+      ]
+    },
+    {
+      "home": {
+        "manager": "Andrew Hobby",
+        "team": "My Team Might Be Good?",
+        "score": "132.14",
+        "projected": "126.84",
+        "record": "3-2"
+      },
+      "away": {
+        "manager": "Hayden McMurrey",
+        "team": "Cooking Ws",
+        "score": "174.00",
+        "projected": "123.74",
+        "record": "4-1"
+      },
+      "winner": "away",
+      "margin": "41.86",
+      "tags": []
+    },
+    {
+      "home": {
+        "manager": "Luke Sullivan",
+        "team": "Holly Loves Nijigbas",
+        "score": "113.62",
+        "projected": "115.74",
+        "record": "3-2"
+      },
+      "away": {
+        "manager": "Jonathan Cooper",
+        "team": "Harrison is  gay",
+        "score": "115.46",
+        "projected": "118.15",
+        "record": "3-2"
+      },
+      "winner": "away",
+      "margin": "1.84",
+      "tags": [
+        "Nail-biter"
+      ]
+    },
+    {
+      "home": {
+        "manager": "Harrison Gross",
+        "team": "Island of Injured Toys",
+        "score": "136.98",
+        "projected": "129.10",
+        "record": "2-3"
+      },
+      "away": {
+        "manager": "Noah Laing",
+        "team": "Boots with the Ferg",
+        "score": "193.86",
+        "projected": "139.64",
+        "record": "5-0"
+      },
+      "winner": "away",
+      "margin": "56.88",
+      "tags": [
+        "High score"
+      ]
+    },
+    {
+      "home": {
+        "manager": "Ben Fuller",
+        "team": "Luke loves monangais",
+        "score": "92.38",
+        "projected": "118.32",
+        "record": "1-4"
+      },
+      "away": {
+        "manager": "Kevin Mangus",
+        "team": "Good Good",
+        "score": "104.12",
+        "projected": "126.14",
+        "record": "2-3"
+      },
+      "winner": "away",
+      "margin": "11.74",
+      "tags": []
+    }
+  ],
+  "awards": [
+    {
+      "icon": "🔥",
+      "label": "Top Score",
+      "manager": "Noah Laing",
+      "stat": "193.86",
+      "unit": "pts",
+      "detail": "vs Harrison Gross",
+      "team": "Boots with the Ferg"
+    },
+    {
+      "icon": "🪑",
+      "label": "Bench Blunder",
+      "manager": "Noah Laing",
+      "stat": "31.00",
+      "unit": "pts left on bench",
+      "detail": "Optimal lineup: 224.86",
+      "team": "Boots with the Ferg"
+    },
+    {
+      "icon": "🍀",
+      "label": "Luckiest Win",
+      "manager": "Kevin Mangus",
+      "stat": "104.12",
+      "unit": "pts",
+      "detail": "Below the league median (123.80) and still beat Ben Fuller",
+      "team": "Good Good"
+    },
+    {
+      "icon": "💔",
+      "label": "Toughest Loss",
+      "manager": "Harrison Gross",
+      "stat": "136.98",
+      "unit": "pts",
+      "detail": "Highest losing score — fell to Noah Laing",
+      "team": "Island of Injured Toys"
+    },
+    {
+      "icon": "⭐",
+      "label": "Player of the Week",
+      "manager": "Michael Luisi",
+      "stat": "37.70",
+      "unit": "pts",
+      "detail": "Puka Nacua (WR), projected 21.68",
+      "team": "Road to 0-17"
+    },
+    {
+      "icon": "🗑️",
+      "label": "Drop Regret",
+      "manager": "Michael Luisi",
+      "stat": "28.30",
+      "unit": "pts behind",
+      "detail": "Dropped Rashid Shaheed (28.30 since) for De'Zhaun Stribling (0.00) in week 1",
+      "team": "Road to 0-17"
+    }
+  ],
+  "top_by_position": [
+    {
+      "position": "QB",
+      "players": [
+        {
+          "name": "Drake Maye",
+          "position": "QB",
+          "points": "39.46",
+          "manager": "Noah Laing",
+          "team": "Boots with the Ferg",
+          "started": false
+        },
+        {
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "points": "32.26",
+          "manager": "Jonathan Cooper",
+          "team": "Harrison is  gay",
+          "started": true
+        },
+        {
+          "name": "Josh Allen",
+          "position": "QB",
+          "points": "30.50",
+          "manager": "Hayden McMurrey",
+          "team": "Cooking Ws",
+          "started": true
+        }
+      ]
+    },
+    {
+      "position": "RB",
+      "players": [
+        {
+          "name": "Jahmyr Gibbs",
+          "position": "RB",
+          "points": "37.70",
+          "manager": "Noah Laing",
+          "team": "Boots with the Ferg",
+          "started": true
+        },
+        {
+          "name": "Jaylen Warren",
+          "position": "RB",
+          "points": "36.80",
+          "manager": "Noah Laing",
+          "team": "Boots with the Ferg",
+          "started": true
+        },
+        {
+          "name": "Bucky Irving",
+          "position": "RB",
+          "points": "31.50",
+          "manager": "Andrew Hobby",
+          "team": "My Team Might Be Good?",
+          "started": true
+        }
+      ]
+    },
+    {
+      "position": "WR",
+      "players": [
+        {
+          "name": "Puka Nacua",
+          "position": "WR",
+          "points": "37.70",
+          "manager": "Michael Luisi",
+          "team": "Road to 0-17",
+          "started": true
+        },
+        {
+          "name": "Christian Watson",
+          "position": "WR",
+          "points": "32.30",
+          "manager": "Harrison Gross",
+          "team": "Island of Injured Toys",
+          "started": true
+        },
+        {
+          "name": "Parker Washington",
+          "position": "WR",
+          "points": "30.40",
+          "manager": "Noah Laing",
+          "team": "Boots with the Ferg",
+          "started": true
+        }
+      ]
+    },
+    {
+      "position": "TE",
+      "players": [
+        {
+          "name": "Isaiah Likely",
+          "position": "TE",
+          "points": "32.40",
+          "manager": "Andrew Hobby",
+          "team": "My Team Might Be Good?",
+          "started": false
+        },
+        {
+          "name": "Brock Bowers",
+          "position": "TE",
+          "points": "23.00",
+          "manager": "Harrison Gross",
+          "team": "Island of Injured Toys",
+          "started": true
+        },
+        {
+          "name": "Trey McBride",
+          "position": "TE",
+          "points": "21.60",
+          "manager": "Noah Laing",
+          "team": "Boots with the Ferg",
+          "started": true
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "kind": "Waiver",
+      "manager": "Harrison Gross",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "David Montgomery",
+          "pos": "RB",
+          "nfl": "HOU"
+        },
+        {
+          "dir": "drop",
+          "name": "Jordan Mason",
+          "pos": "RB",
+          "nfl": "MIN"
+        }
+      ],
+      "date": "Thu 10/15",
+      "team": "Island of Injured Toys"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Ben Fuller",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "49ers D/ST",
+          "pos": "D/ST",
+          "nfl": "SF"
+        },
+        {
+          "dir": "drop",
+          "name": "Cowboys D/ST",
+          "pos": "D/ST",
+          "nfl": "DAL"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "Luke loves monangais"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Ben Fuller",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Kirk Cousins",
+          "pos": "QB",
+          "nfl": "LV"
+        },
+        {
+          "dir": "drop",
+          "name": "Makai Lemon",
+          "pos": "WR",
+          "nfl": "PHI"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "Luke loves monangais"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Hayden McMurrey",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Colts D/ST",
+          "pos": "D/ST",
+          "nfl": "IND"
+        },
+        {
+          "dir": "drop",
+          "name": "Jets D/ST",
+          "pos": "D/ST",
+          "nfl": "NYJ"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "Cooking Ws"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Harrison Gross",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Matt Gay",
+          "pos": "K",
+          "nfl": "LV"
+        },
+        {
+          "dir": "drop",
+          "name": "Jaguars D/ST",
+          "pos": "D/ST",
+          "nfl": "JAX"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "Island of Injured Toys"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Noah Laing",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Woody Marks",
+          "pos": "RB",
+          "nfl": "HOU"
+        },
+        {
+          "dir": "drop",
+          "name": "Keon Coleman",
+          "pos": "WR",
+          "nfl": "BUF"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "Boots with the Ferg"
+    },
+    {
+      "kind": "Free agent",
+      "manager": "Jimmy Miller",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Giants D/ST",
+          "pos": "D/ST",
+          "nfl": "NYG"
+        },
+        {
+          "dir": "drop",
+          "name": "Commanders D/ST",
+          "pos": "D/ST",
+          "nfl": "WSH"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "Saquon Deez Nuts Some Moore"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Chiefs D/ST",
+          "pos": "D/ST",
+          "nfl": "KC"
+        },
+        {
+          "dir": "drop",
+          "name": "Vikings D/ST",
+          "pos": "D/ST",
+          "nfl": "MIN"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "Road to 0-17"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Harrison Butker",
+          "pos": "K",
+          "nfl": "KC"
+        },
+        {
+          "dir": "drop",
+          "name": "Evan McPherson",
+          "pos": "K",
+          "nfl": "CIN"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "Road to 0-17"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Andrew Hobby",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Ka'imi Fairbairn",
+          "pos": "K",
+          "nfl": "HOU"
+        },
+        {
+          "dir": "drop",
+          "name": "Jake Bates",
+          "pos": "K",
+          "nfl": "DET"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "My Team Might Be Good?"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Jordan Love",
+          "pos": "QB",
+          "nfl": "GB"
+        },
+        {
+          "dir": "drop",
+          "name": "Tyler Shough",
+          "pos": "QB",
+          "nfl": "NO"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "Road to 0-17"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Hayden McMurrey",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Xavier Worthy",
+          "pos": "WR",
+          "nfl": "KC"
+        },
+        {
+          "dir": "drop",
+          "name": "Jaylen Wright",
+          "pos": "RB",
+          "nfl": "MIA"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "Cooking Ws"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Andrew Hobby",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "Patriots D/ST",
+          "pos": "D/ST",
+          "nfl": "NE"
+        },
+        {
+          "dir": "drop",
+          "name": "Raiders D/ST",
+          "pos": "D/ST",
+          "nfl": "LV"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "My Team Might Be Good?"
+    },
+    {
+      "kind": "Waiver",
+      "manager": "Michael Luisi",
+      "lines": [
+        {
+          "dir": "add",
+          "name": "MarShawn Lloyd",
+          "pos": "RB",
+          "nfl": "GB"
+        },
+        {
+          "dir": "drop",
+          "name": "David Montgomery",
+          "pos": "RB",
+          "nfl": "HOU"
+        }
+      ],
+      "date": "Wed 10/14",
+      "team": "Road to 0-17"
+    }
+  ],
+  "season_stats": {
+    "through_week": 5,
+    "leaders": [
+      {
+        "icon": "🔥",
+        "label": "Most Points",
+        "manager": "Noah Laing",
+        "stat": "752.46",
+        "detail": "150.49 per game",
+        "team": "Boots with the Ferg"
+      },
+      {
+        "icon": "🧱",
+        "label": "Toughest Schedule",
+        "manager": "Harrison Gross",
+        "stat": "683.20",
+        "detail": "most points scored against",
+        "team": "Island of Injured Toys"
+      },
+      {
+        "icon": "🔄",
+        "label": "Most Waiver Moves",
+        "manager": "Michael Luisi",
+        "stat": "32",
+        "detail": "adds this season",
+        "team": "Road to 0-17"
+      },
+      {
+        "icon": "🎯",
+        "label": "Best Lineup Setter",
+        "manager": "Hayden McMurrey",
+        "stat": "90.5%",
+        "detail": "of possible points started",
+        "team": "Cooking Ws"
+      },
+      {
+        "icon": "🪑",
+        "label": "Most Left on Bench",
+        "manager": "Ben Fuller",
+        "stat": "138.50",
+        "detail": "points on the bench",
+        "team": "Luke loves monangais"
+      },
+      {
+        "icon": "🍀",
+        "label": "Luckiest Record",
+        "manager": "Hayden McMurrey",
+        "stat": "+1.22",
+        "detail": "wins above expected · all-play 25-20",
+        "team": "Cooking Ws"
+      }
+    ],
+    "table": [
+      {
+        "manager": "Noah Laing",
+        "pf": "752.46",
+        "pa": "554.88",
+        "avg": "150.49",
+        "high": "193.86",
+        "low": "103.52",
+        "moves": 9,
+        "trades": 1,
+        "bench": "134.32",
+        "efficiency": 84.9,
+        "all_play": "37-8",
+        "luck": 0.89,
+        "team": "Boots with the Ferg"
+      },
+      {
+        "manager": "Harrison Gross",
+        "pf": "675.08",
+        "pa": "683.20",
+        "avg": "135.02",
+        "high": "178.76",
+        "low": "99.60",
+        "moves": 8,
+        "trades": 1,
+        "bench": "110.30",
+        "efficiency": 86.0,
+        "all_play": "28-17",
+        "luck": -1.11,
+        "team": "Island of Injured Toys"
+      },
+      {
+        "manager": "Andrew Hobby",
+        "pf": "661.52",
+        "pa": "628.32",
+        "avg": "132.30",
+        "high": "167.56",
+        "low": "109.48",
+        "moves": 10,
+        "trades": 0,
+        "bench": "132.46",
+        "efficiency": 83.3,
+        "all_play": "31-14",
+        "luck": -0.44,
+        "team": "My Team Might Be Good?"
+      },
+      {
+        "manager": "Hayden McMurrey",
+        "pf": "642.86",
+        "pa": "527.08",
+        "avg": "128.57",
+        "high": "174.00",
+        "low": "91.92",
+        "moves": 8,
+        "trades": 0,
+        "bench": "67.80",
+        "efficiency": 90.5,
+        "all_play": "25-20",
+        "luck": 1.22,
+        "team": "Cooking Ws"
+      },
+      {
+        "manager": "Luke Sullivan",
+        "pf": "621.06",
+        "pa": "582.66",
+        "avg": "124.21",
+        "high": "155.50",
+        "low": "101.66",
+        "moves": 1,
+        "trades": 0,
+        "bench": "92.80",
+        "efficiency": 87.0,
+        "all_play": "23-22",
+        "luck": 0.44,
+        "team": "Holly Loves Nijigbas"
+      },
+      {
+        "manager": "Jonathan Cooper",
+        "pf": "595.00",
+        "pa": "590.36",
+        "avg": "119.00",
+        "high": "134.94",
+        "low": "94.66",
+        "moves": 1,
+        "trades": 0,
+        "bench": "108.34",
+        "efficiency": 84.6,
+        "all_play": "23-22",
+        "luck": 0.44,
+        "team": "Harrison is  gay"
+      },
+      {
+        "manager": "Kevin Mangus",
+        "pf": "561.28",
+        "pa": "665.18",
+        "avg": "112.26",
+        "high": "128.08",
+        "low": "96.18",
+        "moves": 0,
+        "trades": 0,
+        "bench": "84.20",
+        "efficiency": 87.0,
+        "all_play": "16-29",
+        "luck": 0.22,
+        "team": "Good Good"
+      },
+      {
+        "manager": "Ben Fuller",
+        "pf": "554.52",
+        "pa": "600.28",
+        "avg": "110.90",
+        "high": "156.52",
+        "low": "89.08",
+        "moves": 9,
+        "trades": 0,
+        "bench": "138.50",
+        "efficiency": 80.0,
+        "all_play": "15-30",
+        "luck": -0.67,
+        "team": "Luke loves monangais"
+      },
+      {
+        "manager": "Michael Luisi",
+        "pf": "534.92",
+        "pa": "619.14",
+        "avg": "106.98",
+        "high": "143.94",
+        "low": "75.88",
+        "moves": 32,
+        "trades": 0,
+        "bench": "74.14",
+        "efficiency": 87.8,
+        "all_play": "14-31",
+        "luck": -0.56,
+        "team": "Road to 0-17"
+      },
+      {
+        "manager": "Jimmy Miller",
+        "pf": "515.02",
+        "pa": "662.62",
+        "avg": "103.00",
+        "high": "133.52",
+        "low": "72.50",
+        "moves": 5,
+        "trades": 0,
+        "bench": "120.90",
+        "efficiency": 81.0,
+        "all_play": "13-32",
+        "luck": -0.44,
+        "team": "Saquon Deez Nuts Some Moore"
+      }
+    ]
+  },
+  "next_week": [
+    {
+      "home": {
+        "manager": "Jonathan Cooper",
+        "team": "Harrison is  gay",
+        "record": "3-2"
+      },
+      "away": {
+        "manager": "Noah Laing",
+        "team": "Boots with the Ferg",
+        "record": "5-0"
+      },
+      "series": "Noah Laing leads 10-8",
+      "meetings": 18
+    },
+    {
+      "home": {
+        "manager": "Kevin Mangus",
+        "team": "Good Good",
+        "record": "2-3"
+      },
+      "away": {
+        "manager": "Harrison Gross",
+        "team": "Island of Injured Toys",
+        "record": "2-3"
+      },
+      "series": "Harrison Gross leads 9-8",
+      "meetings": 17
+    },
+    {
+      "home": {
+        "manager": "Ben Fuller",
+        "team": "Luke loves monangais",
+        "record": "1-4"
+      },
+      "away": {
+        "manager": "Andrew Hobby",
+        "team": "My Team Might Be Good?",
+        "record": "3-2"
+      },
+      "series": "Andrew Hobby leads 12-11",
+      "meetings": 23
+    },
+    {
+      "home": {
+        "manager": "Luke Sullivan",
+        "team": "Holly Loves Nijigbas",
+        "record": "3-2"
+      },
+      "away": {
+        "manager": "Michael Luisi",
+        "team": "Road to 0-17",
+        "record": "1-4"
+      },
+      "series": "Michael Luisi leads 14-6",
+      "meetings": 20
+    },
+    {
+      "home": {
+        "manager": "Jimmy Miller",
+        "team": "Saquon Deez Nuts Some Moore",
+        "record": "1-4"
+      },
+      "away": {
+        "manager": "Hayden McMurrey",
+        "team": "Cooking Ws",
+        "record": "4-1"
+      },
+      "series": "Jimmy Miller leads 7-5",
+      "meetings": 12
+    }
+  ]
+}

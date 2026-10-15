@@ -36,7 +36,7 @@ primary_label: manager
 
 # Show ESPN team names next to managers on scorecards and standings.
 # The site is public, so these are visible to anyone with the link.
-show_team_names: false
+show_team_names: true
 
 # Default link-preview image for anything shared in a group chat
 defaults:

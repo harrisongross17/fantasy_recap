@@ -1,0 +1,16 @@
+<div class="top-pos">
+{%- for g in wd.top_by_position %}
+  <div class="award pos-card">
+    <div class="award-head"><span class="award-label">{{ g.position }}</span></div>
+    <ol class="pos-list">
+    {%- for p in g.players %}
+      <li{% if forloop.first %} class="lead"{% endif %}>
+        <span class="pos-rank">{{ forloop.index }}</span>
+        <span class="pos-who"><span class="pos-player">{{ p.name }}</span>{%- assign ms = p.manager | slugify -%}<a class="team pos-owner" href="{{ '/managers/' | append: ms | append: '.html' | relative_url }}">{% if site.primary_label == "team" and p.team %}{{ p.team }}{% else %}{{ p.manager }}{% endif %}</a>{% unless p.started %}<span class="tag tag-bench">Bench</span>{% endunless %}</span>
+        <span class="pos-pts">{{ p.points }}</span>
+      </li>
+    {%- endfor %}
+    </ol>
+  </div>
+{%- endfor %}
+</div>

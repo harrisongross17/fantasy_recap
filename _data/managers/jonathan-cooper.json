@@ -2,6 +2,7 @@
   "name": "Jonathan Cooper",
   "slug": "jonathan-cooper",
   "current": true,
+  "team": "Harrison is  gay",
   "first_season": 2014,
   "last_season": 2026,
   "seasons_played": 13,
@@ -12,17 +13,17 @@
   "runner_ups": [],
   "playoff_appearances": 4,
   "career": {
-    "record": "80-97",
-    "win_pct": 45.2,
+    "record": "81-97",
+    "win_pct": 45.5,
     "playoff_record": "4-2",
-    "ppg": "108.13"
+    "ppg": "108.17"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "2-2",
-      "pf": "479.54",
-      "ppg": "119.88",
+      "record": "3-2",
+      "pf": "595.00",
+      "ppg": "119.00",
       "finish": "In progress"
     },
     {
@@ -148,21 +149,21 @@
       "current": true
     },
     {
+      "opponent": "Luke Sullivan",
+      "record": "13-8",
+      "win_pct": 61.9,
+      "meetings": 21,
+      "playoff_meetings": 1,
+      "last": "2026 wk 5: 115.46–113.62 W",
+      "current": true
+    },
+    {
       "opponent": "Michael Luisi",
       "record": "10-10",
       "win_pct": 50.0,
       "meetings": 20,
       "playoff_meetings": 0,
       "last": "2025 wk 9: 65.50–120.84 L",
-      "current": true
-    },
-    {
-      "opponent": "Luke Sullivan",
-      "record": "12-8",
-      "win_pct": 60.0,
-      "meetings": 20,
-      "playoff_meetings": 1,
-      "last": "2025 wk 16: 93.14–101.80 L",
       "current": true
     },
     {
@@ -292,14 +293,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 4,
+    "through_week": 5,
     "division": "Blacks",
-    "record": "2-2",
-    "rank": 6,
-    "power_rank": 6,
-    "power_change": -1,
-    "playoff_pct": 47.5,
-    "pf": "479.54",
+    "record": "3-2",
+    "rank": 5,
+    "power_rank": 5,
+    "power_change": 1,
+    "playoff_pct": 55.7,
+    "pf": "595.00",
     "weeks": [
       {
         "week": 1,
@@ -340,14 +341,24 @@
         "projected": "127.23",
         "bench": "5.30",
         "bar": 62
+      },
+      {
+        "week": 5,
+        "result": "W",
+        "score": "115.46",
+        "opp": "Luke Sullivan",
+        "opp_score": "113.62",
+        "projected": "118.15",
+        "bench": "14.60",
+        "bar": 58
       }
     ],
     "luck": {
-      "all_play_record": "19-17",
-      "expected_wins": 2.11,
-      "luck": -0.11,
-      "points_against_vs_league_avg": -6.73,
-      "wins_below_median": 0,
+      "all_play_record": "23-22",
+      "expected_wins": 2.56,
+      "luck": 0.44,
+      "points_against_vs_league_avg": -21.01,
+      "wins_below_median": 1,
       "losses_above_median": 1
     },
     "moves": [
@@ -358,8 +369,8 @@
           {
             "name": "Will Shipley",
             "pos": "RB",
-            "since": "0.00",
-            "started": "0.00"
+            "since": "8.30",
+            "started": "8.30"
           }
         ],
         "dropped": [],
@@ -387,9 +398,9 @@
         "overall": 3,
         "player": "Ja'Marr Chase",
         "pos": "WR",
-        "points": "60.20",
-        "rank": "WR1 → WR11",
-        "value": -10,
+        "points": "79.90",
+        "rank": "WR1 → WR10",
+        "value": -9,
         "kept": true
       },
       {
@@ -397,9 +408,9 @@
         "overall": 18,
         "player": "Jeremiyah Love",
         "pos": "RB",
-        "points": "48.90",
-        "rank": "RB11 → RB18",
-        "value": -7,
+        "points": "51.10",
+        "rank": "RB11 → RB22",
+        "value": -11,
         "kept": true
       },
       {
@@ -408,8 +419,8 @@
         "player": "Kenneth Walker III",
         "pos": "RB",
         "points": "110.10",
-        "rank": "RB13 → RB2",
-        "value": 11,
+        "rank": "RB13 → RB4",
+        "value": 9,
         "kept": true
       },
       {
@@ -418,8 +429,8 @@
         "player": "Breece Hall",
         "pos": "RB",
         "points": "42.50",
-        "rank": "RB18 → RB26",
-        "value": -8,
+        "rank": "RB18 → RB29",
+        "value": -11,
         "kept": true
       },
       {
@@ -427,9 +438,9 @@
         "overall": 43,
         "player": "Tee Higgins",
         "pos": "WR",
-        "points": "71.10",
-        "rank": "WR21 → WR8",
-        "value": 13,
+        "points": "75.30",
+        "rank": "WR21 → WR15",
+        "value": 6,
         "kept": true
       },
       {
@@ -437,9 +448,9 @@
         "overall": 58,
         "player": "Jayden Daniels",
         "pos": "QB",
-        "points": "32.40",
-        "rank": "QB3 → QB15",
-        "value": -12,
+        "points": "64.66",
+        "rank": "QB3 → QB12",
+        "value": -9,
         "kept": true
       },
       {
@@ -447,9 +458,9 @@
         "overall": 63,
         "player": "Kyle Pitts Sr.",
         "pos": "TE",
-        "points": "11.70",
-        "rank": "TE5 → TE17",
-        "value": -12,
+        "points": "26.90",
+        "rank": "TE5 → TE16",
+        "value": -11,
         "kept": true
       },
       {
@@ -457,9 +468,9 @@
         "overall": 78,
         "player": "Harold Fannin Jr.",
         "pos": "TE",
-        "points": "50.30",
-        "rank": "TE9 → TE6",
-        "value": 3,
+        "points": "51.70",
+        "rank": "TE9 → TE8",
+        "value": 1,
         "kept": true
       },
       {
@@ -467,9 +478,9 @@
         "overall": 83,
         "player": "Matthew Golden",
         "pos": "WR",
-        "points": "58.00",
-        "rank": "WR36 → WR12",
-        "value": 24,
+        "points": "78.30",
+        "rank": "WR36 → WR11",
+        "value": 25,
         "kept": true
       },
       {
@@ -477,9 +488,9 @@
         "overall": 98,
         "player": "Texans D/ST",
         "pos": "D/ST",
-        "points": "16.00",
-        "rank": "D/ST1 → D/ST7",
-        "value": -6,
+        "points": "31.00",
+        "rank": "D/ST1 → D/ST5",
+        "value": -4,
         "kept": true
       },
       {
@@ -487,9 +498,9 @@
         "overall": 103,
         "player": "Brandon Aubrey",
         "pos": "K",
-        "points": "38.00",
-        "rank": "K1 → K2",
-        "value": -1,
+        "points": "43.00",
+        "rank": "K1 → K6",
+        "value": -5,
         "kept": true
       },
       {
@@ -497,9 +508,9 @@
         "overall": 118,
         "player": "Rachaad White",
         "pos": "RB",
-        "points": "30.10",
-        "rank": "RB40 → RB34",
-        "value": 6,
+        "points": "33.10",
+        "rank": "RB40 → RB35",
+        "value": 5,
         "kept": true
       },
       {
@@ -507,9 +518,9 @@
         "overall": 123,
         "player": "Wan'Dale Robinson",
         "pos": "WR",
-        "points": "40.40",
-        "rank": "WR51 → WR31",
-        "value": 20,
+        "points": "51.70",
+        "rank": "WR51 → WR28",
+        "value": 23,
         "kept": true
       },
       {
@@ -518,8 +529,8 @@
         "player": "Patrick Mahomes",
         "pos": "QB",
         "points": "83.58",
-        "rank": "QB14 → QB3",
-        "value": 11,
+        "rank": "QB14 → QB8",
+        "value": 6,
         "kept": true
       },
       {
@@ -527,9 +538,9 @@
         "overall": 143,
         "player": "Jerry Jeudy",
         "pos": "WR",
-        "points": "11.20",
-        "rank": "WR57 → WR54",
-        "value": 3,
+        "points": "16.10",
+        "rank": "WR57 → WR52",
+        "value": 5,
         "kept": true
       },
       {
@@ -545,36 +556,18 @@
     ],
     "injuries": [
       {
-        "name": "Jayden Daniels",
-        "pos": "QB",
-        "status": "Active",
-        "missed": 2,
-        "storylines": [
-          "returning"
-        ]
-      },
-      {
         "name": "Breece Hall",
         "pos": "RB",
         "status": "Doubtful",
-        "missed": 1,
+        "missed": 2,
         "storylines": [
           "still_out"
         ]
       },
       {
-        "name": "Rachaad White",
+        "name": "Will Shipley",
         "pos": "RB",
-        "status": "Questionable",
-        "missed": 1,
-        "storylines": [
-          "returning"
-        ]
-      },
-      {
-        "name": "Ja'Marr Chase",
-        "pos": "WR",
-        "status": "Questionable",
+        "status": "Doubtful",
         "missed": 0,
         "storylines": [
           "newly_injured"
@@ -585,18 +578,7 @@
         "pos": "RB",
         "status": "Questionable",
         "missed": 0,
-        "storylines": [
-          "newly_injured"
-        ]
-      },
-      {
-        "name": "Tee Higgins",
-        "pos": "WR",
-        "status": "Questionable",
-        "missed": 0,
-        "storylines": [
-          "newly_injured"
-        ]
+        "storylines": []
       }
     ]
   }
