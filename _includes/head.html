@@ -7,6 +7,29 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap">
   <link rel="stylesheet" href="{{ '/assets/css/league.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+  {%- if page.week and page.headline %}
+  {%- comment %} Recap posts: the link preview leads with the week's headline and its own card {% endcomment %}
+  {%- capture share_title %}Week {{ page.week }}: {{ page.headline }}{% endcapture %}
+  {%- assign share_image = '/assets/og/week-' | append: page.week | append: '.png' | absolute_url %}
+  {%- assign share_url = page.url | absolute_url %}
+  <title>{{ share_title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | escape }}">
+  <link rel="canonical" href="{{ share_url }}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ share_title | escape }}">
+  <meta property="og:description" content="{{ page.description | escape }}">
+  <meta property="og:url" content="{{ share_url }}">
+  <meta property="og:image" content="{{ share_image }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ share_title | escape }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ share_title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | escape }}">
+  <meta name="twitter:image" content="{{ share_image }}">
+  {%- else %}
   {%- seo -%}
+  {%- endif %}
   {%- feed_meta -%}
 </head>
