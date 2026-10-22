@@ -14,17 +14,17 @@
   ],
   "playoff_appearances": 6,
   "career": {
-    "record": "92-86",
-    "win_pct": 51.7,
+    "record": "93-86",
+    "win_pct": 52.0,
     "playoff_record": "3-5",
-    "ppg": "113.13"
+    "ppg": "113.10"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "3-2",
-      "pf": "661.52",
-      "ppg": "132.30",
+      "record": "4-2",
+      "pf": "768.14",
+      "ppg": "128.02",
       "finish": "In progress"
     },
     {
@@ -133,11 +133,11 @@
     },
     {
       "opponent": "Ben Fuller",
-      "record": "12-11",
-      "win_pct": 52.2,
-      "meetings": 23,
+      "record": "13-11",
+      "win_pct": 54.2,
+      "meetings": 24,
       "playoff_meetings": 1,
-      "last": "2025 wk 15: 211.12–97.02 W",
+      "last": "2026 wk 6: 106.62–93.92 W",
       "current": true
     },
     {
@@ -294,14 +294,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 5,
+    "through_week": 6,
     "division": "Whites",
-    "record": "3-2",
+    "record": "4-2",
     "rank": 4,
     "power_rank": 3,
-    "power_change": -1,
-    "playoff_pct": 62.5,
-    "pf": "661.52",
+    "power_change": 0,
+    "playoff_pct": 67.8,
+    "pf": "768.14",
     "weeks": [
       {
         "week": 1,
@@ -352,32 +352,42 @@
         "projected": "126.84",
         "bench": "29.80",
         "bar": 66
+      },
+      {
+        "week": 6,
+        "result": "W",
+        "score": "106.62",
+        "opp": "Ben Fuller",
+        "opp_score": "93.92",
+        "projected": "132.98",
+        "bench": "10.70",
+        "bar": 53
       }
     ],
     "luck": {
-      "all_play_record": "31-14",
-      "expected_wins": 3.44,
-      "luck": -0.44,
-      "points_against_vs_league_avg": 16.95,
+      "all_play_record": "37-17",
+      "expected_wins": 4.11,
+      "luck": -0.11,
+      "points_against_vs_league_avg": 6.09,
       "wins_below_median": 0,
       "losses_above_median": 1
     },
     "moves": [
       {
-        "week": 6,
-        "date": "10/14",
+        "week": 7,
+        "date": "10/21",
         "added": [
           {
-            "name": "Ka'imi Fairbairn",
-            "pos": "K",
+            "name": "Vikings D/ST",
+            "pos": "D/ST",
             "since": "0.00",
             "started": "0.00"
           }
         ],
         "dropped": [
           {
-            "name": "Jake Bates",
-            "pos": "K",
+            "name": "Patriots D/ST",
+            "pos": "D/ST",
             "since": "0.00",
             "now_on": "Free agent"
           }
@@ -389,21 +399,42 @@
         "date": "10/14",
         "added": [
           {
+            "name": "Ka'imi Fairbairn",
+            "pos": "K",
+            "since": "11.00",
+            "started": "11.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Jake Bates",
+            "pos": "K",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "11.00"
+      },
+      {
+        "week": 6,
+        "date": "10/14",
+        "added": [
+          {
             "name": "Patriots D/ST",
             "pos": "D/ST",
-            "since": "0.00",
-            "started": "0.00"
+            "since": "5.00",
+            "started": "5.00"
           }
         ],
         "dropped": [
           {
             "name": "Raiders D/ST",
             "pos": "D/ST",
-            "since": "0.00",
+            "since": "1.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "0.00"
+        "net": "4.00"
       },
       {
         "week": 5,
@@ -420,11 +451,11 @@
           {
             "name": "Chase McLaughlin",
             "pos": "K",
-            "since": "7.00",
+            "since": "24.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "3.00"
+        "net": "-14.00"
       },
       {
         "week": 5,
@@ -433,7 +464,7 @@
           {
             "name": "Marvin Harrison Jr.",
             "pos": "WR",
-            "since": "0.00",
+            "since": "6.40",
             "started": "0.00"
           }
         ],
@@ -447,7 +478,7 @@
           {
             "name": "Raiders D/ST",
             "pos": "D/ST",
-            "since": "-6.00",
+            "since": "-5.00",
             "started": "-6.00"
           }
         ],
@@ -455,11 +486,11 @@
           {
             "name": "49ers D/ST",
             "pos": "D/ST",
-            "since": "20.00",
+            "since": "25.00",
             "now_on": "Luke loves monangais"
           }
         ],
-        "net": "-26.00"
+        "net": "-30.00"
       },
       {
         "week": 4,
@@ -482,7 +513,7 @@
           {
             "name": "49ers D/ST",
             "pos": "D/ST",
-            "since": "25.00",
+            "since": "30.00",
             "started": "5.00"
           }
         ],
@@ -490,11 +521,11 @@
           {
             "name": "Ravens D/ST",
             "pos": "D/ST",
-            "since": "13.00",
+            "since": "23.00",
             "now_on": "Holly Loves Nijigbas"
           }
         ],
-        "net": "12.00"
+        "net": "7.00"
       },
       {
         "week": 3,
@@ -503,7 +534,7 @@
           {
             "name": "Devaughn Vele",
             "pos": "WR",
-            "since": "30.90",
+            "since": "38.10",
             "started": "0.00"
           }
         ],
@@ -511,11 +542,11 @@
           {
             "name": "Alvin Kamara",
             "pos": "RB",
-            "since": "30.50",
+            "since": "45.40",
             "now_on": "Luke loves monangais"
           }
         ],
-        "net": "0.40"
+        "net": "-7.30"
       },
       {
         "week": 3,
@@ -524,7 +555,7 @@
           {
             "name": "Chase McLaughlin",
             "pos": "K",
-            "since": "21.00",
+            "since": "38.00",
             "started": "14.00"
           }
         ],
@@ -532,11 +563,11 @@
           {
             "name": "Cairo Santos",
             "pos": "K",
-            "since": "21.00",
-            "now_on": "Free agent"
+            "since": "29.00",
+            "now_on": "Road to 0-17"
           }
         ],
-        "net": "0.00"
+        "net": "9.00"
       },
       {
         "week": 2,
@@ -553,11 +584,11 @@
           {
             "name": "Travis Hunter",
             "pos": "WR",
-            "since": "1.90",
+            "since": "17.80",
             "now_on": "Free agent"
           }
         ],
-        "net": "43.40"
+        "net": "27.50"
       },
       {
         "week": 2,
@@ -566,7 +597,7 @@
           {
             "name": "Cairo Santos",
             "pos": "K",
-            "since": "25.00",
+            "since": "33.00",
             "started": "4.00"
           }
         ],
@@ -574,11 +605,11 @@
           {
             "name": "Cameron Dicker",
             "pos": "K",
-            "since": "28.00",
+            "since": "34.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "-3.00"
+        "net": "-1.00"
       }
     ],
     "trades": [],
@@ -588,7 +619,7 @@
         "overall": 5,
         "player": "Jonathan Taylor",
         "pos": "RB",
-        "points": "97.40",
+        "points": "118.50",
         "rank": "RB3 → RB6",
         "value": -3,
         "kept": true
@@ -598,9 +629,9 @@
         "overall": 16,
         "player": "Derrick Henry",
         "pos": "RB",
-        "points": "111.80",
-        "rank": "RB9 → RB3",
-        "value": 6,
+        "points": "116.80",
+        "rank": "RB9 → RB7",
+        "value": 2,
         "kept": true
       },
       {
@@ -608,9 +639,9 @@
         "overall": 25,
         "player": "Chris Olave",
         "pos": "WR",
-        "points": "98.70",
-        "rank": "WR10 → WR5",
-        "value": 5,
+        "points": "113.00",
+        "rank": "WR10 → WR4",
+        "value": 6,
         "kept": true
       },
       {
@@ -618,9 +649,9 @@
         "overall": 36,
         "player": "Garrett Wilson",
         "pos": "WR",
-        "points": "86.40",
-        "rank": "WR16 → WR7",
-        "value": 9,
+        "points": "94.80",
+        "rank": "WR16 → WR9",
+        "value": 7,
         "kept": true
       },
       {
@@ -629,8 +660,8 @@
         "player": "Lamar Jackson",
         "pos": "QB",
         "points": "79.08",
-        "rank": "QB2 → QB10",
-        "value": -8,
+        "rank": "QB2 → QB11",
+        "value": -9,
         "kept": true
       },
       {
@@ -638,9 +669,9 @@
         "overall": 56,
         "player": "Bucky Irving",
         "pos": "RB",
-        "points": "78.70",
-        "rank": "RB23 → RB14",
-        "value": 9,
+        "points": "85.60",
+        "rank": "RB23 → RB15",
+        "value": 8,
         "kept": true
       },
       {
@@ -649,8 +680,8 @@
         "player": "Sam LaPorta",
         "pos": "TE",
         "points": "76.60",
-        "rank": "TE7 → TE3",
-        "value": 4,
+        "rank": "TE7 → TE5",
+        "value": 2,
         "kept": true
       },
       {
@@ -659,8 +690,8 @@
         "player": "Michael Pittman Jr.",
         "pos": "WR",
         "points": "15.90",
-        "rank": "WR33 → WR53",
-        "value": -20,
+        "rank": "WR33 → WR54",
+        "value": -21,
         "kept": true
       },
       {
@@ -668,9 +699,9 @@
         "overall": 85,
         "player": "Dak Prescott",
         "pos": "QB",
-        "points": "93.84",
-        "rank": "QB10 → QB4",
-        "value": 6,
+        "points": "104.86",
+        "rank": "QB10 → QB6",
+        "value": 4,
         "kept": true
       },
       {
@@ -678,9 +709,9 @@
         "overall": 96,
         "player": "Travis Hunter",
         "pos": "WR",
-        "points": "4.00",
-        "rank": "WR42 → WR58",
-        "value": -16,
+        "points": "19.90",
+        "rank": "WR42 → WR53",
+        "value": -11,
         "kept": false
       },
       {
@@ -689,8 +720,8 @@
         "player": "Jayden Reed",
         "pos": "WR",
         "points": "6.40",
-        "rank": "WR45 → WR56",
-        "value": -11,
+        "rank": "WR45 → WR58",
+        "value": -13,
         "kept": false
       },
       {
@@ -698,9 +729,9 @@
         "overall": 116,
         "player": "Isaiah Likely",
         "pos": "TE",
-        "points": "85.40",
-        "rank": "TE15 → TE2",
-        "value": 13,
+        "points": "109.30",
+        "rank": "TE15 → TE1",
+        "value": 14,
         "kept": true
       },
       {
@@ -708,7 +739,7 @@
         "overall": 125,
         "player": "Cameron Dicker",
         "pos": "K",
-        "points": "30.00",
+        "points": "36.00",
         "rank": "K2 → K9",
         "value": -7,
         "kept": false
@@ -718,9 +749,9 @@
         "overall": 136,
         "player": "Alvin Kamara",
         "pos": "RB",
-        "points": "37.70",
-        "rank": "RB45 → RB32",
-        "value": 13,
+        "points": "52.60",
+        "rank": "RB45 → RB25",
+        "value": 20,
         "kept": false
       },
       {
@@ -728,9 +759,9 @@
         "overall": 145,
         "player": "Ravens D/ST",
         "pos": "D/ST",
-        "points": "26.00",
-        "rank": "D/ST6 → D/ST7",
-        "value": -1,
+        "points": "36.00",
+        "rank": "D/ST6 → D/ST6",
+        "value": 0,
         "kept": false
       },
       {
@@ -738,9 +769,9 @@
         "overall": 156,
         "player": "Jalen Coker",
         "pos": "WR",
-        "points": "52.20",
-        "rank": "WR58 → WR27",
-        "value": 31,
+        "points": "67.90",
+        "rank": "WR58 → WR26",
+        "value": 32,
         "kept": true
       }
     ],
@@ -749,33 +780,24 @@
         "name": "Michael Pittman Jr.",
         "pos": "WR",
         "status": "Injury Reserve",
-        "missed": 1,
+        "missed": 2,
         "storylines": [
           "on_ir",
           "still_out"
         ]
       },
       {
-        "name": "Jalen Coker",
-        "pos": "WR",
-        "status": "Active",
-        "missed": 1,
-        "storylines": [
-          "returning"
-        ]
-      },
-      {
         "name": "Lamar Jackson",
         "pos": "QB",
         "status": "Questionable",
-        "missed": 1,
+        "missed": 2,
         "storylines": [
           "returning"
         ]
       },
       {
-        "name": "Rashod Bateman",
-        "pos": "WR",
+        "name": "Bucky Irving",
+        "pos": "RB",
         "status": "Questionable",
         "missed": 0,
         "storylines": [
@@ -783,7 +805,7 @@
         ]
       },
       {
-        "name": "Chris Olave",
+        "name": "Rashod Bateman",
         "pos": "WR",
         "status": "Questionable",
         "missed": 0,

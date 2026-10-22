@@ -2,5 +2,5 @@
 layout: manager
 title: "Kevin Mangus"
 slug: kevin-mangus
-description: "Current manager, 2019–present. Career record 53-55, 0 title(s)."
+description: "Current manager, 2019–present. Career record 53-56, 0 title(s)."
 ---

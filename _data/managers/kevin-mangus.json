@@ -10,17 +10,17 @@
   "runner_ups": [],
   "playoff_appearances": 3,
   "career": {
-    "record": "53-55",
-    "win_pct": 49.1,
+    "record": "53-56",
+    "win_pct": 48.6,
     "playoff_record": "0-3",
-    "ppg": "117.51"
+    "ppg": "117.37"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "2-3",
-      "pf": "561.28",
-      "ppg": "112.26",
+      "record": "2-4",
+      "pf": "663.26",
+      "ppg": "110.54",
       "finish": "In progress"
     },
     {
@@ -75,21 +75,21 @@
   ],
   "head_to_head": [
     {
+      "opponent": "Harrison Gross",
+      "record": "8-10",
+      "win_pct": 44.4,
+      "meetings": 18,
+      "playoff_meetings": 2,
+      "last": "2026 wk 6: 101.98–122.74 L",
+      "current": true
+    },
+    {
       "opponent": "Noah Laing",
       "record": "6-11",
       "win_pct": 35.3,
       "meetings": 17,
       "playoff_meetings": 0,
       "last": "2026 wk 2: 96.18–160.58 L",
-      "current": true
-    },
-    {
-      "opponent": "Harrison Gross",
-      "record": "8-9",
-      "win_pct": 47.1,
-      "meetings": 17,
-      "playoff_meetings": 2,
-      "last": "2025 wk 15: 106.68–161.90 L",
       "current": true
     },
     {
@@ -219,14 +219,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 5,
+    "through_week": 6,
     "division": "Blacks",
-    "record": "2-3",
+    "record": "2-4",
     "rank": 7,
     "power_rank": 7,
-    "power_change": 1,
-    "playoff_pct": 20.3,
-    "pf": "561.28",
+    "power_change": 0,
+    "playoff_pct": 19.9,
+    "pf": "663.26",
     "weeks": [
       {
         "week": 1,
@@ -277,17 +277,49 @@
         "projected": "126.14",
         "bench": "17.80",
         "bar": 52
+      },
+      {
+        "week": 6,
+        "result": "L",
+        "score": "101.98",
+        "opp": "Harrison Gross",
+        "opp_score": "122.74",
+        "projected": "131.17",
+        "bench": "36.20",
+        "bar": 51
       }
     ],
     "luck": {
-      "all_play_record": "16-29",
-      "expected_wins": 1.78,
-      "luck": 0.22,
-      "points_against_vs_league_avg": 53.81,
+      "all_play_record": "21-33",
+      "expected_wins": 2.33,
+      "luck": -0.33,
+      "points_against_vs_league_avg": 71.77,
       "wins_below_median": 1,
-      "losses_above_median": 1
+      "losses_above_median": 2
     },
-    "moves": [],
+    "moves": [
+      {
+        "week": 6,
+        "date": "10/15",
+        "added": [
+          {
+            "name": "Dominic Zvada",
+            "pos": "K",
+            "since": "8.00",
+            "started": "8.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Harrison Mevis",
+            "pos": "K",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "8.00"
+      }
+    ],
     "trades": [],
     "draft": [
       {
@@ -295,9 +327,9 @@
         "overall": 7,
         "player": "Christian McCaffrey",
         "pos": "RB",
-        "points": "91.30",
-        "rank": "RB4 → RB9",
-        "value": -5,
+        "points": "122.00",
+        "rank": "RB4 → RB4",
+        "value": 0,
         "kept": true
       },
       {
@@ -305,9 +337,9 @@
         "overall": 14,
         "player": "Ashton Jeanty",
         "pos": "RB",
-        "points": "84.60",
-        "rank": "RB8 → RB11",
-        "value": -3,
+        "points": "100.40",
+        "rank": "RB8 → RB12",
+        "value": -4,
         "kept": true
       },
       {
@@ -315,9 +347,9 @@
         "overall": 27,
         "player": "Nico Collins",
         "pos": "WR",
-        "points": "62.60",
-        "rank": "WR11 → WR21",
-        "value": -10,
+        "points": "73.50",
+        "rank": "WR11 → WR19",
+        "value": -8,
         "kept": true
       },
       {
@@ -325,9 +357,9 @@
         "overall": 34,
         "player": "Zay Flowers",
         "pos": "WR",
-        "points": "81.80",
-        "rank": "WR15 → WR8",
-        "value": 7,
+        "points": "94.50",
+        "rank": "WR15 → WR10",
+        "value": 5,
         "kept": true
       },
       {
@@ -335,9 +367,9 @@
         "overall": 47,
         "player": "Colston Loveland",
         "pos": "TE",
-        "points": "24.00",
-        "rank": "TE3 → TE17",
-        "value": -14,
+        "points": "42.50",
+        "rank": "TE3 → TE16",
+        "value": -13,
         "kept": true
       },
       {
@@ -346,8 +378,8 @@
         "player": "Jameson Williams",
         "pos": "WR",
         "points": "57.60",
-        "rank": "WR27 → WR23",
-        "value": 4,
+        "rank": "WR27 → WR32",
+        "value": -5,
         "kept": true
       },
       {
@@ -355,7 +387,7 @@
         "overall": 67,
         "player": "Rhamondre Stevenson",
         "pos": "RB",
-        "points": "60.80",
+        "points": "64.40",
         "rank": "RB26 → RB18",
         "value": 8,
         "kept": true
@@ -365,9 +397,9 @@
         "overall": 74,
         "player": "DK Metcalf",
         "pos": "WR",
-        "points": "48.60",
-        "rank": "WR32 → WR30",
-        "value": 2,
+        "points": "68.90",
+        "rank": "WR32 → WR25",
+        "value": 7,
         "kept": true
       },
       {
@@ -375,7 +407,7 @@
         "overall": 87,
         "player": "Matthew Stafford",
         "pos": "QB",
-        "points": "88.98",
+        "points": "105.86",
         "rank": "QB11 → QB5",
         "value": 6,
         "kept": true
@@ -385,9 +417,9 @@
         "overall": 94,
         "player": "Jakobi Meyers",
         "pos": "WR",
-        "points": "47.40",
-        "rank": "WR40 → WR33",
-        "value": 7,
+        "points": "60.70",
+        "rank": "WR40 → WR29",
+        "value": 11,
         "kept": true
       },
       {
@@ -396,8 +428,8 @@
         "player": "Aaron Jones Sr.",
         "pos": "RB",
         "points": "70.20",
-        "rank": "RB35 → RB15",
-        "value": 20,
+        "rank": "RB35 → RB16",
+        "value": 19,
         "kept": true
       },
       {
@@ -405,9 +437,9 @@
         "overall": 114,
         "player": "Mark Andrews",
         "pos": "TE",
-        "points": "43.70",
-        "rank": "TE14 → TE12",
-        "value": 2,
+        "points": "45.10",
+        "rank": "TE14 → TE14",
+        "value": 0,
         "kept": true
       },
       {
@@ -415,7 +447,7 @@
         "overall": 127,
         "player": "Rams D/ST",
         "pos": "D/ST",
-        "points": "23.00",
+        "points": "25.00",
         "rank": "D/ST2 → D/ST8",
         "value": -6,
         "kept": true
@@ -428,16 +460,16 @@
         "points": "28.00",
         "rank": "K4 → K10",
         "value": -6,
-        "kept": true
+        "kept": false
       },
       {
         "round": 15,
         "overall": 147,
         "player": "Sam Darnold",
         "pos": "QB",
-        "points": "49.80",
-        "rank": "QB16 → QB14",
-        "value": 2,
+        "points": "60.82",
+        "rank": "QB16 → QB15",
+        "value": 1,
         "kept": true
       },
       {
@@ -445,20 +477,12 @@
         "overall": 154,
         "player": "Eagles D/ST",
         "pos": "D/ST",
-        "points": "11.00",
+        "points": "12.00",
         "rank": "D/ST10 → D/ST10",
         "value": 0,
         "kept": true
       }
     ],
-    "injuries": [
-      {
-        "name": "Zay Flowers",
-        "pos": "WR",
-        "status": "Questionable",
-        "missed": 0,
-        "storylines": []
-      }
-    ]
+    "injuries": []
   }
 }

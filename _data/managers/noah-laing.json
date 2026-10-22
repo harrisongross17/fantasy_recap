@@ -15,17 +15,17 @@
   ],
   "playoff_appearances": 4,
   "career": {
-    "record": "85-93",
-    "win_pct": 47.8,
+    "record": "85-94",
+    "win_pct": 47.5,
     "playoff_record": "5-2",
-    "ppg": "111.10"
+    "ppg": "111.02"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "5-0",
-      "pf": "752.46",
-      "ppg": "150.49",
+      "record": "5-1",
+      "pf": "848.32",
+      "ppg": "141.39",
       "finish": "In progress"
     },
     {
@@ -170,11 +170,11 @@
     },
     {
       "opponent": "Jonathan Cooper",
-      "record": "10-8",
-      "win_pct": 55.6,
-      "meetings": 18,
+      "record": "10-9",
+      "win_pct": 52.6,
+      "meetings": 19,
       "playoff_meetings": 0,
-      "last": "2025 wk 15: 106.56–97.80 W",
+      "last": "2026 wk 6: 95.86–100.40 L",
       "current": true
     },
     {
@@ -295,14 +295,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 5,
+    "through_week": 6,
     "division": "Whites",
-    "record": "5-0",
+    "record": "5-1",
     "rank": 1,
     "power_rank": 1,
     "power_change": 0,
-    "playoff_pct": 92.5,
-    "pf": "752.46",
+    "playoff_pct": 83.5,
+    "pf": "848.32",
     "weeks": [
       {
         "week": 1,
@@ -353,13 +353,23 @@
         "projected": "139.64",
         "bench": "31.00",
         "bar": 97
+      },
+      {
+        "week": 6,
+        "result": "L",
+        "score": "95.86",
+        "opp": "Jonathan Cooper",
+        "opp_score": "100.40",
+        "projected": "126.58",
+        "bench": "26.04",
+        "bar": 48
       }
     ],
     "luck": {
-      "all_play_record": "37-8",
-      "expected_wins": 4.11,
-      "luck": 0.89,
-      "points_against_vs_league_avg": -56.49,
+      "all_play_record": "40-14",
+      "expected_wins": 4.44,
+      "luck": 0.56,
+      "points_against_vs_league_avg": -60.87,
       "wins_below_median": 1,
       "losses_above_median": 0
     },
@@ -371,7 +381,7 @@
           {
             "name": "Woody Marks",
             "pos": "RB",
-            "since": "0.00",
+            "since": "10.10",
             "started": "0.00"
           }
         ],
@@ -379,11 +389,11 @@
           {
             "name": "Keon Coleman",
             "pos": "WR",
-            "since": "0.00",
+            "since": "15.90",
             "now_on": "Free agent"
           }
         ],
-        "net": "0.00"
+        "net": "-5.80"
       },
       {
         "week": 5,
@@ -413,7 +423,7 @@
           {
             "name": "Keon Coleman",
             "pos": "WR",
-            "since": "7.70",
+            "since": "23.60",
             "started": "0.00"
           }
         ],
@@ -421,11 +431,11 @@
           {
             "name": "Kalif Raymond",
             "pos": "WR",
-            "since": "3.40",
+            "since": "7.20",
             "now_on": "Free agent"
           }
         ],
-        "net": "4.30"
+        "net": "16.40"
       },
       {
         "week": 4,
@@ -434,8 +444,8 @@
           {
             "name": "Spencer Shrader",
             "pos": "K",
-            "since": "37.00",
-            "started": "37.00"
+            "since": "46.00",
+            "started": "46.00"
           }
         ],
         "dropped": [
@@ -446,7 +456,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "9.00"
+        "net": "18.00"
       },
       {
         "week": 4,
@@ -455,7 +465,7 @@
           {
             "name": "Kalif Raymond",
             "pos": "WR",
-            "since": "6.00",
+            "since": "9.80",
             "started": "0.00"
           }
         ],
@@ -463,11 +473,11 @@
           {
             "name": "Marvin Harrison Jr.",
             "pos": "WR",
-            "since": "8.20",
+            "since": "14.60",
             "now_on": "My Team Might Be Good?"
           }
         ],
-        "net": "-2.20"
+        "net": "-4.80"
       },
       {
         "week": 4,
@@ -484,11 +494,11 @@
           {
             "name": "MarShawn Lloyd",
             "pos": "RB",
-            "since": "26.60",
-            "now_on": "Road to 0-17"
+            "since": "27.60",
+            "now_on": "Free agent"
           }
         ],
-        "net": "6.20"
+        "net": "5.20"
       },
       {
         "week": 3,
@@ -505,11 +515,11 @@
           {
             "name": "Kenny Gainwell",
             "pos": "RB",
-            "since": "19.50",
+            "since": "22.90",
             "now_on": "Free agent"
           }
         ],
-        "net": "-6.50"
+        "net": "-9.90"
       },
       {
         "week": 1,
@@ -518,7 +528,7 @@
           {
             "name": "MarShawn Lloyd",
             "pos": "RB",
-            "since": "42.70",
+            "since": "43.70",
             "started": "0.00"
           }
         ],
@@ -526,11 +536,11 @@
           {
             "name": "Mike Washington Jr.",
             "pos": "RB",
-            "since": "20.90",
+            "since": "26.90",
             "now_on": "Free agent"
           }
         ],
-        "net": "21.80"
+        "net": "16.80"
       },
       {
         "week": 1,
@@ -539,7 +549,7 @@
           {
             "name": "Mike Washington Jr.",
             "pos": "RB",
-            "since": "20.90",
+            "since": "26.90",
             "started": "0.00"
           }
         ],
@@ -547,11 +557,11 @@
           {
             "name": "Tyler Allgeier",
             "pos": "RB",
-            "since": "34.30",
+            "since": "40.10",
             "now_on": "Free agent"
           }
         ],
-        "net": "-13.40"
+        "net": "-13.20"
       }
     ],
     "trades": [
@@ -563,14 +573,14 @@
             "received": [
               "Brock Bowers"
             ],
-            "points": "71.20"
+            "points": "82.20"
           },
           {
             "manager": "Noah Laing",
             "received": [
               "Trey McBride"
             ],
-            "points": "90.80"
+            "points": "103.10"
           }
         ]
       }
@@ -592,8 +602,8 @@
         "player": "Rashee Rice",
         "pos": "WR",
         "points": "38.00",
-        "rank": "WR8 → WR40",
-        "value": -32,
+        "rank": "WR8 → WR44",
+        "value": -36,
         "kept": true
       },
       {
@@ -601,9 +611,9 @@
         "overall": 22,
         "player": "Brock Bowers",
         "pos": "TE",
-        "points": "71.20",
-        "rank": "TE2 → TE5",
-        "value": -3,
+        "points": "82.20",
+        "rank": "TE2 → TE4",
+        "value": -2,
         "kept": false
       },
       {
@@ -612,8 +622,8 @@
         "player": "Cam Skattebo",
         "pos": "RB",
         "points": "51.30",
-        "rank": "RB19 → RB21",
-        "value": -2,
+        "rank": "RB19 → RB27",
+        "value": -8,
         "kept": true
       },
       {
@@ -621,9 +631,9 @@
         "overall": 42,
         "player": "Davante Adams",
         "pos": "WR",
-        "points": "95.10",
-        "rank": "WR20 → WR6",
-        "value": 14,
+        "points": "102.00",
+        "rank": "WR20 → WR7",
+        "value": 13,
         "kept": true
       },
       {
@@ -631,9 +641,9 @@
         "overall": 59,
         "player": "Drake Maye",
         "pos": "QB",
-        "points": "87.22",
-        "rank": "QB4 → QB6",
-        "value": -2,
+        "points": "111.02",
+        "rank": "QB4 → QB4",
+        "value": 0,
         "kept": true
       },
       {
@@ -641,7 +651,7 @@
         "overall": 62,
         "player": "Marvin Harrison Jr.",
         "pos": "WR",
-        "points": "19.50",
+        "points": "25.90",
         "rank": "WR29 → WR50",
         "value": -21,
         "kept": false
@@ -651,9 +661,9 @@
         "overall": 79,
         "player": "Parker Washington",
         "pos": "WR",
-        "points": "81.50",
-        "rank": "WR34 → WR9",
-        "value": 25,
+        "points": "91.90",
+        "rank": "WR34 → WR11",
+        "value": 23,
         "kept": true
       },
       {
@@ -661,9 +671,9 @@
         "overall": 82,
         "player": "Jaylen Warren",
         "pos": "RB",
-        "points": "93.00",
-        "rank": "RB29 → RB8",
-        "value": 21,
+        "points": "102.80",
+        "rank": "RB29 → RB11",
+        "value": 18,
         "kept": true
       },
       {
@@ -671,7 +681,7 @@
         "overall": 99,
         "player": "Chuba Hubbard",
         "pos": "RB",
-        "points": "79.00",
+        "points": "98.10",
         "rank": "RB33 → RB13",
         "value": 20,
         "kept": true
@@ -681,7 +691,7 @@
         "overall": 102,
         "player": "Kenny Gainwell",
         "pos": "RB",
-        "points": "26.80",
+        "points": "30.20",
         "rank": "RB34 → RB37",
         "value": -3,
         "kept": false
@@ -691,7 +701,7 @@
         "overall": 119,
         "player": "Brock Purdy",
         "pos": "QB",
-        "points": "116.64",
+        "points": "134.00",
         "rank": "QB13 → QB2",
         "value": 11,
         "kept": true
@@ -701,9 +711,9 @@
         "overall": 122,
         "player": "Stefon Diggs",
         "pos": "WR",
-        "points": "53.00",
-        "rank": "WR50 → WR26",
-        "value": 24,
+        "points": "69.40",
+        "rank": "WR50 → WR23",
+        "value": 27,
         "kept": true
       },
       {
@@ -711,9 +721,9 @@
         "overall": 139,
         "player": "Tyler Allgeier",
         "pos": "RB",
-        "points": "34.30",
-        "rank": "RB46 → RB34",
-        "value": 12,
+        "points": "40.10",
+        "rank": "RB46 → RB35",
+        "value": 11,
         "kept": false
       },
       {
@@ -721,9 +731,9 @@
         "overall": 142,
         "player": "Steelers D/ST",
         "pos": "D/ST",
-        "points": "37.00",
-        "rank": "D/ST4 → D/ST3",
-        "value": 1,
+        "points": "48.00",
+        "rank": "D/ST4 → D/ST2",
+        "value": 2,
         "kept": true
       },
       {
@@ -732,27 +742,30 @@
         "player": "Jake Bates",
         "pos": "K",
         "points": "49.00",
-        "rank": "K10 → K4",
-        "value": 6,
+        "rank": "K10 → K5",
+        "value": 5,
         "kept": false
       }
     ],
     "injuries": [
       {
-        "name": "Stefon Diggs",
+        "name": "Davante Adams",
         "pos": "WR",
-        "status": "Questionable",
-        "missed": 1,
+        "status": "Injury Reserve",
+        "missed": 0,
         "storylines": [
-          "returning"
+          "on_ir",
+          "newly_injured"
         ]
       },
       {
         "name": "Rashee Rice",
         "pos": "WR",
         "status": "Questionable",
-        "missed": 0,
-        "storylines": []
+        "missed": 1,
+        "storylines": [
+          "returning"
+        ]
       },
       {
         "name": "Tyreek Hill",

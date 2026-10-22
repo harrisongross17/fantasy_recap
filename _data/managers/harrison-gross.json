@@ -16,17 +16,17 @@
   ],
   "playoff_appearances": 6,
   "career": {
-    "record": "95-83",
-    "win_pct": 53.4,
+    "record": "96-83",
+    "win_pct": 53.6,
     "playoff_record": "6-4",
-    "ppg": "111.82"
+    "ppg": "111.88"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "2-3",
-      "pf": "675.08",
-      "ppg": "135.02",
+      "record": "3-3",
+      "pf": "797.82",
+      "ppg": "132.97",
       "finish": "In progress"
     },
     {
@@ -180,11 +180,11 @@
     },
     {
       "opponent": "Kevin Mangus",
-      "record": "9-8",
-      "win_pct": 52.9,
-      "meetings": 17,
+      "record": "10-8",
+      "win_pct": 55.6,
+      "meetings": 18,
       "playoff_meetings": 2,
-      "last": "2025 wk 15: 161.90–106.68 W",
+      "last": "2026 wk 6: 122.74–101.98 W",
       "current": true
     },
     {
@@ -296,14 +296,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 5,
+    "through_week": 6,
     "division": "Whites",
-    "record": "2-3",
-    "rank": 6,
-    "power_rank": 6,
-    "power_change": -1,
-    "playoff_pct": 22.7,
-    "pf": "675.08",
+    "record": "3-3",
+    "rank": 5,
+    "power_rank": 5,
+    "power_change": 1,
+    "playoff_pct": 27.4,
+    "pf": "797.82",
     "weeks": [
       {
         "week": 1,
@@ -354,13 +354,23 @@
         "projected": "129.10",
         "bench": "17.60",
         "bar": 68
+      },
+      {
+        "week": 6,
+        "result": "W",
+        "score": "122.74",
+        "opp": "Kevin Mangus",
+        "opp_score": "101.98",
+        "projected": "137.54",
+        "bench": "10.40",
+        "bar": 61
       }
     ],
     "luck": {
-      "all_play_record": "28-17",
-      "expected_wins": 3.11,
-      "luck": -1.11,
-      "points_against_vs_league_avg": 71.83,
+      "all_play_record": "36-18",
+      "expected_wins": 4.0,
+      "luck": -1.0,
+      "points_against_vs_league_avg": 69.03,
       "wins_below_median": 0,
       "losses_above_median": 1
     },
@@ -381,7 +391,7 @@
             "name": "Jordan Mason",
             "pos": "RB",
             "since": "0.00",
-            "now_on": "Free agent"
+            "now_on": "Road to 0-17"
           }
         ],
         "net": "0.00"
@@ -393,19 +403,19 @@
           {
             "name": "Matt Gay",
             "pos": "K",
-            "since": "0.00",
-            "started": "0.00"
+            "since": "12.00",
+            "started": "12.00"
           }
         ],
         "dropped": [
           {
             "name": "Jaguars D/ST",
             "pos": "D/ST",
-            "since": "0.00",
+            "since": "-2.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "0.00"
+        "net": "14.00"
       },
       {
         "week": 5,
@@ -414,7 +424,7 @@
           {
             "name": "Jacoby Brissett",
             "pos": "QB",
-            "since": "25.28",
+            "since": "32.20",
             "started": "25.28"
           }
         ],
@@ -422,11 +432,11 @@
           {
             "name": "Justin Herbert",
             "pos": "QB",
-            "since": "10.24",
+            "since": "19.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "15.04"
+        "net": "13.20"
       },
       {
         "week": 5,
@@ -435,7 +445,7 @@
           {
             "name": "Jaguars D/ST",
             "pos": "D/ST",
-            "since": "4.00",
+            "since": "2.00",
             "started": "4.00"
           }
         ],
@@ -443,11 +453,11 @@
           {
             "name": "Xavier Worthy",
             "pos": "WR",
-            "since": "0.00",
+            "since": "14.30",
             "now_on": "Cooking Ws"
           }
         ],
-        "net": "4.00"
+        "net": "-12.30"
       },
       {
         "week": 5,
@@ -464,11 +474,11 @@
           {
             "name": "Ka'imi Fairbairn",
             "pos": "K",
-            "since": "17.00",
+            "since": "28.00",
             "now_on": "My Team Might Be Good?"
           }
         ],
-        "net": "-1.00"
+        "net": "-12.00"
       },
       {
         "week": 3,
@@ -477,8 +487,8 @@
           {
             "name": "Bryce Young",
             "pos": "QB",
-            "since": "35.10",
-            "started": "35.10"
+            "since": "54.94",
+            "started": "54.94"
           }
         ],
         "dropped": [
@@ -489,7 +499,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "35.10"
+        "net": "54.94"
       },
       {
         "week": 3,
@@ -498,7 +508,7 @@
           {
             "name": "Justin Herbert",
             "pos": "QB",
-            "since": "32.54",
+            "since": "41.30",
             "started": "0.00"
           }
         ],
@@ -506,11 +516,11 @@
           {
             "name": "Woody Marks",
             "pos": "RB",
-            "since": "29.80",
+            "since": "39.90",
             "now_on": "Boots with the Ferg"
           }
         ],
-        "net": "2.74"
+        "net": "1.40"
       },
       {
         "week": 1,
@@ -519,19 +529,19 @@
           {
             "name": "Seahawks D/ST",
             "pos": "D/ST",
-            "since": "51.00",
-            "started": "40.00"
+            "since": "57.00",
+            "started": "46.00"
           }
         ],
         "dropped": [
           {
             "name": "Browns D/ST",
             "pos": "D/ST",
-            "since": "27.00",
-            "now_on": "Free agent"
+            "since": "37.00",
+            "now_on": "Road to 0-17"
           }
         ],
-        "net": "24.00"
+        "net": "20.00"
       }
     ],
     "trades": [
@@ -543,14 +553,14 @@
             "received": [
               "Brock Bowers"
             ],
-            "points": "71.20"
+            "points": "82.20"
           },
           {
             "manager": "Noah Laing",
             "received": [
               "Trey McBride"
             ],
-            "points": "90.80"
+            "points": "103.10"
           }
         ]
       }
@@ -561,9 +571,9 @@
         "overall": 1,
         "player": "Bijan Robinson",
         "pos": "RB",
-        "points": "121.20",
-        "rank": "RB1 → RB2",
-        "value": -1,
+        "points": "128.50",
+        "rank": "RB1 → RB3",
+        "value": -2,
         "kept": true
       },
       {
@@ -571,9 +581,9 @@
         "overall": 20,
         "player": "Omarion Hampton",
         "pos": "RB",
-        "points": "49.60",
-        "rank": "RB12 → RB24",
-        "value": -12,
+        "points": "57.50",
+        "rank": "RB12 → RB20",
+        "value": -8,
         "kept": true
       },
       {
@@ -581,9 +591,9 @@
         "overall": 21,
         "player": "Trey McBride",
         "pos": "TE",
-        "points": "90.80",
-        "rank": "TE1 → TE1",
-        "value": 0,
+        "points": "103.10",
+        "rank": "TE1 → TE2",
+        "value": -1,
         "kept": false
       },
       {
@@ -591,9 +601,9 @@
         "overall": 40,
         "player": "Tetairoa McMillan",
         "pos": "WR",
-        "points": "74.50",
-        "rank": "WR18 → WR16",
-        "value": 2,
+        "points": "89.10",
+        "rank": "WR18 → WR13",
+        "value": 5,
         "kept": true
       },
       {
@@ -601,9 +611,9 @@
         "overall": 41,
         "player": "Terry McLaurin",
         "pos": "WR",
-        "points": "42.30",
-        "rank": "WR19 → WR36",
-        "value": -17,
+        "points": "46.00",
+        "rank": "WR19 → WR40",
+        "value": -21,
         "kept": true
       },
       {
@@ -611,9 +621,9 @@
         "overall": 60,
         "player": "Carnell Tate",
         "pos": "WR",
-        "points": "48.40",
-        "rank": "WR28 → WR32",
-        "value": -4,
+        "points": "67.40",
+        "rank": "WR28 → WR27",
+        "value": 1,
         "kept": true
       },
       {
@@ -621,9 +631,9 @@
         "overall": 61,
         "player": "Bhayshul Tuten",
         "pos": "RB",
-        "points": "63.70",
-        "rank": "RB25 → RB17",
-        "value": 8,
+        "points": "88.40",
+        "rank": "RB25 → RB14",
+        "value": 11,
         "kept": true
       },
       {
@@ -641,7 +651,7 @@
         "overall": 81,
         "player": "Christian Watson",
         "pos": "WR",
-        "points": "109.40",
+        "points": "118.80",
         "rank": "WR35 → WR3",
         "value": 32,
         "kept": true
@@ -651,9 +661,9 @@
         "overall": 100,
         "player": "Xavier Worthy",
         "pos": "WR",
-        "points": "33.30",
-        "rank": "WR43 → WR43",
-        "value": 0,
+        "points": "47.60",
+        "rank": "WR43 → WR38",
+        "value": 5,
         "kept": false
       },
       {
@@ -661,9 +671,9 @@
         "overall": 101,
         "player": "George Kittle",
         "pos": "TE",
-        "points": "71.80",
-        "rank": "TE12 → TE4",
-        "value": 8,
+        "points": "89.70",
+        "rank": "TE12 → TE3",
+        "value": 9,
         "kept": true
       },
       {
@@ -671,9 +681,9 @@
         "overall": 120,
         "player": "Woody Marks",
         "pos": "RB",
-        "points": "43.30",
-        "rank": "RB41 → RB28",
-        "value": 13,
+        "points": "53.40",
+        "rank": "RB41 → RB22",
+        "value": 19,
         "kept": false
       },
       {
@@ -682,8 +692,8 @@
         "player": "Jordan Mason",
         "pos": "RB",
         "points": "11.90",
-        "rank": "RB42 → RB42",
-        "value": 0,
+        "rank": "RB42 → RB43",
+        "value": -1,
         "kept": false
       },
       {
@@ -691,9 +701,9 @@
         "overall": 140,
         "player": "Romeo Doubs",
         "pos": "WR",
-        "points": "46.90",
-        "rank": "WR56 → WR34",
-        "value": 22,
+        "points": "58.10",
+        "rank": "WR56 → WR31",
+        "value": 25,
         "kept": true
       },
       {
@@ -701,7 +711,7 @@
         "overall": 141,
         "player": "Ka'imi Fairbairn",
         "pos": "K",
-        "points": "53.00",
+        "points": "64.00",
         "rank": "K5 → K1",
         "value": 4,
         "kept": false
@@ -711,39 +721,54 @@
         "overall": 160,
         "player": "Browns D/ST",
         "pos": "D/ST",
-        "points": "27.00",
-        "rank": "D/ST11 → D/ST6",
-        "value": 5,
+        "points": "37.00",
+        "rank": "D/ST11 → D/ST5",
+        "value": 6,
         "kept": false
       }
     ],
     "injuries": [
       {
-        "name": "Brock Bowers",
-        "pos": "TE",
-        "status": "Questionable",
+        "name": "Romeo Doubs",
+        "pos": "WR",
+        "status": "Injury Reserve",
         "missed": 0,
         "storylines": [
+          "on_ir",
           "newly_injured"
         ]
       },
       {
         "name": "David Montgomery",
         "pos": "RB",
-        "status": "Out",
+        "status": "Questionable",
+        "missed": 1,
+        "storylines": [
+          "returning"
+        ]
+      },
+      {
+        "name": "Christian Watson",
+        "pos": "WR",
+        "status": "Questionable",
         "missed": 0,
         "storylines": [
           "newly_injured"
         ]
       },
       {
-        "name": "Terry McLaurin",
-        "pos": "WR",
+        "name": "Brock Bowers",
+        "pos": "TE",
         "status": "Questionable",
         "missed": 0,
-        "storylines": [
-          "returned"
-        ]
+        "storylines": []
+      },
+      {
+        "name": "Terry McLaurin",
+        "pos": "WR",
+        "status": "Out",
+        "missed": 0,
+        "storylines": []
       }
     ]
   }
