@@ -1,0 +1,58 @@
+---
+layout: null
+permalink: /home-dashboard/privacy/
+sitemap: false
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Dashboard privacy policy</title>
+  <style>
+    body { margin: 0; padding: 48px 20px; font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #1f1d1a; background: #f6f4ef; }
+    main { max-width: 680px; margin: 0 auto; }
+    h1 { font-size: 30px; margin: 0 0 4px; }
+    h2 { font-size: 19px; margin: 28px 0 6px; }
+    .updated { color: #736d64; margin: 0 0 24px; }
+    a { color: #2563eb; }
+    @media (prefers-color-scheme: dark) { body { color: #f2efe9; background: #121212; } .updated { color: #a19b91; } a { color: #7aa7ff; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Home Dashboard privacy policy</h1>
+  <p class="updated">Last updated October 27, 2026</p>
+
+  <p><a href="{{ '/home-dashboard/' | relative_url }}">Home Dashboard</a> is a private dashboard used by a single
+    household on its own home server. This policy explains what it does with Google account data.</p>
+
+  <h2>What it accesses</h2>
+  <p>When a household member links their Google account, the dashboard requests access to Google Calendar and to the
+    account's email address. It reads the list of that person's calendars and the events on the calendars they choose
+    to show, and it creates, edits, or deletes events only when someone does so on the dashboard. The email address is
+    only used to label which account is linked.</p>
+
+  <h2>Where data is kept</h2>
+  <p>The sign-in tokens Google issues, the linked email address, and the list of calendars (names, colors, and which
+    ones are shown) are stored on the household's own server. Calendar events are not saved; they are fetched from
+    Google when the dashboard is displayed and held in memory for about a minute. Nothing is stored with any third
+    party.</p>
+
+  <h2>Sharing</h2>
+  <p>Google user data is not sold, shared, or transferred to anyone, is not used for advertising, and is not used to
+    train AI or machine-learning models. It is only shown on the household's dashboard to the people who live there.</p>
+  <p>Home Dashboard's use and transfer of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+    including the Limited Use requirements.</p>
+
+  <h2>Removing access</h2>
+  <p>Choose <b>Unlink</b> in the dashboard's calendar settings to delete the stored tokens and calendar list for an
+    account. You can also revoke access at any time from your Google account at
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Questions can go to the site owner through <a href="https://github.com/harrisongross17">GitHub</a>.</p>
+</main>
+</body>
+</html>
