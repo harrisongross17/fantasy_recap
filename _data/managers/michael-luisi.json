@@ -16,17 +16,17 @@
   ],
   "playoff_appearances": 7,
   "career": {
-    "record": "107-73",
-    "win_pct": 59.4,
+    "record": "108-73",
+    "win_pct": 59.7,
     "playoff_record": "6-5",
-    "ppg": "116.19"
+    "ppg": "116.28"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "2-5",
-      "pf": "758.72",
-      "ppg": "108.39",
+      "record": "3-5",
+      "pf": "891.52",
+      "ppg": "111.44",
       "finish": "In progress"
     },
     {
@@ -179,21 +179,21 @@
       "current": true
     },
     {
+      "opponent": "Kevin Mangus",
+      "record": "9-3",
+      "win_pct": 75.0,
+      "meetings": 12,
+      "playoff_meetings": 1,
+      "last": "2026 wk 8: 132.80–81.48 W",
+      "current": true
+    },
+    {
       "opponent": "Jimmy Miller",
       "record": "6-6",
       "win_pct": 50.0,
       "meetings": 12,
       "playoff_meetings": 1,
       "last": "2026 wk 5: 143.94–72.50 W",
-      "current": true
-    },
-    {
-      "opponent": "Kevin Mangus",
-      "record": "8-3",
-      "win_pct": 72.7,
-      "meetings": 11,
-      "playoff_meetings": 1,
-      "last": "2025 wk 8: 117.06–127.98 L",
       "current": true
     },
     {
@@ -296,14 +296,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 7,
+    "through_week": 8,
     "division": "Whites",
-    "record": "2-5",
-    "rank": 9,
-    "power_rank": 9,
-    "power_change": -1,
-    "playoff_pct": 7.1,
-    "pf": "758.72",
+    "record": "3-5",
+    "rank": 7,
+    "power_rank": 8,
+    "power_change": 1,
+    "playoff_pct": 12.7,
+    "pf": "891.52",
     "weeks": [
       {
         "week": 1,
@@ -374,23 +374,75 @@
         "projected": "128.15",
         "bench": "33.46",
         "bar": 58
+      },
+      {
+        "week": 8,
+        "result": "W",
+        "score": "132.80",
+        "opp": "Kevin Mangus",
+        "opp_score": "81.48",
+        "projected": "124.62",
+        "bench": "2.12",
+        "bar": 66
       }
     ],
     "luck": {
-      "all_play_record": "25-38",
-      "expected_wins": 2.78,
-      "luck": -0.78,
-      "points_against_vs_league_avg": -11.19,
+      "all_play_record": "32-40",
+      "expected_wins": 3.56,
+      "luck": -0.56,
+      "points_against_vs_league_avg": -47.77,
       "wins_below_median": 0,
       "losses_above_median": 0
     },
     "moves": [
       {
-        "week": 8,
-        "date": "10/28",
+        "week": 9,
+        "date": "11/4",
         "added": [
           {
-            "name": "Patriots D/ST",
+            "name": "DeMario Douglas",
+            "pos": "WR",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Keenan Allen",
+            "pos": "WR",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 9,
+        "date": "11/4",
+        "added": [
+          {
+            "name": "Keenan Allen",
+            "pos": "WR",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Germie Bernard",
+            "pos": "WR",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 9,
+        "date": "11/4",
+        "added": [
+          {
+            "name": "Chiefs D/ST",
             "pos": "D/ST",
             "since": "0.00",
             "started": "0.00"
@@ -398,8 +450,29 @@
         ],
         "dropped": [
           {
-            "name": "Browns D/ST",
+            "name": "Patriots D/ST",
             "pos": "D/ST",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
+      {
+        "week": 9,
+        "date": "11/4",
+        "added": [
+          {
+            "name": "Ka'imi Fairbairn",
+            "pos": "K",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Evan McPherson",
+            "pos": "K",
             "since": "0.00",
             "now_on": "Free agent"
           }
@@ -411,21 +484,42 @@
         "date": "10/28",
         "added": [
           {
+            "name": "Patriots D/ST",
+            "pos": "D/ST",
+            "since": "9.00",
+            "started": "9.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Browns D/ST",
+            "pos": "D/ST",
+            "since": "2.00",
+            "now_on": "Luke loves monangais"
+          }
+        ],
+        "net": "7.00"
+      },
+      {
+        "week": 8,
+        "date": "10/28",
+        "added": [
+          {
             "name": "Evan McPherson",
             "pos": "K",
-            "since": "0.00",
-            "started": "0.00"
+            "since": "5.00",
+            "started": "5.00"
           }
         ],
         "dropped": [
           {
             "name": "Cairo Santos",
             "pos": "K",
-            "since": "0.00",
+            "since": "11.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "0.00"
+        "net": "-6.00"
       },
       {
         "week": 7,
@@ -443,7 +537,7 @@
             "name": "Emanuel Wilson",
             "pos": "RB",
             "since": "18.50",
-            "now_on": "Boots with the Ferg"
+            "now_on": "Free agent"
           }
         ],
         "net": "4.00"
@@ -476,7 +570,7 @@
           {
             "name": "Browns D/ST",
             "pos": "D/ST",
-            "since": "5.00",
+            "since": "7.00",
             "started": "5.00"
           }
         ],
@@ -484,8 +578,8 @@
           {
             "name": "Chiefs D/ST",
             "pos": "D/ST",
-            "since": "-1.00",
-            "now_on": "Free agent"
+            "since": "1.00",
+            "now_on": "Road to 0-17"
           }
         ],
         "net": "6.00"
@@ -497,7 +591,7 @@
           {
             "name": "Cairo Santos",
             "pos": "K",
-            "since": "14.00",
+            "since": "25.00",
             "started": "14.00"
           }
         ],
@@ -505,11 +599,11 @@
           {
             "name": "Harrison Butker",
             "pos": "K",
-            "since": "3.00",
+            "since": "9.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "11.00"
+        "net": "16.00"
       },
       {
         "week": 7,
@@ -526,11 +620,11 @@
           {
             "name": "Malik Washington",
             "pos": "WR",
-            "since": "6.50",
+            "since": "21.50",
             "now_on": "Free agent"
           }
         ],
-        "net": "16.00"
+        "net": "1.00"
       },
       {
         "week": 7,
@@ -539,8 +633,8 @@
           {
             "name": "Germie Bernard",
             "pos": "WR",
-            "since": "5.70",
-            "started": "5.70"
+            "since": "13.70",
+            "started": "13.70"
           }
         ],
         "dropped": [
@@ -551,7 +645,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "5.70"
+        "net": "13.70"
       },
       {
         "week": 7,
@@ -560,7 +654,7 @@
           {
             "name": "Jordan Mason",
             "pos": "RB",
-            "since": "6.80",
+            "since": "8.80",
             "started": "0.00"
           }
         ],
@@ -568,11 +662,11 @@
           {
             "name": "MarShawn Lloyd",
             "pos": "RB",
-            "since": "5.50",
+            "since": "8.10",
             "now_on": "Free agent"
           }
         ],
-        "net": "1.30"
+        "net": "0.70"
       },
       {
         "week": 6,
@@ -581,7 +675,7 @@
           {
             "name": "Malik Washington",
             "pos": "WR",
-            "since": "6.50",
+            "since": "21.50",
             "started": "0.00"
           }
         ],
@@ -589,11 +683,11 @@
           {
             "name": "Tyler Allgeier",
             "pos": "RB",
-            "since": "13.70",
+            "since": "49.80",
             "now_on": "Island of Injured Toys"
           }
         ],
-        "net": "-7.20"
+        "net": "-28.30"
       },
       {
         "week": 6,
@@ -602,7 +696,7 @@
           {
             "name": "Tyler Allgeier",
             "pos": "RB",
-            "since": "13.70",
+            "since": "49.80",
             "started": "0.00"
           }
         ],
@@ -614,7 +708,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "-13.10"
+        "net": "23.00"
       },
       {
         "week": 6,
@@ -631,11 +725,11 @@
           {
             "name": "Malik Washington",
             "pos": "WR",
-            "since": "6.50",
+            "since": "21.50",
             "now_on": "Free agent"
           }
         ],
-        "net": "20.30"
+        "net": "5.30"
       },
       {
         "week": 6,
@@ -644,7 +738,7 @@
           {
             "name": "Chiefs D/ST",
             "pos": "D/ST",
-            "since": "13.00",
+            "since": "15.00",
             "started": "14.00"
           }
         ],
@@ -652,11 +746,11 @@
           {
             "name": "Vikings D/ST",
             "pos": "D/ST",
-            "since": "11.00",
-            "now_on": "My Team Might Be Good?"
+            "since": "16.00",
+            "now_on": "We Suck"
           }
         ],
-        "net": "2.00"
+        "net": "-1.00"
       },
       {
         "week": 6,
@@ -665,7 +759,7 @@
           {
             "name": "Harrison Butker",
             "pos": "K",
-            "since": "15.00",
+            "since": "21.00",
             "started": "12.00"
           }
         ],
@@ -673,11 +767,11 @@
           {
             "name": "Evan McPherson",
             "pos": "K",
-            "since": "5.00",
-            "now_on": "Road to 0-17"
+            "since": "10.00",
+            "now_on": "Free agent"
           }
         ],
-        "net": "10.00"
+        "net": "11.00"
       },
       {
         "week": 6,
@@ -686,7 +780,7 @@
           {
             "name": "Jordan Love",
             "pos": "QB",
-            "since": "37.20",
+            "since": "58.72",
             "started": "37.20"
           }
         ],
@@ -698,7 +792,7 @@
             "now_on": "Saquon Deez Nuts Some Moore"
           }
         ],
-        "net": "-3.58"
+        "net": "17.94"
       },
       {
         "week": 6,
@@ -707,7 +801,7 @@
           {
             "name": "MarShawn Lloyd",
             "pos": "RB",
-            "since": "6.50",
+            "since": "9.10",
             "started": "1.00"
           }
         ],
@@ -719,7 +813,7 @@
             "now_on": "Island of Injured Toys"
           }
         ],
-        "net": "6.50"
+        "net": "9.10"
       },
       {
         "week": 5,
@@ -728,7 +822,7 @@
           {
             "name": "Malik Washington",
             "pos": "WR",
-            "since": "18.60",
+            "since": "33.60",
             "started": "12.10"
           }
         ],
@@ -736,11 +830,11 @@
           {
             "name": "Tre' Harris",
             "pos": "WR",
-            "since": "3.60",
+            "since": "9.70",
             "now_on": "Free agent"
           }
         ],
-        "net": "15.00"
+        "net": "23.90"
       },
       {
         "week": 5,
@@ -749,8 +843,8 @@
           {
             "name": "Evan McPherson",
             "pos": "K",
-            "since": "12.00",
-            "started": "7.00"
+            "since": "17.00",
+            "started": "12.00"
           }
         ],
         "dropped": [
@@ -758,10 +852,10 @@
             "name": "Ka'imi Fairbairn",
             "pos": "K",
             "since": "39.00",
-            "now_on": "Free agent"
+            "now_on": "Road to 0-17"
           }
         ],
-        "net": "-27.00"
+        "net": "-22.00"
       },
       {
         "week": 5,
@@ -770,7 +864,7 @@
           {
             "name": "Tre' Harris",
             "pos": "WR",
-            "since": "3.60",
+            "since": "9.70",
             "started": "0.00"
           }
         ],
@@ -778,11 +872,11 @@
           {
             "name": "Xavier Worthy",
             "pos": "WR",
-            "since": "18.40",
+            "since": "22.70",
             "now_on": "Cooking Ws"
           }
         ],
-        "net": "-14.80"
+        "net": "-13.00"
       },
       {
         "week": 5,
@@ -791,7 +885,7 @@
           {
             "name": "Xavier Worthy",
             "pos": "WR",
-            "since": "18.40",
+            "since": "22.70",
             "started": "0.00"
           }
         ],
@@ -803,7 +897,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "18.40"
+        "net": "22.70"
       },
       {
         "week": 5,
@@ -820,11 +914,11 @@
           {
             "name": "Evan McPherson",
             "pos": "K",
-            "since": "12.00",
-            "now_on": "Road to 0-17"
+            "since": "17.00",
+            "now_on": "Free agent"
           }
         ],
-        "net": "27.00"
+        "net": "22.00"
       },
       {
         "week": 5,
@@ -833,7 +927,7 @@
           {
             "name": "Jared Goff",
             "pos": "QB",
-            "since": "46.96",
+            "since": "56.00",
             "started": "28.94"
           }
         ],
@@ -845,7 +939,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "31.26"
+        "net": "40.30"
       },
       {
         "week": 4,
@@ -854,8 +948,8 @@
           {
             "name": "Evan McPherson",
             "pos": "K",
-            "since": "17.00",
-            "started": "12.00"
+            "since": "22.00",
+            "started": "17.00"
           }
         ],
         "dropped": [
@@ -866,7 +960,7 @@
             "now_on": "Island of Injured Toys"
           }
         ],
-        "net": "-30.00"
+        "net": "-25.00"
       },
       {
         "week": 4,
@@ -883,11 +977,11 @@
           {
             "name": "Keenan Allen",
             "pos": "WR",
-            "since": "31.80",
+            "since": "45.50",
             "now_on": "Free agent"
           }
         ],
-        "net": "-11.30"
+        "net": "-25.00"
       },
       {
         "week": 4,
@@ -896,7 +990,7 @@
           {
             "name": "Keenan Allen",
             "pos": "WR",
-            "since": "31.80",
+            "since": "45.50",
             "started": "0.00"
           }
         ],
@@ -908,7 +1002,7 @@
             "now_on": "Luke loves monangais"
           }
         ],
-        "net": "12.60"
+        "net": "26.30"
       },
       {
         "week": 4,
@@ -925,11 +1019,11 @@
           {
             "name": "Tyler Bass",
             "pos": "K",
-            "since": "38.00",
+            "since": "54.00",
             "now_on": "Holly Loves Nijigbas"
           }
         ],
-        "net": "9.00"
+        "net": "-7.00"
       },
       {
         "week": 4,
@@ -946,11 +1040,11 @@
           {
             "name": "Adonai Mitchell",
             "pos": "WR",
-            "since": "0.00",
+            "since": "27.20",
             "now_on": "Free agent"
           }
         ],
-        "net": "0.00"
+        "net": "-27.20"
       },
       {
         "week": 4,
@@ -968,7 +1062,7 @@
             "name": "Chris Godwin Jr.",
             "pos": "WR",
             "since": "30.50",
-            "now_on": "Free agent"
+            "now_on": "Island of Injured Toys"
           }
         ],
         "net": "-11.30"
@@ -980,19 +1074,19 @@
           {
             "name": "Braelon Allen",
             "pos": "RB",
-            "since": "59.10",
-            "started": "59.10"
+            "since": "82.40",
+            "started": "82.40"
           }
         ],
         "dropped": [
           {
             "name": "Jared Goff",
             "pos": "QB",
-            "since": "67.44",
+            "since": "76.48",
             "now_on": "Road to 0-17"
           }
         ],
-        "net": "-8.34"
+        "net": "5.92"
       },
       {
         "week": 3,
@@ -1001,7 +1095,7 @@
           {
             "name": "Jared Goff",
             "pos": "QB",
-            "since": "86.80",
+            "since": "95.84",
             "started": "48.30"
           }
         ],
@@ -1009,11 +1103,11 @@
           {
             "name": "Jonah Coleman",
             "pos": "RB",
-            "since": "8.90",
+            "since": "29.30",
             "now_on": "Cooking Ws"
           }
         ],
-        "net": "77.90"
+        "net": "66.54"
       },
       {
         "week": 3,
@@ -1022,7 +1116,7 @@
           {
             "name": "Tyler Bass",
             "pos": "K",
-            "since": "44.00",
+            "since": "60.00",
             "started": "6.00"
           }
         ],
@@ -1030,11 +1124,11 @@
           {
             "name": "Evan McPherson",
             "pos": "K",
-            "since": "28.00",
-            "now_on": "Road to 0-17"
+            "since": "33.00",
+            "now_on": "Free agent"
           }
         ],
-        "net": "16.00"
+        "net": "27.00"
       },
       {
         "week": 3,
@@ -1043,7 +1137,7 @@
           {
             "name": "Jonah Coleman",
             "pos": "RB",
-            "since": "8.90",
+            "since": "29.30",
             "started": "0.00"
           }
         ],
@@ -1055,7 +1149,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "8.90"
+        "net": "29.30"
       },
       {
         "week": 3,
@@ -1064,7 +1158,7 @@
           {
             "name": "Vikings D/ST",
             "pos": "D/ST",
-            "since": "53.00",
+            "since": "58.00",
             "started": "42.00"
           }
         ],
@@ -1076,7 +1170,7 @@
             "now_on": "Luke loves monangais"
           }
         ],
-        "net": "22.00"
+        "net": "27.00"
       },
       {
         "week": 3,
@@ -1085,19 +1179,19 @@
           {
             "name": "Evan McPherson",
             "pos": "K",
-            "since": "28.00",
-            "started": "12.00"
+            "since": "33.00",
+            "started": "17.00"
           }
         ],
         "dropped": [
           {
             "name": "Cameron Dicker",
             "pos": "K",
-            "since": "33.00",
+            "since": "44.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "-5.00"
+        "net": "-11.00"
       },
       {
         "week": 3,
@@ -1114,11 +1208,11 @@
           {
             "name": "Justin Herbert",
             "pos": "QB",
-            "since": "41.30",
+            "since": "49.08",
             "now_on": "Free agent"
           }
         ],
-        "net": "39.06"
+        "net": "31.28"
       },
       {
         "week": 3,
@@ -1127,7 +1221,7 @@
           {
             "name": "Adonai Mitchell",
             "pos": "WR",
-            "since": "0.00",
+            "since": "27.20",
             "started": "0.00"
           }
         ],
@@ -1135,11 +1229,11 @@
           {
             "name": "Caleb Douglas",
             "pos": "WR",
-            "since": "21.00",
+            "since": "29.30",
             "now_on": "Free agent"
           }
         ],
-        "net": "-21.00"
+        "net": "-2.10"
       },
       {
         "week": 3,
@@ -1148,19 +1242,19 @@
           {
             "name": "Denzel Boston",
             "pos": "WR",
-            "since": "42.80",
-            "started": "8.10"
+            "since": "52.50",
+            "started": "17.80"
           }
         ],
         "dropped": [
           {
             "name": "Quentin Johnston",
             "pos": "WR",
-            "since": "18.70",
+            "since": "26.40",
             "now_on": "Free agent"
           }
         ],
-        "net": "24.10"
+        "net": "26.10"
       },
       {
         "week": 2,
@@ -1169,7 +1263,7 @@
           {
             "name": "Cameron Dicker",
             "pos": "K",
-            "since": "34.00",
+            "since": "45.00",
             "started": "1.00"
           }
         ],
@@ -1177,11 +1271,11 @@
           {
             "name": "Cam Little",
             "pos": "K",
-            "since": "43.00",
+            "since": "49.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "-9.00"
+        "net": "-4.00"
       },
       {
         "week": 2,
@@ -1198,11 +1292,11 @@
           {
             "name": "Chargers D/ST",
             "pos": "D/ST",
-            "since": "29.00",
+            "since": "34.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "11.00"
+        "net": "6.00"
       },
       {
         "week": 2,
@@ -1211,7 +1305,7 @@
           {
             "name": "Caleb Douglas",
             "pos": "WR",
-            "since": "24.90",
+            "since": "33.20",
             "started": "0.00"
           }
         ],
@@ -1223,7 +1317,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "24.90"
+        "net": "33.20"
       },
       {
         "week": 1,
@@ -1232,7 +1326,7 @@
           {
             "name": "Cam Little",
             "pos": "K",
-            "since": "55.00",
+            "since": "61.00",
             "started": "12.00"
           }
         ],
@@ -1240,11 +1334,11 @@
           {
             "name": "Evan McPherson",
             "pos": "K",
-            "since": "59.00",
-            "now_on": "Road to 0-17"
+            "since": "64.00",
+            "now_on": "Free agent"
           }
         ],
-        "net": "-4.00"
+        "net": "-3.00"
       },
       {
         "week": 1,
@@ -1253,7 +1347,7 @@
           {
             "name": "Chargers D/ST",
             "pos": "D/ST",
-            "since": "29.00",
+            "since": "34.00",
             "started": "0.00"
           }
         ],
@@ -1261,11 +1355,11 @@
           {
             "name": "Seahawks D/ST",
             "pos": "D/ST",
-            "since": "66.00",
+            "since": "67.00",
             "now_on": "Island of Injured Toys"
           }
         ],
-        "net": "-37.00"
+        "net": "-33.00"
       },
       {
         "week": 1,
@@ -1274,19 +1368,19 @@
           {
             "name": "Evan McPherson",
             "pos": "K",
-            "since": "59.00",
-            "started": "12.00"
+            "since": "64.00",
+            "started": "17.00"
           }
         ],
         "dropped": [
           {
             "name": "Cam Little",
             "pos": "K",
-            "since": "55.00",
+            "since": "61.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "4.00"
+        "net": "3.00"
       },
       {
         "week": 1,
@@ -1317,9 +1411,9 @@
         "overall": 4,
         "player": "Puka Nacua",
         "pos": "WR",
-        "points": "113.60",
-        "rank": "WR2 → WR8",
-        "value": -6,
+        "points": "138.60",
+        "rank": "WR2 → WR6",
+        "value": -4,
         "kept": true
       },
       {
@@ -1327,9 +1421,9 @@
         "overall": 17,
         "player": "Chase Brown",
         "pos": "RB",
-        "points": "74.80",
-        "rank": "RB10 → RB19",
-        "value": -9,
+        "points": "90.90",
+        "rank": "RB10 → RB18",
+        "value": -8,
         "kept": true
       },
       {
@@ -1348,8 +1442,8 @@
         "player": "DeVonta Smith",
         "pos": "WR",
         "points": "69.00",
-        "rank": "WR17 → WR29",
-        "value": -12,
+        "rank": "WR17 → WR34",
+        "value": -17,
         "kept": true
       },
       {
@@ -1357,9 +1451,9 @@
         "overall": 44,
         "player": "Quinshon Judkins",
         "pos": "RB",
-        "points": "79.70",
-        "rank": "RB20 → RB18",
-        "value": 2,
+        "points": "86.60",
+        "rank": "RB20 → RB19",
+        "value": 1,
         "kept": true
       },
       {
@@ -1368,8 +1462,8 @@
         "player": "David Montgomery",
         "pos": "RB",
         "points": "45.50",
-        "rank": "RB24 → RB33",
-        "value": -9,
+        "rank": "RB24 → RB35",
+        "value": -11,
         "kept": false
       },
       {
@@ -1377,7 +1471,7 @@
         "overall": 64,
         "player": "Tucker Kraft",
         "pos": "TE",
-        "points": "71.20",
+        "points": "88.50",
         "rank": "TE6 → TE6",
         "value": 0,
         "kept": true
@@ -1387,9 +1481,9 @@
         "overall": 77,
         "player": "Justin Herbert",
         "pos": "QB",
-        "points": "62.44",
-        "rank": "QB8 → QB15",
-        "value": -7,
+        "points": "70.22",
+        "rank": "QB8 → QB16",
+        "value": -8,
         "kept": false
       },
       {
@@ -1407,9 +1501,9 @@
         "overall": 97,
         "player": "Trevor Lawrence",
         "pos": "QB",
-        "points": "114.20",
-        "rank": "QB12 → QB7",
-        "value": 5,
+        "points": "133.60",
+        "rank": "QB12 → QB6",
+        "value": 6,
         "kept": true
       },
       {
@@ -1417,7 +1511,7 @@
         "overall": 104,
         "player": "Quentin Johnston",
         "pos": "WR",
-        "points": "24.80",
+        "points": "32.50",
         "rank": "WR44 → WR52",
         "value": -8,
         "kept": false
@@ -1428,8 +1522,8 @@
         "player": "Jacory Croskey-Merritt",
         "pos": "RB",
         "points": "44.90",
-        "rank": "RB39 → RB34",
-        "value": 5,
+        "rank": "RB39 → RB36",
+        "value": 3,
         "kept": false
       },
       {
@@ -1438,8 +1532,8 @@
         "player": "Chris Godwin Jr.",
         "pos": "WR",
         "points": "53.10",
-        "rank": "WR52 → WR39",
-        "value": 13,
+        "rank": "WR52 → WR42",
+        "value": 10,
         "kept": false
       },
       {
@@ -1448,8 +1542,8 @@
         "player": "Rashid Shaheed",
         "pos": "WR",
         "points": "42.20",
-        "rank": "WR55 → WR43",
-        "value": 12,
+        "rank": "WR55 → WR48",
+        "value": 7,
         "kept": false
       },
       {
@@ -1457,9 +1551,9 @@
         "overall": 144,
         "player": "Seahawks D/ST",
         "pos": "D/ST",
-        "points": "66.00",
-        "rank": "D/ST5 → D/ST1",
-        "value": 4,
+        "points": "67.00",
+        "rank": "D/ST5 → D/ST2",
+        "value": 3,
         "kept": false
       },
       {
@@ -1467,7 +1561,7 @@
         "overall": 157,
         "player": "Cam Little",
         "pos": "K",
-        "points": "55.00",
+        "points": "61.00",
         "rank": "K9 → K6",
         "value": 3,
         "kept": false
@@ -1478,24 +1572,23 @@
         "name": "DeVonta Smith",
         "pos": "WR",
         "status": "Questionable",
-        "missed": 1,
+        "missed": 2,
         "storylines": [
-          "returning",
-          "newly_injured"
+          "returning"
         ]
       },
       {
         "name": "A.J. Brown",
         "pos": "WR",
         "status": "Questionable",
-        "missed": 0,
+        "missed": 1,
         "storylines": [
-          "newly_injured"
+          "returning"
         ]
       },
       {
-        "name": "Braelon Allen",
-        "pos": "RB",
+        "name": "Denzel Boston",
+        "pos": "WR",
         "status": "Questionable",
         "missed": 0,
         "storylines": [
