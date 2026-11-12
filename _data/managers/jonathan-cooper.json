@@ -13,17 +13,17 @@
   "runner_ups": [],
   "playoff_appearances": 4,
   "career": {
-    "record": "84-97",
-    "win_pct": 46.4,
+    "record": "85-97",
+    "win_pct": 46.7,
     "playoff_record": "4-2",
-    "ppg": "108.28"
+    "ppg": "108.64"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "6-2",
-      "pf": "938.68",
-      "ppg": "117.33",
+      "record": "7-2",
+      "pf": "1112.74",
+      "ppg": "123.64",
       "finish": "In progress"
     },
     {
@@ -149,21 +149,21 @@
       "current": true
     },
     {
+      "opponent": "Michael Luisi",
+      "record": "11-10",
+      "win_pct": 52.4,
+      "meetings": 21,
+      "playoff_meetings": 0,
+      "last": "2026 wk 9: 174.06–102.90 W",
+      "current": true
+    },
+    {
       "opponent": "Luke Sullivan",
       "record": "13-8",
       "win_pct": 61.9,
       "meetings": 21,
       "playoff_meetings": 1,
       "last": "2026 wk 5: 115.46–113.62 W",
-      "current": true
-    },
-    {
-      "opponent": "Michael Luisi",
-      "record": "10-10",
-      "win_pct": 50.0,
-      "meetings": 20,
-      "playoff_meetings": 0,
-      "last": "2025 wk 9: 65.50–120.84 L",
       "current": true
     },
     {
@@ -293,14 +293,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 8,
+    "through_week": 9,
     "division": "Blacks",
-    "record": "6-2",
-    "rank": 2,
-    "power_rank": 3,
-    "power_change": 0,
-    "playoff_pct": 86.7,
-    "pf": "938.68",
+    "record": "7-2",
+    "rank": 1,
+    "power_rank": 1,
+    "power_change": 2,
+    "playoff_pct": 94.8,
+    "pf": "1112.74",
     "weeks": [
       {
         "week": 1,
@@ -381,17 +381,41 @@
         "projected": "119.41",
         "bench": "45.26",
         "bar": 73
+      },
+      {
+        "week": 9,
+        "result": "W",
+        "score": "174.06",
+        "opp": "Michael Luisi",
+        "opp_score": "102.90",
+        "projected": "137.40",
+        "bench": "6.72",
+        "bar": 87
       }
     ],
     "luck": {
-      "all_play_record": "38-34",
-      "expected_wins": 4.22,
+      "all_play_record": "47-34",
+      "expected_wins": 5.22,
       "luck": 1.78,
-      "points_against_vs_league_avg": -71.11,
+      "points_against_vs_league_avg": -88.02,
       "wins_below_median": 3,
       "losses_above_median": 1
     },
     "moves": [
+      {
+        "week": 10,
+        "date": "11/11",
+        "added": [
+          {
+            "name": "Bengals D/ST",
+            "pos": "D/ST",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [],
+        "net": null
+      },
       {
         "week": 8,
         "date": "10/28",
@@ -399,8 +423,8 @@
           {
             "name": "Buccaneers D/ST",
             "pos": "D/ST",
-            "since": "15.00",
-            "started": "15.00"
+            "since": "26.00",
+            "started": "26.00"
           }
         ],
         "dropped": [],
@@ -414,7 +438,7 @@
           {
             "name": "Jerry Jeudy",
             "pos": "WR",
-            "since": "0.00",
+            "since": "5.70",
             "now_on": "Free agent"
           }
         ],
@@ -428,7 +452,7 @@
           {
             "name": "Texans D/ST",
             "pos": "D/ST",
-            "since": "0.00",
+            "since": "12.00",
             "now_on": "Cooking Ws"
           }
         ],
@@ -484,9 +508,9 @@
         "overall": 3,
         "player": "Ja'Marr Chase",
         "pos": "WR",
-        "points": "128.20",
-        "rank": "WR1 → WR8",
-        "value": -7,
+        "points": "159.70",
+        "rank": "WR1 → WR7",
+        "value": -6,
         "kept": true
       },
       {
@@ -495,8 +519,8 @@
         "player": "Jeremiyah Love",
         "pos": "RB",
         "points": "53.40",
-        "rank": "RB11 → RB31",
-        "value": -20,
+        "rank": "RB11 → RB34",
+        "value": -23,
         "kept": true
       },
       {
@@ -504,7 +528,7 @@
         "overall": 23,
         "player": "Kenneth Walker III",
         "pos": "RB",
-        "points": "160.10",
+        "points": "196.40",
         "rank": "RB13 → RB2",
         "value": 11,
         "kept": true
@@ -514,9 +538,9 @@
         "overall": 38,
         "player": "Breece Hall",
         "pos": "RB",
-        "points": "42.50",
-        "rank": "RB18 → RB39",
-        "value": -21,
+        "points": "54.20",
+        "rank": "RB18 → RB33",
+        "value": -15,
         "kept": true
       },
       {
@@ -524,9 +548,9 @@
         "overall": 43,
         "player": "Tee Higgins",
         "pos": "WR",
-        "points": "139.60",
-        "rank": "WR21 → WR5",
-        "value": 16,
+        "points": "159.80",
+        "rank": "WR21 → WR6",
+        "value": 15,
         "kept": true
       },
       {
@@ -534,7 +558,7 @@
         "overall": 58,
         "player": "Jayden Daniels",
         "pos": "QB",
-        "points": "100.64",
+        "points": "115.20",
         "rank": "QB3 → QB10",
         "value": -7,
         "kept": true
@@ -544,9 +568,9 @@
         "overall": 63,
         "player": "Kyle Pitts Sr.",
         "pos": "TE",
-        "points": "65.70",
-        "rank": "TE5 → TE13",
-        "value": -8,
+        "points": "71.00",
+        "rank": "TE5 → TE14",
+        "value": -9,
         "kept": true
       },
       {
@@ -554,7 +578,7 @@
         "overall": 78,
         "player": "Harold Fannin Jr.",
         "pos": "TE",
-        "points": "90.10",
+        "points": "102.30",
         "rank": "TE9 → TE5",
         "value": 4,
         "kept": true
@@ -564,9 +588,9 @@
         "overall": 83,
         "player": "Matthew Golden",
         "pos": "WR",
-        "points": "131.50",
-        "rank": "WR36 → WR7",
-        "value": 29,
+        "points": "163.90",
+        "rank": "WR36 → WR5",
+        "value": 31,
         "kept": true
       },
       {
@@ -574,9 +598,9 @@
         "overall": 98,
         "player": "Texans D/ST",
         "pos": "D/ST",
-        "points": "29.00",
-        "rank": "D/ST1 → D/ST8",
-        "value": -7,
+        "points": "41.00",
+        "rank": "D/ST1 → D/ST7",
+        "value": -6,
         "kept": false
       },
       {
@@ -584,7 +608,7 @@
         "overall": 103,
         "player": "Brandon Aubrey",
         "pos": "K",
-        "points": "70.00",
+        "points": "79.00",
         "rank": "K1 → K2",
         "value": -1,
         "kept": true
@@ -594,7 +618,7 @@
         "overall": 118,
         "player": "Rachaad White",
         "pos": "RB",
-        "points": "62.80",
+        "points": "69.70",
         "rank": "RB40 → RB26",
         "value": 14,
         "kept": true
@@ -605,8 +629,8 @@
         "player": "Wan'Dale Robinson",
         "pos": "WR",
         "points": "77.30",
-        "rank": "WR51 → WR28",
-        "value": 23,
+        "rank": "WR51 → WR32",
+        "value": 19,
         "kept": true
       },
       {
@@ -614,7 +638,7 @@
         "overall": 138,
         "player": "Patrick Mahomes",
         "pos": "QB",
-        "points": "125.50",
+        "points": "141.98",
         "rank": "QB14 → QB8",
         "value": 6,
         "kept": true
@@ -624,9 +648,9 @@
         "overall": 143,
         "player": "Jerry Jeudy",
         "pos": "WR",
-        "points": "33.10",
-        "rank": "WR57 → WR51",
-        "value": 6,
+        "points": "38.80",
+        "rank": "WR57 → WR50",
+        "value": 7,
         "kept": false
       },
       {
@@ -635,8 +659,8 @@
         "player": "Jahdae Walker",
         "pos": "WR",
         "points": "7.10",
-        "rank": "WR59 → WR57",
-        "value": 2,
+        "rank": "WR59 → WR58",
+        "value": 1,
         "kept": false
       }
     ],
@@ -645,19 +669,28 @@
         "name": "Jeremiyah Love",
         "pos": "RB",
         "status": "Injury Reserve",
-        "missed": 0,
+        "missed": 1,
         "storylines": [
           "on_ir",
-          "returned"
+          "still_out"
         ]
       },
       {
-        "name": "Breece Hall",
-        "pos": "RB",
+        "name": "Harold Fannin Jr.",
+        "pos": "TE",
         "status": "Questionable",
-        "missed": 5,
+        "missed": 0,
         "storylines": [
-          "returning"
+          "newly_injured"
+        ]
+      },
+      {
+        "name": "Patrick Mahomes",
+        "pos": "QB",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "newly_injured"
         ]
       }
     ]

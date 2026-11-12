@@ -12,17 +12,17 @@
   ],
   "playoff_appearances": 1,
   "career": {
-    "record": "71-96",
-    "win_pct": 42.5,
+    "record": "71-97",
+    "win_pct": 42.3,
     "playoff_record": "1-1",
-    "ppg": "108.18"
+    "ppg": "108.04"
   },
   "seasons": [
     {
       "year": 2026,
-      "record": "4-4",
-      "pf": "957.10",
-      "ppg": "119.64",
+      "record": "4-5",
+      "pf": "1042.56",
+      "ppg": "115.84",
       "finish": "In progress"
     },
     {
@@ -106,11 +106,11 @@
   "head_to_head": [
     {
       "opponent": "Ben Fuller",
-      "record": "10-13",
-      "win_pct": 43.5,
-      "meetings": 23,
+      "record": "10-14",
+      "win_pct": 41.7,
+      "meetings": 24,
       "playoff_meetings": 0,
-      "last": "2026 wk 1: 131.36–120.26 W",
+      "last": "2026 wk 9: 85.46–125.54 L",
       "current": true
     },
     {
@@ -267,14 +267,14 @@
   },
   "season": {
     "year": 2026,
-    "through_week": 8,
+    "through_week": 9,
     "division": "Blacks",
-    "record": "4-4",
-    "rank": 5,
-    "power_rank": 4,
-    "power_change": 0,
-    "playoff_pct": 37.8,
-    "pf": "957.10",
+    "record": "4-5",
+    "rank": 6,
+    "power_rank": 6,
+    "power_change": -2,
+    "playoff_pct": 23.8,
+    "pf": "1042.56",
     "weeks": [
       {
         "week": 1,
@@ -355,17 +355,48 @@
         "projected": "126.82",
         "bench": "16.10",
         "bar": 56
+      },
+      {
+        "week": 9,
+        "result": "L",
+        "score": "85.46",
+        "opp": "Ben Fuller",
+        "opp_score": "125.54",
+        "projected": "127.97",
+        "bench": "25.42",
+        "bar": 43
       }
     ],
     "luck": {
-      "all_play_record": "34-38",
+      "all_play_record": "34-47",
       "expected_wins": 3.78,
       "luck": 0.22,
-      "points_against_vs_league_avg": -15.87,
+      "points_against_vs_league_avg": -10.14,
       "wins_below_median": 0,
       "losses_above_median": 0
     },
     "moves": [
+      {
+        "week": 10,
+        "date": "11/11",
+        "added": [
+          {
+            "name": "Drew Lock",
+            "pos": "QB",
+            "since": "0.00",
+            "started": "0.00"
+          }
+        ],
+        "dropped": [
+          {
+            "name": "Brian Robinson Jr.",
+            "pos": "RB",
+            "since": "0.00",
+            "now_on": "Free agent"
+          }
+        ],
+        "net": "0.00"
+      },
       {
         "week": 8,
         "date": "10/28",
@@ -373,19 +404,19 @@
           {
             "name": "Tyler Bass",
             "pos": "K",
-            "since": "16.00",
-            "started": "16.00"
+            "since": "29.00",
+            "started": "29.00"
           }
         ],
         "dropped": [
           {
             "name": "Eddy Pineiro",
             "pos": "K",
-            "since": "0.00",
+            "since": "8.00",
             "now_on": "Free agent"
           }
         ],
-        "net": "16.00"
+        "net": "21.00"
       },
       {
         "week": 4,
@@ -394,7 +425,7 @@
           {
             "name": "Ravens D/ST",
             "pos": "D/ST",
-            "since": "18.00",
+            "since": "19.00",
             "started": "17.00"
           }
         ],
@@ -406,7 +437,7 @@
             "now_on": "Free agent"
           }
         ],
-        "net": "18.00"
+        "net": "19.00"
       }
     ],
     "trades": [],
@@ -416,7 +447,7 @@
         "overall": 6,
         "player": "Jaxon Smith-Njigba",
         "pos": "WR",
-        "points": "219.96",
+        "points": "232.06",
         "rank": "WR3 → WR1",
         "value": 2,
         "kept": true
@@ -426,7 +457,7 @@
         "overall": 15,
         "player": "Drake London",
         "pos": "WR",
-        "points": "109.80",
+        "points": "121.60",
         "rank": "WR7 → WR14",
         "value": -7,
         "kept": true
@@ -436,9 +467,9 @@
         "overall": 26,
         "player": "Josh Jacobs",
         "pos": "RB",
-        "points": "43.30",
-        "rank": "RB14 → RB38",
-        "value": -24,
+        "points": "43.80",
+        "rank": "RB14 → RB39",
+        "value": -25,
         "kept": true
       },
       {
@@ -446,9 +477,9 @@
         "overall": 35,
         "player": "Kyren Williams",
         "pos": "RB",
-        "points": "150.00",
-        "rank": "RB17 → RB5",
-        "value": 12,
+        "points": "159.10",
+        "rank": "RB17 → RB6",
+        "value": 11,
         "kept": true
       },
       {
@@ -457,8 +488,8 @@
         "player": "Ladd McConkey",
         "pos": "WR",
         "points": "51.60",
-        "rank": "WR22 → WR44",
-        "value": -22,
+        "rank": "WR22 → WR46",
+        "value": -24,
         "kept": true
       },
       {
@@ -466,7 +497,7 @@
         "overall": 55,
         "player": "Tyler Warren",
         "pos": "TE",
-        "points": "75.70",
+        "points": "84.10",
         "rank": "TE4 → TE11",
         "value": -7,
         "kept": true
@@ -476,9 +507,9 @@
         "overall": 66,
         "player": "Courtland Sutton",
         "pos": "WR",
-        "points": "48.10",
-        "rank": "WR30 → WR46",
-        "value": -16,
+        "points": "63.60",
+        "rank": "WR30 → WR40",
+        "value": -10,
         "kept": true
       },
       {
@@ -486,7 +517,7 @@
         "overall": 75,
         "player": "Bo Nix",
         "pos": "QB",
-        "points": "115.12",
+        "points": "130.80",
         "rank": "QB7 → QB9",
         "value": -2,
         "kept": true
@@ -496,9 +527,9 @@
         "overall": 86,
         "player": "Blake Corum",
         "pos": "RB",
-        "points": "82.80",
-        "rank": "RB31 → RB21",
-        "value": 10,
+        "points": "94.60",
+        "rank": "RB31 → RB19",
+        "value": 12,
         "kept": true
       },
       {
@@ -507,8 +538,8 @@
         "player": "Alec Pierce",
         "pos": "WR",
         "points": "12.20",
-        "rank": "WR41 → WR56",
-        "value": -15,
+        "rank": "WR41 → WR57",
+        "value": -16,
         "kept": false
       },
       {
@@ -516,9 +547,9 @@
         "overall": 106,
         "player": "KC Concepcion",
         "pos": "WR",
-        "points": "69.60",
-        "rank": "WR46 → WR33",
-        "value": 13,
+        "points": "88.40",
+        "rank": "WR46 → WR26",
+        "value": 20,
         "kept": true
       },
       {
@@ -527,16 +558,16 @@
         "player": "Brian Robinson Jr.",
         "pos": "RB",
         "points": "53.10",
-        "rank": "RB38 → RB32",
-        "value": 6,
-        "kept": true
+        "rank": "RB38 → RB35",
+        "value": 3,
+        "kept": false
       },
       {
         "round": 13,
         "overall": 126,
         "player": "Kenyon Sadiq",
         "pos": "TE",
-        "points": "45.90",
+        "points": "54.80",
         "rank": "TE16 → TE16",
         "value": 0,
         "kept": true
@@ -546,9 +577,9 @@
         "overall": 135,
         "player": "Broncos D/ST",
         "pos": "D/ST",
-        "points": "50.00",
-        "rank": "D/ST3 → D/ST4",
-        "value": -1,
+        "points": "56.00",
+        "rank": "D/ST3 → D/ST3",
+        "value": 0,
         "kept": true
       },
       {
@@ -556,7 +587,7 @@
         "overall": 146,
         "player": "Caleb Williams",
         "pos": "QB",
-        "points": "97.58",
+        "points": "110.34",
         "rank": "QB15 → QB11",
         "value": 4,
         "kept": true
@@ -566,7 +597,7 @@
         "overall": 155,
         "player": "Eddy Pineiro",
         "pos": "K",
-        "points": "41.00",
+        "points": "49.00",
         "rank": "K8 → K9",
         "value": -1,
         "kept": false
@@ -574,12 +605,31 @@
     ],
     "injuries": [
       {
-        "name": "Brian Robinson Jr.",
-        "pos": "RB",
+        "name": "Ladd McConkey",
+        "pos": "WR",
         "status": "Questionable",
-        "missed": 2,
+        "missed": 1,
         "storylines": [
-          "returning"
+          "returning",
+          "newly_injured"
+        ]
+      },
+      {
+        "name": "Drew Lock",
+        "pos": "QB",
+        "status": "Questionable",
+        "missed": 0,
+        "storylines": [
+          "returned"
+        ]
+      },
+      {
+        "name": "Josh Jacobs",
+        "pos": "RB",
+        "status": "Out",
+        "missed": 0,
+        "storylines": [
+          "newly_injured"
         ]
       }
     ]
